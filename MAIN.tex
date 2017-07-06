@@ -1,0 +1,59 @@
+\documentclass{article}
+%\usepackage{showframe}
+%\usepackage{pn}
+%\usepackage{entcsmacro}
+%\usepackage{placeins}
+
+\input{style/packages}
+\input{style/thm}
+\input{style/macros}
+
+
+\begin{document}
+
+%\hypersetup{bookmarksopen=true,bookmarksdepth=2}
+
+%%%%% TITLE
+%\def\lastname{Bagnol}
+
+\title{A Free Trace Construction and the Embedding Problem}
+
+\author{Marc Bagnol, Naohiko Hoshino, Masahito Hasegawa, Léo Stefanesco}
+
+\maketitle
+
+\begin{abstract}
+	\input{abstract}
+\end{abstract}
+
+\addcontentsline{toc}{section}{Introduction}
+\section*{Introduction}
+\input{intro}
+
+\section{Traced and partially traced categories}
+\input{traced}
+
+\section{The dialect construction and hiding}
+\input{dialect}
+
+\section{Yanking and free trace}
+\input{yanking}
+
+\section{The embedding problem and partial traces}
+\input{embed}
+
+\section{Free and non-free traces}
+\input{free}
+
+\section{The braided case}
+\input{braided}
+
+\addcontentsline{toc}{section}{Conclusion?}
+\section*{Conclusion?}
+%\input{conclusion}
+
+
+\bibliographystyle{plain}
+\bibliography{biblio/biblio_AH,biblio/biblio_IZ}
+
+\end{document}

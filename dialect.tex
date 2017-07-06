@@ -1,0 +1,119 @@
+\begin{itemize}
+	\item definition of the dialect construction
+	\item hiding operation, free pseudo-trace
+\end{itemize}
+
+
+
+%\begin{notation*}
+%	We use sequential composition $\sq$ to match the left-to right reading of diagrams:
+%	 $f\sq g=g\circ f$.
+%\end{notation*}
+
+
+%\begin{definition}[state pseudo-category]
+%	Let $\catf C$ be a symmetric monoidal category. Define $\state C$ the \emph{state 
+%	\enquote{pseudo-category}}
+%	(composition does not satisfy associativity) over $\catf C$ as:
+%	\begin{itemize}
+%		\item The objects of $\state C$ are those of $\catf C$.
+%		\item A morphism from $A$ to $B$ in $\state C$ is a pair $(f,U)$,
+%		where $U$ is an object of $\catf C$ and $\morph f{A\monp U}{B\monp U}$ is a morphism of 
+%		$\catf C$.
+%		\item The identity on $A$ is defined as the pair $(\Id_A,\unitobj)$.
+%		\item Composition of morphisms $\morph{(f,U)}{A}{B}$ and $\morph{(g,V)}{B}{C}$ is defined by
+%		$$(f,U)\sq(g,V)=\big(\:
+%		( f\monp V)\sq(B\monp \symm UV)\sq(g\monp U)\sq(C\monp\symm VU)
+%		\:,\,U\monp V\,\big)$$
+%	\end{itemize}
+%\end{definition}
+
+%\begin{definition}[dialect category]
+%	The \emph{dialect category} $\dial C$ over $\catf C$ is defined by quotienting morphisms of
+%	$\state C$ by the following equivalence relation, which we call \emph{sliding equivalence}:
+%		$$\big(\,f\sq(B\monp\phi)\,,\,U\,\big)\eq \big(\,(B\monp\phi)\sq f\,,\,V\,\big) \text{ \ for any 
+%		$\catf C\!$-isomorphism\footnotemark $\morph\phi VU$ and 
+%		$\morph f{A\monp U}{B\monp V}$}
+%		$$
+%		\footnotetext{In the presence of yanking one can recover the full case where $\phi$ is any
+%		morphism from the isomorphism case~\cite{jsv96}, moreover sliding isomorphisms is enough to
+%		make $\dial C$ a category.
+%		We therefore choose to work with the isomorphism case which is more convenient to handle.}
+%\end{definition}
+
+%\begin{proposition}
+%	After quotienting, $\dial C$ is indeed a category.
+%\end{proposition}
+
+%\begin{proposition}
+%	There is an embedding $\embd C$ of $\catf C$ into $\dial C$ defined as $\embd C (f)=(f,1)$.
+%\end{proposition}
+
+
+%\begin{definition}[monoidal structure]
+%	The monoidal structure of $\catf C$ can be lifted to $\dial C$ as follows:
+%	\begin{itemize}
+%		\item The unit object $\unitobj$ is the one of $\catf C$.
+%		\item All the structure isomorphisms are obtained \via the embedding $\embd C$.
+%		\item The bifunctor $\monp$ is defined the same way on objects and as follows on morphisms:
+%		$$(f,U)\monp(g,V)=(A\monp \symm CU\monp V)\sq(f\monp g)\sq(B\monp \symm UD\monp V)
+%		$$
+%		(with $\morph f{A\monp V}{B\monp V}$ and $\morph g{C\monp V}{D\monp V}$)
+%	\end{itemize}
+%\end{definition}
+
+%\begin{proposition}
+%	This indeed defines a monoidal structure on $\catf C$.
+%\end{proposition}
+
+%\begin{proof}
+%	We first have to make sure that the new $\monp$ is well-defined, \ie that it is compatible with
+%	$\eq$, explicitely: whenever $(f,U)\eq(g,V)$ then for any $(h,W)$ we have 
+%	$\big((h,W)\monp(f,U)\big)\eq\big((h,W)\monp(g,V)\big)$ and 
+%	$\big((f,U)\monp(h,W)\big)\eq\big((g,V)\monp(h,W)\big)$.
+%	
+%	Then we need to check that all the monoidal structure from $\catf C$ lifts to $\dial C$.
+%\end{proof}
+
+%\begin{definition}[Hiding]
+%	Given a morphism $\morph{(f,V)}{A\monp U}{B\monp U}$ of $\dial C$, define 
+%	$$\hide U[f,V]=(f,U\monp V)$$
+%	We call this operation \emph{hiding $U$}.
+%\end{definition}
+
+%\begin{theorem}[free pseudo trace]
+%	The hiding operation $\hide{}[\cdot]$ defines a pseudo-trace (\ie a trace minus yanking)
+%	in $\dial C$.
+%	
+%	Moreover, $\dial C$ satisfies the following universal property: for any pseudo-traced
+%	category $\catf D$ and monoidal functor $\morph F{\catf C}{\catf D}$ we have that $F$
+%	factors uniquely as 
+%	\begin{center}
+%	$\funcf F=\funcf G\circ \embd C$ \qquad\qquad
+%	\begin{tikzpicture}[baseline=-5ex]
+%		\node (c) at (0,0) {$\catf C$};
+%		\node (tc) at (2,0) {$\dial C$};
+%		\node (d) at (2,-1.5) {$\catf D$};
+%		\draw[->] (c) to node [above] {$\embd C$} (tc);
+%		\draw[->] (c) to node [below left] {$\funcf F$} (d);
+%		\draw[->,densely dotted] (tc) to node [right] {$\funcf G$} (d);
+%	\end{tikzpicture}
+%\end{center}
+%	with $G$ a pseudo-traced functor.
+%\end{theorem}
+
+%\begin{proof}
+%	Set $G(f,U)=\Tr{\funcf FU}[\funcf F f]$ (this is well defined because $\Tr{}$ satisfies sliding)
+%	with structure maps being those of $F$.
+%	It factors $F$ because of vanishing and $\funcf F\unitobj\simeq\unitobj$, and is indeed a
+%	pseudo-traced functor because it is defined using $\Tr{}$.
+%	
+%	An easy computation gives the unicity property.
+%\end{proof}
+
+%\begin{remark}
+%	This universal property implies that $\dial \cdot$ is a functor.
+%\end{remark}
+
+
+

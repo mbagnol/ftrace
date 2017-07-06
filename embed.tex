@@ -1,0 +1,94 @@
+\begin{itemize}
+	\item embedding problem and the free trace
+	\item more details on failed solutions, counterexaples for the embeding problem
+	\item Hassei's note point of view: IY, IYe etc.
+	\item partial results and conjecture
+\end{itemize}
+
+
+%This leads us to a reformulation of the \enquote{embedding problem}:
+
+%\begin{theorem}[the embedding problem]
+%	A monoidal category $\catf C$ can be embedded into a traced one if and only if the functor
+%	$\embt C$ is an embedding (or, more explicitely: $f=g\iff (f,\unitobj)\ye(g,\unitobj)$).
+%\end{theorem}
+
+%Also, this is related to partial traces since we know \cite{mss12,bagnol15a} that symmetric
+%monoidal category can be equipped with a partial trace if and only if it can be embedded into
+%a traced category.
+%By the way, we can see that the partial trace obtained that way the \enquote{smallest}
+%possible (in the sense: the least defined).
+
+%\begin{proposition}
+%	If we have two embeddings $E_1,E_2$ of $\catf C$ into traced categories $\catf D_1,\catf D_2$,
+%	such that there is a traced functor $G$ making the following diagram commute
+%	\begin{center}
+%	\begin{tikzpicture}[baseline=-5ex]
+%		\node (c) at (0,0) {$\catf C$};
+%		\node (tc) at (2,0) {$\catf D_1$};
+%		\node (d) at (2,-1.5) {$\catf D_2$};
+%		\draw[->] (c) to node [above] {$\funcf E_1$} (tc);
+%		\draw[->] (c) to node [below left] {$\funcf E_2$} (d);
+%		\draw[->] (tc) to node [right] {$\funcf G$} (d);
+%	\end{tikzpicture}
+%	\end{center}
+%	then the associated partial traces $\Tr{}_1,\Tr{}_2$ on $\catf C$ are related as follows:
+%	the domain $D$ of $\Tr{}_1$ is contained in that of $\Tr{}_2$ and the two traces agree on $D$.
+%\end{proposition}
+
+%Indeed, the universal property of the previous section ensures that the domain of the partial trace
+%induced by $\embt C$ (when it is an embedding) is the smallest possible for a partial trace.
+
+%\subsection*{Embedding condition}
+
+%What we still need to understand is under which conditions on $\catf C$ the functore $\embt C$ is an
+%embedding. Ideally we are looking for a condition that is really formulated in the language of
+%$\catf C$ and synthetic. We saw that several attempts \enquote{Scott's condition}, 
+%\enquote{Selinger's condition} turned out to be necessary but not sufficient.
+
+%For this specific question, I think it will be easier to work in $\state C$, where equality is plain
+%equality. This becomes a problem of understanding what can happen when we have a chain of 
+%$\eq,\yr{},\yl{}$.
+
+%It is fair to say that we do not really know for now what would a sufficient condition be like.
+%So to get started, I think we can explore the properties of chains of $\eq,\yr{},\yl{}$ to
+%understand better how they rewrite, what properties they always have \etc
+%this could help us pinpoint exactly what is missing to get an embedding, or at least make it easier
+%to check whether a new proposed condition is sufficient.
+
+%I'll list some basic results. (I have proof sketches for non-conjecture ones)
+
+%\begin{lemma}[$\eq$ before $\yr{}$]
+%	Whenever we have $f\yr{}g\eq g'$ ($f,g,g'$ are in $\state C$) then there exists a $f'$ such that
+%	$f\eq f'\yr{}g$. Similarly, $g\eq g'\yl{}f$ implies $g\yl{}f'\eq f$.
+%\end{lemma}
+
+%This means that a chain of equivalences $f\quo g$ can always be rewritten as a sequence of blocks of the
+%form $h\yl{}^*g\eq g'\yr{}^* f$, where $\yl{}^*$ and $\yr{}^*$ are the transitive closures of 
+%$\yl{}$ and $\yr{}$.
+
+%\begin{conjecture}
+%	...
+%\end{conjecture}
+
+
+%\subsection*{Naohiko's counterexample}
+
+%Something to discuss when I come to Kyoto: in his original note, Naohiko found a counterexample to
+%the sufficiency of Selinger condition, which was attributed to the condition not taking sliding into
+%account.
+
+%Yet as we discussed there the IYS condition restricted to sliding only isomorphism is not stronger than
+%the IY condition.
+
+%There is an alternative way to look at this, based on the way one gets full sliding from sliding only
+%symmetries, where the counterexample appears as rather a failure of \emph{confluence}. I'll just
+%include handwritten notes for now as graphical calculations take ages to type, and non-graphical
+%are hard to read:
+
+
+
+
+
+
+
