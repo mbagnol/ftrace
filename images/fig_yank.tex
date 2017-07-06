@@ -1,0 +1,35 @@
+\begin{tikzpicture}[baseline,
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=0.3em, column sep=1.5em, ampersand replacement=\&]
+{
+\&\node (t1'){};\&\node (t1){};\&\&\&\node(t2){};\&\node (t2'){};\\
+\\
+\&\node(B2'){};\&\node[inner sep=0pt](B2) {A};\&\node[inner sep=0pt](BB2) {};\&\node[inner sep=0pt](AA1) {};\&\node [inner sep=0pt](A1) {A};\&\node(A1'){};\\
+\\
+\node(A2) {A};\&\&\&\node[inner sep=0pt](AA2) {};\&\node[inner sep=0pt](BB1) {};\&\&\&\node (B1) {A};\&=\&\node(A2') {A};\&\&\&\&\node (B1') {A};\\
+};
+
+\draw  (AA1.center) -- (A1);
+\draw[postaction={decorate}]  (BB1.center) -- (B1);
+\draw[postaction={decorate}]  (A2) -- (AA2.center);
+\draw  (B2) -- (BB2.center);
+
+\draw (BB2.center) -- (BB1.center);
+\draw (AA2.center) -- (AA1.center);
+
+\draw [postaction={decorate}] (t2.center) -- (t1.center);
+
+\draw (B2) .. controls (B2') and (t1') .. (t1.center);
+\draw (A1) .. controls (A1') and (t2') .. (t2.center);
+
+\node [fill opacity=.1, fill=black, fit=(AA2)(t1')(t2'),inner sep=6pt,rounded corners=4pt,draw=gray,dotted] () {};
+
+\draw [postaction={decorate}] (A2') -- (B1');
+
+\end{tikzpicture}
+
+

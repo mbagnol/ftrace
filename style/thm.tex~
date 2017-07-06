@@ -1,0 +1,55 @@
+
+
+%Need to undef/redef to get automatic references (\cref) to work
+
+\undef{\thm}
+\undef{\cor}
+\undef{\lem}
+\undef{\claim}
+\undef{\axiom}
+\undef{\conj}
+\undef{\fact}
+\undef{\hypo}
+\undef{\assum}
+\undef{\prop}
+\undef{\crit}
+\undef{\defn}
+\undef{\exmp}
+\undef{\rem}
+\undef{\prob}
+\undef{\prin}
+\undef{\alg}
+%\undef{\proof}
+
+%\usepackage{amsthm}
+\usepackage[nameinlink]{cleveref}		% automatic references
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{claim}[thm]{Claim}
+\newtheorem{axiom}[thm]{Axiom}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{fact}[thm]{Fact}
+\newtheorem{hypo}[thm]{Hypothesis}
+\newtheorem{assum}[thm]{Assumption}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{crit}[thm]{Criterion}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{exmp}[thm]{Example}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{prob}[thm]{Problem}
+\newtheorem{prin}[thm]{Principle}
+\newtheorem{alg}{Algorithm}
+
+
+% actually new thm-like:
+
+\newtheorem{nota}[thm]{Notation}
+
+\newenvironment{notation}{\vspace{-\lastskip}\par \addvspace{.6pc
+    plus .2pc minus
+    .1pc}\begin{nota}\rm}{\end{nota}\par\addvspace{.6pc plus .2pc
+    minus .1pc}}
+
+

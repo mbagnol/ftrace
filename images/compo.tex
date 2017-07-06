@@ -1,0 +1,42 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1em, column sep=1em, ampersand replacement=\&]
+{
+\node [inner sep=0pt](Vg) {V};\&\&\&\&\coordinate(Vg');\&\&\coordinate(Ug'');
+\&\&\&\coordinate(Ud');\&\&\coordinate(Vd'');\&\node[inner sep=0pt](Vd){V};
+\\
+%
+\node [inner sep=0pt](Ug) {U};\&\&\node (f1){};\&\node(f2){};\&\coordinate(Ug');
+\&\&\coordinate(Vg'');\&\node (g1){};\&\node(g2){};\&
+\coordinate(Vd');\&\&\coordinate(Ud'');\&\node[inner sep=0pt](Ud){U};
+\\
+%
+\node [inner sep=0pt](A) {A};\&\&\node (f3){};\&\node(f4){};\&\&\&\&\node (g3){};\&\node(g4){};\&\&\&\&\node[inner sep=0pt](B){C};
+\\
+};
+
+
+\node [fit=(f1)(f2)(f3)(f4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f) {\raisebox{-6pt}{$\mathlarger {f}$}};
+
+
+\node [fit=(g1)(g2)(g3)(g4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (g) {\raisebox{-6pt}{$\mathlarger {g}$}};
+\draw [postaction={decorate}] (Vg) -- (Vg');
+\draw (Vg') -- (Vg'') -- (Vg''-|g.west);
+\draw (Ug-|f.east) -- (Ug');
+\draw [postaction={decorate}] (Ug) -- (Ug-|f.west);
+\draw (Ug') -- (Ug'');
+\draw [postaction={decorate}] (Ug'') -- (Ud');
+\draw (Ud') -- (Ud'') -- (Ud);
+\draw [postaction={decorate}] (A) -- (A-|f.west);
+\draw (Vd'-|g.east) -- (Vd') -- (Vd'');
+\draw [postaction={decorate}] (Vd'') -- (Vd);
+\draw [postaction={decorate}] (A-|f.east) -- (A-|g.west);
+\draw [postaction={decorate}]  (A-|g.east) -- (B);
+
+\end{tikzpicture}
+
+

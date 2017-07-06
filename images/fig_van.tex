@@ -1,0 +1,34 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1em, column sep=1.5em, ampersand replacement=\&]
+{
+\&\&\node [inner sep=0](8'){};\&\node [inner sep=0](8){}; \&\&\&\node (9){};\&\node [inner sep=0](9'){};\\
+%
+\&\&\node [inner sep=0](B'){};\&\node[inner sep=0pt](B) {\unitobj};\&\node (1){};\&\node (4){};\&\node[inner sep=0pt] (A) {\unitobj};\&\node[inner sep=0pt] (A') {};
+\\
+%
+\&\node (D) {A}; \&\&\&\node (2){};\&\node (3){};\&\&\&\node (C) {B};\&\scalebox{1.01}{$=$}\&
+\node (D') {A}; \&\&\&\node (2'){};\&\node (3'){};\&\&\&\node (C') {B};\\
+};
+
+\node [fit=(2)(3),inner sep=2pt,minimum height=8mm,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (fg) {\raisebox{-8pt}{$\mathlarger {f}$}};
+
+\node [fit=(2')(3'),inner sep=2pt,minimum height=8mm,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f) {\raisebox{-8pt}{$\mathlarger {f}$}};
+
+\draw [postaction={decorate},densely dotted] (B) -- (A);
+\draw [postaction={decorate}] (C-|fg.east) -- (C);
+\draw [postaction={decorate}] (D) -- (D-|fg.west);
+
+\draw [postaction={decorate}] (C'-|f.east) -- (C');
+\draw [postaction={decorate}] (D') -- (D'-|f.west);
+
+\draw [postaction={decorate},densely dotted] (9.center) -- (8.center);
+\draw [densely dotted](B) .. controls (B') and (8') .. (8.center);
+\draw [densely dotted](A) .. controls (A') and (9') .. (9.center);
+
+\node [fill opacity=.1, fill=black, fit=(fg)(8')(9'),inner sep=6pt,rounded corners=4pt,draw=gray,dotted] () {};
+\end{tikzpicture}

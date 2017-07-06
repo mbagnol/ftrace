@@ -1,0 +1,63 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1em, column sep=1em, ampersand replacement=\&]
+{
+%\node (a) {a};\\
+\&\&\node(t1){};\&\node(tt1){};\&\&\&\node(tt4){};\&\node(t4){};
+\&\&\&\&\&\node(t1'){};\&\node(tt1'){};\&\&\&\node(tt4'){};\&\node(t4'){};\\
+\&\&\node(t2){};\&\node [inner sep=0pt] (Ug) {U};\&\node (1){};\&\node(2){};\&\node[inner sep=0pt](Ud){U};\&\node(t3){};
+\&\&\&\scalebox{1.1}{$\kleer$}\&\&\node(t2'){};\&\node [inner sep=0pt](Ug') {U};\&\node (1'){};\&\node(2'){};\&\node[inner sep=0pt](Ud'){U};\&\node(t3'){};\\
+\node[inner sep=0pt](BB){A'};\&
+\node [inner sep=4pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (h) {\mathlarger h};\&
+\&\node [inner sep=0pt](B) {A};\&\node (3){};\&\node(4){};\&\node[inner sep=0pt](A){B};\&\&
+\node [inner sep=4pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (g) {\mathlarger g};\&
+\node[inner sep=0pt](AA){B'};\&\&
+\node[inner sep=0pt](BB'){B'};\&
+\node [inner sep=4pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (h') {\mathlarger h};\&
+\node [inner sep=0pt](B') {B};\&\node (3'){};\&\node(4'){};\&\node[inner sep=0pt](A'){A};\&
+\node [inner sep=4pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (g') {\mathlarger g};\&
+\node[inner sep=0pt](AA'){A'};\\
+};
+
+\node [fit=(1)(2)(3)(4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f) {\raisebox{-6pt}{$\mathlarger {f}$}};
+
+\draw [postaction={decorate}] (tt4.center) -- (tt1.center);
+\draw (Ug) .. controls (t2) and (t1) .. (tt1.center);
+\draw (Ud) .. controls (t3) and (t4) .. (tt4.center);
+
+\draw (Ud-|f.east) -- (Ud);
+\draw (Ug) -- (Ug-|f.west);
+\draw (A-|f.east) -- (A);
+\draw (B) -- (B-|f.west);
+\draw [postaction={decorate}] (BB) -- (h);
+\draw (h) -- (B);
+\draw [postaction={decorate}] (g) -- (AA);
+\draw (A) -- (g);
+
+\node [fit=(1')(2')(3')(4'),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f') {\raisebox{-6pt}{$\mathlarger {f}$}};
+
+
+\draw [postaction={decorate}] (tt4'.center) -- (tt1'.center);
+\draw (Ug') .. controls (t2') and (t1') .. (tt1'.center);
+\draw (Ud') .. controls (t3') and (t4') .. (tt4'.center);
+
+\draw (Ud'-|f'.east) -- (Ud');
+\draw (Ug') -- (Ug'-|f'.west);
+\draw (A'-|f'.east) -- (A');
+\draw (B') -- (B'-|f'.west);
+\draw [postaction={decorate}] (BB') -- (h');
+\draw (h') -- (B');
+\draw [postaction={decorate}] (g') -- (AA');
+\draw (A') -- (g');
+
+\node [fill opacity=.1, fill=black, fit=(f)(t1)(t4),inner sep=3pt,rounded corners=4pt,draw=gray,dotted] () {};
+
+\node [fill opacity=.1, fill=black, fit=(g')(h')(t1')(t4'),inner sep=3pt,rounded corners=4pt,draw=gray,dotted] () {};
+
+\end{tikzpicture}
+
+

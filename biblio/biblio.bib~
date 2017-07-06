@@ -1,0 +1,6228 @@
+@ARTICLE{Hermida02,
+    author = {Claudio Hermida and Paulo Mateus},
+    title = {Paracategories {I}: Internal Paracategories and Saturated Partial Algebras},
+    journal = {Comp. Sci},
+    year = {2002},
+    volume = {309},
+    pages = {125--156}
+}
+
+@inproceedings{Bartha08,
+  author = {Bartha, Miklós},
+  booktitle = {AFL},
+  editor = {Csuhaj-Varjú, Erzsébet and Ésik, Zoltán},
+  isbn = {978-963-311-367-7},
+  pages = {86-99},
+  title = {Simulation equivalence of automata and circuits.},
+  year = 2008
+}
+
+
+
+@incollection{Haghverdi2004a,
+year={2004},
+isbn={978-3-540-22849-3},
+booktitle={Automata, Languages and Programming},
+volume={3142},
+series={Lecture Notes in Computer Science},
+editor={Díaz, Josep and Karhumäki, Juhani and Lepistö, Arto and Sannella, Donald},
+doi={10.1007/978-3-540-27836-8_60},
+title={A Categorical Model for the Geometry of Interaction},
+%url={http://dx.doi.org/10.1007/978-3-540-27836-8_60},
+publisher={Springer Berlin Heidelberg},
+author={Haghverdi, Esfandiar and Scott, Philip},
+pages={708-720},
+language={English}
+}
+
+
+@inproceedings{Haghverdi2005,
+ author = {Haghverdi, Esfandiar and Scott, Philip J.},
+ title = {Towards a Typed Geometry of Interaction},
+ booktitle = {Proceedings of the 19th International Conference on Computer Science Logic},
+ series = {CSL'05},
+ year = {2005},
+ isbn = {3-540-28231-9, 978-3-540-28231-0},
+ location = {Oxford, UK},
+ pages = {216--231},
+ numpages = {16},
+ doi = {10.1007/11538363_16},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+} 
+
+
+@TECHREPORT{Hughes2005a,
+    author = {Dominic J. D. Hughes},
+    title = {Simple multiplicative proof nets with units},
+    institution = {},
+    year = {2005}
+}
+
+@article{Etessami1997,
+title = "Counting Quantifiers, Successor Relations, and Logarithmic Space ",
+journal = "Journal of Computer and System Sciences ",
+volume = "54",
+number = "3",
+pages = "400 - 411",
+year = "1997",
+note = "",
+issn = "0022-0000",
+doi = "http://dx.doi.org/10.1006/jcss.1997.1485",
+url = "http://www.sciencedirect.com/science/article/pii/S0022000097914859",
+author = "Kousha Etessami"
+}
+
+
+@article{Jenner2003,
+title = "Completeness results for graph isomorphism ",
+journal = "Journal of Computer and System Sciences ",
+volume = "66",
+number = "3",
+pages = "549 - 566",
+year = "2003",
+note = "",
+issn = "0022-0000",
+doi = "http://dx.doi.org/10.1016/S0022-0000(03)00042-4",
+url = "http://www.sciencedirect.com/science/article/pii/S0022000003000424",
+author = "Birgit Jenner and Johannes Köbler and Pierre McKenzie and Jacobo Torán"
+}
+
+
+@article{Guerrini2001,
+	title = {{Parsing MELL Proof Nets}},
+	journal = {Theoretical Computer Science},
+	volume = {254},
+	number = {1-2},
+	year = {2001},
+	pages = {317-335},
+	keywords = {Linear Logic, Proof Nets},
+	attachments = {https://lipn.univ-paris13.fr/~guerrini/mysite/sites/default/files/biblio/ParsingMELL.pdf},
+	author = {Stefano Guerrini and Andrea Masini}
+}
+
+@Article{Hughes2015,
+     author    = "Dominic J. D. Hughes and Rob J. van Glabbeek",
+     title     = "{MALL proof nets identify proofs modulo rule commutation}",
+     journal = "{\normalfont\url{http://boole.stanford.edu/~dominic/drafts/kernel.pdf}}, to appear",
+     year      = "2015",
+}
+
+@Article{Hughes2008,
+     author    = "Dominic J. D. Hughes",
+     title     = "{Abstract p-time proof nets for MALL: Conflict nets}",
+     journal = "arXiv: math.LO/0801.2421v1",
+     year      = "2008",
+}
+
+%     eprint        = "0801.2421v1",
+%     primaryClass  = "math.LO",
+
+@inproceedings{Heijltjes2014a,
+author = {Heijltjes, Willem and Houston, Robin},
+title = {{No Proof Nets for MLL with Units: Proof Equivalence in MLL is PSPACE-complete}},
+booktitle = {Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)},
+series = {CSL-LICS '14},
+year = {2014},
+isbn = {978-1-4503-2886-9},
+location = {Vienna, Austria},
+pages = {50:1--50:10},
+articleno = {50},
+numpages = {10},
+url = {http://doi.acm.org/10.1145/2603088.2603126},
+doi = {10.1145/2603088.2603126},
+acmid = {2603126},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+
+
+@article{Heijltjes2014,
+author = {Heijltjes, Willem and Straßburger, Lutz},
+title = {Proof nets and semi-star-autonomous categories},
+journal = {Mathematical Structures in Computer Science},
+volume = {FirstView},
+month = {11},
+year = {2014},
+issn = {1469-8072},
+pages = {1--40},
+numpages = {40},
+doi = {10.1017/S0960129514000395},
+URL = {http://journals.cambridge.org/article_S0960129514000395},
+}
+
+@book{Knuth2009,
+ author = {Knuth, Donald E.},
+ title = {The Art of Computer Programming, Volume 4, Fascicle 1: Bitwise Tricks \& Techniques; Binary Decision Diagrams},
+ year = {2009},
+ isbn = {0321580508, 9780321580504},
+ edition = {12th},
+ publisher = {Addison-Wesley Professional},
+} 
+
+
+@article{Bryant1986,
+ author = {Bryant, Randal E.},
+ title = {Graph-Based Algorithms for Boolean Function Manipulation},
+ journal = {IEEE Trans. Comput.},
+ issue_date = {August 1986},
+ volume = {35},
+ number = {8},
+ month = aug,
+ year = {1986},
+ issn = {0018-9340},
+ pages = {677--691},
+ numpages = {15},
+ url = {http://dx.doi.org/10.1109/TC.1986.1676819},
+ doi = {10.1109/TC.1986.1676819},
+ acmid = {6433},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+@article{Barrington1989,
+title = "Bounded-width polynomial-size branching programs recognize exactly those languages in {NC1}",
+journal = "Journal of Computer and System Sciences ",
+volume = "38",
+number = "1",
+pages = "150 - 164",
+year = "1989",
+issn = "0022-0000",
+doi = "http://dx.doi.org/10.1016/0022-0000(89)90037-8",
+author = "David A. Barrington"
+}
+
+@inproceedings{Laurent2008a,
+  author    = {Olivier Laurent and
+               Roberto Maieli},
+  title     = {Cut Elimination for Monomial {MALL} Proof Nets},
+  booktitle = {Proceedings of the Twenty-Third Annual {IEEE} Symposium on Logic in
+               Computer Science, {LICS} 2008, 24-27 June 2008, Pittsburgh, PA, {USA}},
+  pages     = {486--497},
+  year      = {2008},
+}
+
+
+@article{Hughes2005,
+  author    = {Dominic J. D. Hughes and
+               Rob J. van Glabbeek},
+  title     = {Proof nets for unit-free multiplicative-additive linear logic},
+  journal   = {{ACM} Trans. Comput. Log.},
+  volume    = {6},
+  number    = {4},
+  pages     = {784--842},
+  year      = {2005},
+}
+
+@book{Baader1998a,
+author=Baader#{ and Nipkow, Tobias},
+title={Term rewriting and all that.},
+isbn={978-0-521-45520-6},
+publisher=CUP,
+year=1998
+}
+
+@article{Michie1968,
+author={Michie, Donald},
+title={“{M}emo” Functions and Machine Learning},
+journal={Nature},
+year={1968},
+month=Apr,
+day={06},
+volume=218,
+issue=5136,
+pages={19--22},
+doi={10.1038/218019a0}
+}
+
+@book{Strunk2007,
+title={The Elements of Style},
+author={Strunk, William Jr. and White, Elwyn Brooks},
+isbn={020530902X},
+year={1999},
+publisher={Longman},
+edition={4},
+foreword={Angell, Roger}
+}
+
+@article{Jones1976b,
+author=Jones#{ and }#Laaser,
+title={Complete Problems for Deterministic Polynomial Time},
+journal=TCSc,
+volume={3},
+number={1},
+pages={105--117},
+year={1976},
+doi={10.1016/0304-3975(76)90068-2}
+}
+
+%%%% Ajouts récents
+@article{Miller1991,
+author={Miller, Dale and Nadathur, Gopalan and Pfenning, Frank and Scedrov, Andre},
+title={Uniform Proofs as a Foundation for Logic Programming},
+journal=APAL,
+volume={51},
+number={1-2},
+pages={125--157},
+year={1991},
+doi={10.1016/0168-0072(91)90068-W}
+}
+
+@article{Gurevich1982,
+author=Gurevich#{ and Lewis, Harry R. },
+title={The Inference Problem for Template Dependencies},
+journal=IaC,
+volume={55},
+number={1-3},
+pages={69--79},
+year={1982},
+doi={10.1016/S0019-9958(82)90420-X},
+}
+
+@article{Shapiro1984,
+author=Shapiro,
+title={Alternation and the Computational Complexity of Logic Programs},
+journal=JLP,
+volume={1},
+number={1},
+pages={19--33},
+year={1984},
+doi={10.1016/0743-1066(84)90021-9}
+}
+
+@inproceedings{Shapiro1982,
+author=Shapiro,
+title={Alternation and the Computational Complexity of Logic Programs},
+pages={154--163},
+crossref={iclp1982}
+}
+
+@article{Crolard2006,
+author={Crolard, Tristan and Lacas, Samuel and Valarcher, Pierre},
+title={On the Expressive Power of the Loop Language},
+journal=NJC,
+volume={13},
+number={1-2},
+pages={46--57},
+issuetitle={Selected Papers of the 17th Nordic Workshop on Programming Theory (NWPT'05), October 19-21, 2005},
+year={2006}
+}
+
+@article{Crolard2009,
+author={Crolard, Tristan and Polonowski, Emmanuel and Valarcher, Pierre},
+title={Extending the loop language with higher-order procedural variables},
+journal=ACMTCL,
+volume={10},
+number={4},
+year={2009},
+doi={10.1145/1555746.1555750},
+}
+
+@article{Tarnlund1977,
+author={T{\"{a}}rnlund, Sten{-}{\AA}ke},
+title={Horn Clause Computability},
+journal=BIT,
+volume={17},
+number={2},
+pages={215--226},
+year={1977},
+doi={10.1007/BF01932293}
+}
+
+@article{Andreka1980,
+author={Andréka, Hajnal and Németi, Istv{\'{a}}n},
+title={The generalized completeness of Horn predicate-logic as a programming language},
+journal=AC,
+volume={4},
+number={1},
+pages={3--10},
+year={1978},
+url={http://www.inf.u-szeged.hu/actacybernetica/edb/vol04n1/Andreka_1978_ActaCybernetica.xml},
+}
+
+@inproceedings{Gradel1991,
+author=Grädel,
+title={The Expressive Power of Second Order Horn Logic},
+pages={466--477},
+crossref={stacs1991},
+doi={10.1007/BFb0020821},
+}
+
+@phdthesis{Bagnol2014,
+author=Bagnol,
+title={On the Resolution Semiring},
+school={Aix-Marseille Université -- Institut de Mathématiques de Marseille},
+year=2014,
+}
+
+%%%%%%% Recup BIB MARC
+%%% Chagement de clé ci-dessous.
+%% Aubert2014a -> Aubert2014b
+%% Gentzen1934 -> Gentzen1935
+%% Mellies2009a -> Mellies2009
+%% Selinger2009 -> Selinger2011
+%% DalLago2012 -> DalLago2012a
+%% Lago2011short -> DalLago2012a
+%% Joyal1996 -> Joyal1996a
+%% Gentzen1934a -> Gentzen1936
+%% Gentzen1934 -> Gentzen1935
+%%% Fin changement de clés.
+
+@article{Girard1897a, 
+author=Girard,
+title={Multiplicatives},
+pages={11--34},
+journal=RSMUPT,
+volume=45,
+editor={Lolli, Gabriele},
+issuetitle={Proceedings of the conference Logic and Computer Science: New Trends and Applications, held in Torino 13-15 october 1986},
+publisher={Rosenberg \& Sellier},
+year={1987},
+}
+url={http://www.seminariomatematico.unito.it/rendiconti/cartaceo/45-4/11.pdf
+
+@inproceedings{Girard2006a,
+author=Girard,
+title={Geometry of Interaction {IV}: the feedback equation},
+pages={76--117},
+crossref={logic-colloquium-2003}
+}
+
+@proceedings{logic-colloquium-2003,
+editor={Stoltenberg-Hansen, Viggo and Väänänen, Jouko},
+title={Logic Colloquium '03: Proceedings of the Annual European Summer Meeting of the Association for Symbolic Logic},
+booktitle={Logic Colloquium 2003},
+publisher={The Association for Symbolic Logic},
+year={2006},
+series={Lecture Notes in Logic},
+volume={24},
+}
+
+@phdthesis{Haghverdi2000a,
+author={Haghverdi, Esfandiar},
+title={A Categorical Approach to Linear Logic, Geometry of Proofs and Full Completeness},
+school={University of Ottawa},
+month=02,
+year=2000,
+}
+
+@inproceedings{Abramsky1999,
+author=Abramsky#{ and McCusker, Guy},
+title={Game semantics},
+pages={1--55},
+crossref={logic-and-computation1997}
+}
+
+@proceedings{logic-and-computation1997,
+editor={Schwichtenberg, H. and Berger, U.},
+title={Logic and Computation: Proceedings of the 1997 Marktoberdorf Summer School},
+publisher={Springer-Verlag},
+year={1999},
+}
+Computational Logic: Proceedings of the 1997 Marktoberdorf Summer School
+29 July - 10 August 1997
+
+@phdthesis{Regnier1992,
+author=Regnier,
+title={Lambda-calcul et réseaux},
+year=1992,
+school={Uiversité Paris 7}
+}
+
+@book{Manes1986,
+editor={Manes, Ernest G. and Arbib, Michael A.},
+title={Algebraic Approaches to Program Semantics},
+series={{AKM} series in theoretical computer science},
+isbn={978-0-387-96324-2},
+year={1986},
+publisher={Springer}
+} 
+
+@article{Joyal1996a,
+author={Joyal, André and Street, Ross and Verity, Dominic},
+title={Traced monoidal categories},
+journal={Mathematical Proceedings of the Cambridge Philosophical Society},
+volume={119},
+issue={03},
+month={4},
+year={1996},
+issn={1469-8064},
+pages={447--468},
+numpages={22},
+doi={10.1017/S0305004100074338}
+}
+
+@article{Haghverdi2000,
+author={Haghverdi, Esfandiar},
+title={Unique decomposition categories, Geometry of Interaction and combinatory logic},
+journal=MSCS,
+year={2000},
+volume={10},
+number={2},
+pages={205--230},
+doi={10.1017/S0960129599003035}
+}
+
+@article{Abramsky1994,
+author=Abramsky#{ and Jagadeesan, Radha},
+title={New Foundations for the Geometry of Interaction},
+journal=IaC,
+volume={111},
+number={1},
+pages={53--119},
+year={1994},
+numpages={67},
+doi={10.1006/inco.1994.1041}
+}
+
+@inproceedings{Haghverdi2004,
+author={Haghverdi, Esfandiar and}# Scott,
+title={A Categorical Model for the Geometry of Interaction},
+pages={708--720},
+doi={10.1007/978-3-540-27836-8_60},
+crossref={icalp2004},
+}
+
+@inproceedings{Accattoli2012,
+author={Accattoli, Beniamino},
+title={Proof nets and the call-by-value lambda-calculus},
+pages={11--26},
+doi={10.4204/EPTCS.113.5},
+crossref={lsfa2012}
+}
+
+@inproceedings{Accattoli2014a,
+author=Accattoli#{ and }#DalLago,
+title={Beta reduction is invariant, indeed},
+pages={8},
+year={2014},
+crossref={csl2014},
+doi={10.1145/2603088.2603105}
+}
+
+@inproceedings{Ferbus-Zanda2010,
+author={Ferbus{-}Zanda, Marie and Grigorieff, Serge},
+title={ASMs and Operational Algorithmic Completeness of Lambda Calculus},
+pages={301--327},
+crossref={anniv-gurevich-2010},
+doi={10.1007/978-3-642-15025-8_16},
+}
+
+@proceedings{anniv-gurevich-2010,
+editor={Blass, Andreas and Dershowitz, Nachum and Reisig, Wolfgang},
+title={Fields of Logic and Computation, Essays Dedicated to Yuri Gurevich on the Occasion of His 70th Birthday}, booktitle={Fields of Logic and Computation, Essays Dedicated to Yuri Gurevich on the Occasion of His 70th Birthday}, series=LNCS,
+volume={6300},
+publisher=Springer,
+year={2010},
+doi={10.1007/978-3-642-15025-8}
+}
+
+@inproceedings{Meyer1967,
+author={Meyer, Albert R. and Ritchie, Dennis M.},
+title={The Complexity of Loop Programs},
+pages={465--469},
+numpages={5},
+doi={10.1145/800196.806014},
+crossref={ACM1967}
+} 
+
+@incollection{Neergaard2004,
+author={Neergaard, PeterMøller},
+title={A Functional Language for Logarithmic Space},
+pages={311--326},
+crossref={aplas2004},
+}
+
+@article{Andary2011,
+author={Andary, Philippe and Patrou, Bruno and Valarcher, Pierre},
+title={A Representation Theorem for Primitive Recursive Algorithms},
+journal=FI,
+volume={107},
+number={4},
+pages={313--330},
+year={2011},
+doi={10.3233/FI-2011-405}
+}
+
+@incollection{Gallier1995,
+author={Gallier, Jean},
+title={On the Correspondence between proofs and lambda-terms},
+pages={55--138},
+crossref={Cahiers-du-centre-de-logique-8}
+}
+http://www.logic-center.be/cahiers/cahier8.html
+
+@book{Cahiers-du-centre-de-logique-8,
+title={The Curry-Howard isomorphism},
+booktitle={The Curry-Howard isomorphism},
+editor={de Groote, Philippe},
+series={Cahiers du Centre de Logique},
+isbn={9782872093632},
+year={1995},
+publisher={Academia},
+}
+
+@article{Selinger2007,
+author=Selinger,
+title={Dagger Compact Closed Categories and Completely Positive Maps: (Extended Abstract)},
+journal=ENTCS,
+volume={170},
+pages={139--163},
+year={2007},
+doi={10.1016/j.entcs.2006.12.018},
+note={Proceedings of the 3rd International Workshop on Quantum Programming Languages (QPL 2005)},
+issn={1571-0661},
+}
+
+@incollection{Selinger2011,
+author=Selinger,
+title={A Survey of Graphical Languages for Monoidal Categories},
+pages={289--355},
+doi={10.1007/978-3-642-12821-9_4}
+}
+
+@book{Coecke2011,
+editor={Coecke, Bob},
+booktitle={New Structures for Physics},
+volume={813},
+series={Lecture Notes in Physics},
+year={2011},
+isbn={978-3-642-12820-2},
+publisher={Springer Berlin Heidelberg},
+}
+
+@article{Blair82,
+author={Howard A. Blair},
+title={The Recursion-Theoretical Complexity of the Semantics of Predicate Logic as a Programming Language},
+journal=IaC,
+year={1982},
+volume={54},
+number={1/2},
+pages={25--47},
+doi={10.1016/S0019-9958(82)91234-7},
+}
+
+@book{Maclane1971,
+author={Mac Lane, Saunders},
+title={Categories for the Working Mathematician},
+publisher={Springer New York},
+series={Graduate Texts in Mathematics},
+number=5,
+year=1971,
+isbn={978-1-4757-4721-8},
+doi={10.1007/978-1-4757-4721-8}
+}
+
+@article{Malherbe2012,
+author={Malherbe, Octavio and }#Scott#{ and }#Selinger,
+title={Partially traced categories},
+journal=JPAA,
+volume={216},
+number={12},
+pages={2563--2585},
+year={2012},
+issn={0022-4049},
+doi={10.1016/j.jpaa.2012.03.026}
+}
+
+@article{Abramsky2002,
+author=Abramsky#{ and Haghverdi, Esfandiar and }#Scott,
+title={Geometry of Interaction and Linear Combinatory Algebras},
+journal=MSCS,
+year={2002},
+volume={12},
+number={5},
+pages={625--665},
+doi={10.1017/S0960129502003730}
+}
+
+@book{Fitting1987,
+author={Fitting, Melvin},
+title={Computability Theory, Semantics, and Logic Programming},
+year={1987},
+isbn={9780195036916},
+series={Oxford Logic Guides},
+publisher={Oxford University Press, Inc.},
+}
+
+@article{Martelli1982,
+author={Martelli, Alberto and Montanari, Ugo},
+title={An Efficient Unification Algorithm},
+volume={4},
+number={2},
+journal=ACMTPLS,
+year={1982},
+pages={258--282},
+doi={10.1145/357162.357169}
+}
+%%%%%%% Fin Recup BIB MARC
+
+@article{Lafont2009,
+author=lafont,
+title={Réécriture et problème du mot},
+journal=GM,
+year={2009},
+month=apr,
+editor=SMF,
+volume={120},
+pages={27--38},
+url={http://smf4.emath.fr/Publications/Gazette/2009/120/smf_gazette_120_27-38.pdf}
+}
+
+@inproceedings{Calimeri2008,
+author={Calimeri, Francesco and Cozza, Susanna and Ianni, Giovambattista and Leone, Nicola},
+title={Computable Functions in {ASP}: Theory and Implementation},
+booktitle={ICLP},
+pages={407--424},
+doi={10.1007/978-3-540-89982-2_37},
+crossref={iclp2008}
+}
+
+@book{Lambek1986,
+author={Lambek, Joachim and Scott, Philip},
+title={Introduction to Higher Order Categorical Logic},
+publisher=CUP,
+series={Cambridge Studies in Advanced Mathematics},
+number=7,
+year=1986,
+isbn=0521246652
+}
+
+@inproceedings{Lierler2009,
+author={Lierler, Yuliya and Lifschitz, Vladimir},
+title={One More Decidable Class of Finitely Ground Programs},
+booktitle={ICLP},
+pages={489--493},
+doi={10.1007/978-3-642-02846-5_40},
+crossref={iclp2009}
+}
+
+@article{Beeri1975,
+author={Beeri, Catriel},
+title={Two-Way Nested Stack Automata Are Equivalent to Two-Way Stack Automata},
+journal=JCSS,
+year={1975},
+volume={10},
+number={3},
+pages={317--339},
+doi={10.1016/S0022-0000(75)80004-3},
+}
+
+@inproceedings{Vardi1982,
+author=Vardi,
+title={The Complexity of Relational Query Languages (Extended Abstract)},
+booktitle={Proceedings of the 14th Annual {ACM} Symposium on Theory of Computing, May 5-7, 1982, San Francisco, California, {USA}},
+year={1982},
+pages={137--146},
+crossref={STOC1982},
+doi={10.1145/800070.802186},
+}
+
+@proceedings{iclp2009,
+editor={Hill, Patricia M. and Warren, David Scott},
+title={Logic Programming, 25th International Conference, ICLP 2009, Pasadena, CA, USA, July 14-17, 2009. Proceedings},
+booktitle={ICLP},
+publisher={Springer},
+series=LNCS,
+volume={5649},
+year={2009},
+isbn={978-3-642-02845-8},
+doi={10.1007/978-3-642-02846-5}
+}
+
+@article{Paterson1978,
+author={Paterson, Mike and Wegman, Mark N.},
+title={Linear Unification},
+volume={16},
+number={2},
+journal=JCSS,
+year={1978},
+pages={158--167},
+doi={10.1016/0022-0000(78)90043-0}
+}
+
+@proceedings{iclp2008,
+editor={Garcia de la Banda, Maria and Pontelli, Enrico},
+title={Logic Programming, 24th International Conference, ICLP 2008, Udine, Italy, December 9-13 2008, Proceedings},
+booktitle={ICLP},
+publisher={Springer},
+series=LNCS,
+volume={5366},
+year={2008},
+isbn={978-3-540-89981-5},
+doi={10.1007/978-3-540-89982-2}
+}
+
+@book{Kadison1983,
+author={Kadison, Richard V. and Ringrose, John R.},
+title={Fundamentals of the theory of operator algebras. Vol. I},
+series={Graduate Studies in Mathematics},
+volume={15},
+year={1997}
+}
+note={Elementary theory, Reprint of the 1983 original},
+
+@article{Girard1999,
+author=Girard,
+title={Coherent Banach spaces: a continuous denotational semantics},
+journal=TCSc,
+volume={227},
+number={1--2},
+pages={275--297},
+year={1999},
+issn={0304-3975},
+doi={S0304-3975(99)00056-0},
+url={http://iml.univ-mrs.fr/~girard/banach.pdf.gz}
+}
+
+@inproceedings{Girard2013,
+author=Girard,
+title={Three lightings of logic},
+year={2013},
+pages={11--23},
+doi={10.4230/LIPIcs.CSL.2013.11},
+crossref={csl2013}
+}
+
+@booklet{Girard2002,
+title={Introduction aux algèbres d’opérateurs I : Des espaces de Hilbert aux algèbres stellaires},
+author=Girard,
+howpublished={Lecture Notes},
+month=Sep,
+year=2002,
+url={http://recherche.ircam.fr/equipes/repmus/mamux/AlgOpGirard.pdf},
+}
+
+@booklet{Curien2011,
+title={Notes on operator algebras, part I},
+author=Curien,
+howpublished={Lecture Notes},
+month=Mar,
+year={2011},
+}
+
+@article{Cai1995,
+author={Cai, Liming and Chen, Jianer},
+title={On input read-modes of alternating Turing machines},
+journal=TCSc,
+volume={148},
+number={1},
+pages={33--55},
+year={1995},
+issn={0304-3975},
+doi={10.1016/0304-3975(94)00253-F}
+}
+
+@article{Fischer1974,
+author={Fischer, Patrick C. and Warkentin, John C.},
+title={Predecessor Machines},
+journal=JCSS,
+volume={8},
+number={2},
+year={1974},
+pages={190-219},
+doi={10.1016/S0022-0000(74)80055-3},
+}
+
+@article{Regan1997,
+author=Regan#{ and }#Vollmer,
+title={Gap-Languages and Log-Time Complexity Classes},
+journal=TCSc,
+year={1997},
+volume={188},
+pages={101--116},
+doi={10.1016/S0304-3975(96)00288-5}
+}
+
+@inproceedings{Holzer2008,
+author=Holzer#{ and }#Kutrib#{ and Malcher, Andreas},
+title={Multi-Head Finite Automata: Characterizations, Concepts and Open Problems},
+year={2008},
+pages={93--107},
+crossref={CSP2009},
+doi={10.4204/EPTCS.1.9}
+}
+
+@article{Ibarra1974,
+author=Ibarra,
+title={A Note on Semilinear Sets and Bounded-Reversal Multihead Pushdown Automata},
+journal=IPL,
+volume={3},
+number={1},
+year={1974},
+pages={25--28},
+doi={10.1016/0020-0190(74)90043-X}
+}
+
+@article{Ibarra1973,
+author=Ibarra,
+title={On Two-way Multihead Automata},
+journal=JCSS,
+volume={7},
+number={1},
+year={1973},
+pages={28--36},
+doi={10.1016/S0022-0000(73)80048-0}
+}
+
+@article{Ibarra1971,
+author=Ibarra,
+title={Characterizations of Some Tape and Time Complexity Classes of Turing Machines in Terms of Multihead and Auxiliary Stack Automata},
+journal=JCSS,
+volume={5},
+number={2},
+year={1971},
+pages={88-117},
+doi={10.1016/S0022-0000(71)80029-6}
+}
+
+@article{Gray1967,
+author={Gray, Jim and }#Harrison#{ and }#Ibarra,
+title={Two-Way Pushdown Automata},
+journal=ICo,
+volume={11},
+number={1/2},
+year={1967},
+pages={30--70},
+doi={10.1016/S0019-9958(67)90369-5},
+}
+
+@article{Harrison1968,
+author={Harrison, Michael A. and }#Ibarra,
+title={Multi-Tape and Multi-Head Pushdown Automata},
+journal=ICo,
+volume={13},
+number={5},
+year={1968},
+pages={433--470},
+doi={10.1016/S0019-9958(68)90901-7}
+}
+
+@inproceedings{Stearns1965,
+author={Stearns, Richard Edwin and }#Hartmanis#{ and Lewis II, Philip M.},
+title={Hierarchies of Memory Limited Computations},
+year={1965},
+pages={179--190},
+doi={10.1109/FOCS.1965.11},
+crossref={focs1965}
+}
+
+@article{Robinson1965,
+author={Robinson, John Alan},
+title={A Machine-Oriented Logic Based on the Resolution Principle},
+volume={12},
+issn={0004-5411},
+doi={10.1145/321250.321253},
+number={1},
+journal=JACM,
+month=jan,
+year={1965},
+pages={23--41}
+}
+
+@article{Hennie1966,
+author={Hennie, F. C. and Stearns, Richard Edwin},
+title={Two-Tape Simulation of Multitape Turing Machines},
+journal=JACM,
+volume={13},
+number={4},
+year={1966},
+pages={533--546},
+doi={10.1145/321356.321362},
+}
+
+@inproceedings{Duris1995,
+author={Ďuriš, Pavol and Galil, Zvi},
+title={Sensing Versus Nonsensing Automata},
+pages={455--463},
+doi={10.1007/3-540-60084-1_96},
+crossref={icalp1995},
+}
+
+@book{Automata_logic_and_infinite_game,
+author=Grädel#{ and Thomas, Wolfgang and Wilke, Thomas},
+title={Automata Logics, and Infinite Games},
+subtitle={A Guide to Current Research},
+serie=LNCS,
+volume={2500},
+year={2002},
+doi={10.1007/3-540-36387-4},
+publisher={Springer Berlin Heidelberg},
+isbn={978-3-540-36387-3}
+} 
+
+@inproceedings{Buchi1962,
+author={Büchi, Julius Richard},
+title={On a decision method in restricted second order arithmetic},
+pages={1--11},
+crossref={proc_int_cong_logic_62}
+}
+
+@proceedings{proc_int_cong_logic_62,
+editor={Nagel, Ernest and Suppes, Patrick and Tarski, Alfred},
+title={Logic, methodology and philosophy of science},
+booktitle={Proceedings of the 1960 International Congress},
+year={1962},
+publisher={Stanford University Press},
+}
+Proceedings of the International Congress on Logic, Method, and Philosophy of Science,
+
+@incollection{Buchi1692re,
+title={On a Decision Method in Restricted Second Order Arithmetic},
+author={Büchi, Julius Richard},
+crossref={BuchiCollected}
+}
+
+@collection{BuchiCollected,
+booktitle={The Collected Works of J. Richard Büchi},
+editor={Mac Lane, Saunders and Siefkes, Dirk},
+year={1990},
+isbn={978-1-4613-8930-9},
+doi={10.1007/978-1-4613-8928-6_23},
+publisher={Springer New York},
+pages={425--435},
+}
+
+@article{Pighizzini2013,
+author={Pighizzini, Giovanni},
+title={Two-Way Finite Automata: Old and Recent Results},
+journal=FI,
+volume={126},
+number={2--3},
+year={2013},
+pages={225--246},
+doi={10.3233/FI-2013-879}
+}
+
+@inproceedings{Filiot2013,
+author={Filiot, Emmanuel and Gauwin, Olivier and Reynier, Pierre-Alain and Servais, Frédéric},
+title={From Two-Way to One-Way Finite State Transducers},
+year={2013},
+pages={468--477},
+doi={10.1109/LICS.2013.53},
+crossref={lics2013},
+}
+
+@inproceedings{Cristescu2013,
+author={Cristescu, Ioana and }#JKrivine#{ and Varacca, Daniele},
+title={A Compositional Semantics for the Reversible p-Calculus},
+pages={388--397},
+crossref={lics2013},
+doi={10.1109/LICS.2013.45},
+}
+
+@inproceedings{Vogel1981,
+author={Vogel, Jörg and Wagner, Klaus W.},
+title={On a class of automata accepting exactly the languages which are elementary in the sense of Kalmár},
+pages={289--299},
+crossref={Arató1981},
+}
+
+@article{Holzer2011,
+author=Holzer#{ and }#Kutrib,
+title={Descriptional and computational complexity of finite automata - A survey},
+journal=IaC,
+volume={209},
+number={3},
+year={2011},
+pages={456--470},
+doi={10.1016/j.ic.2010.11.013}
+}
+
+@inproceedings{Gruber2014,
+author={Gruber, Hermann and }#Holzer,
+title={From Finite Automata to Regular Expressions and Back-A Summary on Descriptional Complexity},
+pages={25--48},
+doi={10.4204/EPTCS.151.2},
+crossref={AFL2014},
+}
+
+@article{Kapoutsis2012,
+author={Kapoutsis, Christos A. and Kr{\'a}lovic Richard and M{\"o}mke, Tobias},
+title={Size complexity of rotating and sweeping automata},
+journal=JCSS,
+volume={78},
+number={2},
+year={2012},
+pages={537--558},
+doi={10.1016/j.jcss.2011.06.004},
+}
+
+@article{Rytter1981,
+author=Rytter,
+title={A Hardest Language Recognized by Two-Way Nondeterministic Pushdown Automata},
+journal=IPL,
+volume={13},
+number={4/5},
+year={1981},
+pages={145--146},
+doi={10.1016/0020-0190(81)90045-4},
+}
+
+@article{Rytter1981a,
+author=Rytter,
+title={An Effective Simulation of Deterministic Pushdown Automata with Many Two-Way and One-Way Heads},
+journal=IPL,
+volume={12},
+number={5},
+year={1981},
+pages={234--236},
+doi={10.1016/0020-0190(81)90021-1}
+}
+
+@article{Rytter1982,
+author=Rytter,
+title={A Note on Two-Way Nondeterministic Pushdown Automata},
+journal=IPL,
+volume={15},
+number={1},
+year={1982},
+pages={5--9},
+doi={10.1016/0020-0190(82)90075-8},
+}
+
+@article{Rytter1983,
+author=Rytter,
+title={Time Complexity of Loop-Free Two-Way Pushdown Automata},
+journal=IPL,
+volume={16},
+number={3},
+year={1983},
+pages={127--129},
+doi={10.1016/0020-0190(83)90063-7}
+}
+
+@inproceedings{Rytter1984,
+author=Rytter,
+title={Fast Recognition of Pushdown Automaton and Context-Free Languages},
+pages={507--515},
+doi={10.1007/BFb0030334},
+crossref={mfcs1984},
+}
+
+@inproceedings{Qadeer2008,
+author={Qadeer, Shaz},
+title={The Case for Context-Bounded Verification of Concurrent Programs},
+pages={3--6},
+doi={10.1007/978-3-540-85114-1_2},
+crossref={spin2008}
+}
+
+@article{Rytter1985,
+author=Rytter,
+title={Fast Recognition of Pushdown Automaton and Context-free Languages},
+journal=ICo,
+volume={67},
+number={1--3},
+year={1985},
+pages={12--22},
+addendum={See also \cite{Monien1994}},
+doi={10.1016/S0019-9958(85)80024-3}
+}
+
+@article{Monien1994,
+author=Monien#{ and }#Rytter#{ and Sch{\"a}pers, Helmut},
+title={Corrigendum: Fast Recognition of Deterministic CFL's with a Smaller Number of Processors},
+journal=TCSy,
+volume={123},
+number={2},
+year={1994},
+pages={427--428},
+doi={10.1016/0304-3975(94)90139-2}
+}
+Corrige l’orthographe d’un nom!
+
+@article{Damm2002,
+author={Damm, Carsten and }#Holzer#{ and }#McKenzie,
+title={The complexity of tensor calculus},
+journal=CC,
+volume={11},
+number={1-2},
+year={2002},
+pages={54--89},
+doi={10.1007/s00037-000-0170-4}
+}
+
+@inproceedings{Mogbil2007,
+author=Mogbil#{ and Rahli, Vincent},
+title={Uniform Circuits, \& Boolean Proof Nets},
+year={2007},
+volume={4514},
+series=LNCS,
+pages={401--421},
+publisher=Springer,
+url={http://hal.archives-ouvertes.fr/docs/00/14/39/28/PDF/mwBN_preprintLIPN07.pdf},
+doi={10.1007/978-3-540-72734-7_28},
+crossref={LFCS2007},
+}
+
+@inproceedings{Schopp2007,
+author=Schopp,
+title={Stratified Bounded Affine Logic for Logarithmic Space},
+year={2007},
+pages={411--420},
+crossref={lics2007},
+doi={10.1109/LICS.2007.45}
+}
+
+@inproceedings{Terui2004,
+author=Terui,
+title={Proof Nets and Boolean Circuits},
+year={2004},
+pages={182--191},
+doi={10.1109/LICS.2004.1319612},
+url={http://www.kurims.kyoto-u.ac.jp/~terui/pn.pdf},
+crossref={lics2004}
+}
+
+@article{Mellies2010,
+author=Mellies#{ and Tabareau, Nicolas},
+title={Resource modalities in tensor logic},
+journal=APAL,
+volume={161},
+number={5},
+year={2010},
+pages={632--653},
+doi={10.1016/j.apal.2009.07.018}
+}
+
+@article{Allender1989,
+author=Allender,
+title={P-uniform circuit complexity},
+journal=JACM,
+year={1989},
+volume={36},
+pages={912--928},
+number={4},
+publisher=ACM,
+doi={10.1145/76359.76370}
+}
+
+@book{Arora2009,
+author={Arora, Sanjeev and Barak, Boaz},
+title={Computational Complexity: A Modern Approach},
+publisher=CUP,
+year={2009},
+volume={1},
+doi={10.1017/CBO9780511804090}
+}
+
+@book{Savage1998,
+author={Savage, John E.},
+title={Models of computation - exploring the power of computing},
+publisher=Addison-Wesley,
+year={1998},
+isbn={978-0-201-89539-1},
+pages={I-XXIII, 1-672},
+ee={http://www.modelsofcomputation.org}
+}
+
+@book{Sipser2012,
+author=Sipser,
+title={Introduction to the Theory of Computation},
+edition={3},
+publisher={Cengage Learningy},
+year={2012},
+isbn={978-1133187790},
+pages={I-XXII, 1--458},
+}
+
+@book{Asperti1998,
+author=Asperti#{ and }#Guerrini,
+title={The optimal Implementation of Functional Programming Languages},
+publisher=CUP,
+year={1998},
+series=CTTCS,
+volume={45},
+isbn={9780521621120}
+}
+
+@mastersthesis{Aubert2010,
+author=aubert,
+title={Réseaux de preuves booléens sous-logarithmiques},
+school={L.M.F.I., Paris VII},
+location={L.I.P.N.},
+year={2010},
+month=sep
+}
+
+@inproceedings{Aubert2011,
+author=aubert,
+title={Sublogarithmic uniform Boolean proof nets},
+year={2011},
+pages={15--27},
+crossref={Dice2011},
+doi={10.4204/EPTCS.75.2}
+}
+
+@article{Aubert2013,
+author=aubert#{ and }#seiller,
+title={Logarithmic Space and Permutations},
+journal=Arxiv,
+archivePrefix={arXiv},
+volume={abs/1301.3189},
+year=2013,
+eprint={1301.3189}, 
+primaryClass={cs.LO}
+}
+
+@phdthesis{Aubert2013b,
+author=aubert,
+school={Université Paris 13--Sorbonne Paris Cité},
+title={Linear Logic and Sub-polynomial Classes of Complexity},
+month=nov,
+year=2013,
+url={http://tel.archives-ouvertes.fr/tel-00957653}
+}
+
+@inproceedings{Aubert2014,
+author=aubert#{ and }#Bagnol,
+title={Unification and Logarithmic Space},
+pages={77--92},
+doi={10.1007/978-3-319-08918-8_6},
+ee={http://arxiv.org/abs/1402.4327},
+crossref={rtatlca14},
+}
+journal=Arxiv,
+year={2014},
+volume={abs/1402.4327},
+archivePrefix={arXiv},
+eprint={1402.4327},
+primaryClass={cs.LO}
+
+@inproceedings{Aubert2014b,
+author=aubert#{ and }#Bagnol#{ and Pistone, Paolo and }#seiller,
+title={Logic Programming and Logarithmic Space},
+year={2014},
+pages={39--57},
+crossref={aplas2014}
+}
+journal=Arxiv,
+volume={abs/1406.2110},
+archivePrefix={arXiv},
+eprint={1406.2110},
+primaryClass={cs.LO},
+
+@techreport{Aubert2012,
+author=aubert#{ and }#seiller,
+title={Characterizing co-NL by a group action},
+journal=Arxiv,
+year={2012},
+volume={abs/1209.3422},
+archivePrefix={arXiv},
+eprint={1209.3422},
+primaryClass={cs.LO}
+}
+
+@article{Aubert2014c,
+author=aubert#{ and }#seiller,
+title={Characterizing co-NL by a group action},
+journal=mscs,
+volume={FirstView},
+month={12},
+year={2014},
+issn={1469-8072},
+pages={1--33},
+numpages={33},
+doi={10.1017/S0960129514000267},
+}
+
+@article{Aubert2014ctemp,
+author=aubert#{ and }#seiller,
+title={Characterizing co-NL by a group action},
+journal=mscs#{ (FirstView)},
+month={12},
+year={2014},
+issn={1469-8072},
+pages={1--33},
+numpages={33},
+doi={10.1017/S0960129514000267},
+}
+
+@article{Aubert2015temp,
+author=aubert#{ and }#seiller,
+title={Logarithmic Space and Permutations},
+journal=IaC,
+year=2015,
+note={to appear}
+}
+
+@book{Axler1997,
+author={Axler, Sheldon},
+title={Linear Algebra Done Right},
+publisher=Springer,
+year={1997},
+series={Undergraduate Texts in Mathematics},
+isbn={978-0-387-98258-8},
+doi={10.1007/b97662}
+}
+
+@thesis{Baillot2008,
+author=baillot,
+title={Linear Logic, Types and Implicit Computational Complexity},
+school={Université Paris XIII},
+year={2008},
+type=HDR#{ en informatique},
+url={http://www-lipn.univ-paris13.fr/~baillot/Publications/MESPAPIERS/memoireHDR030308.pdf},
+month=mar
+}
+
+@thesis{Moser2008,
+author={Moser, Georg},
+title={Proof Theory at Work: Complexity Analysis of Term Rewrite Systems},
+year={2009},
+school={University of Innsbruck},
+type={Habilitation Thesis},
+url={http://arxiv.org/abs/0907.5527},
+month=jul
+}
+
+@inproceedings{Cobham1965,
+title={The intrinsic computational difficulty of functions},
+author={Cobham, Alan},
+crossref={LMPS1964},
+pages={24--30},
+}
+critique à
+http://dx.doi.org/10.2307/2270886
+
+@article{Baillot2010,
+author=Baillot#{ and }#Mazza,
+title={Linear Logic by Levels and Bounded Time Complexity},
+journal=TCSc,
+year={2010},
+volume={411},
+pages={470--503},
+number={2},
+url={http://arxiv.org/pdf/0801.1253v3},
+doi={10.1016/j.tcs.2009.09.015}
+}
+
+@article{Baillot2001,
+author=Baillot#{ and }#Pedicini,
+title={Elementary Complexity and Geometry of Interaction},
+journal=FI,
+year={2001},
+volume={45},
+pages={1--31},
+number={1--2},
+publisher={IOS Press},
+isbn={0169-2968},
+}
+url={http://iospress.metapress.com/content/9d1cd4ucuha04uvt/}
+
+
+@inproceedings{Baillot1999,
+author=Baillot#{ and }#Pedicini,
+title={Elementary Complexity and Geometry of Interaction},
+pages={25--39},
+doi={10.1007/3-540-48959-2_4},
+crossref={tlca1999},
+}
+
+@inproceedings{Baillot2004,
+author=Baillot#{ and }#Terui,
+title={Light Types for Polynomial Time Computation in Lambda-Calculus},
+year={2004},
+pages={266--275},
+doi={10.1109/LICS.2004.1319621},
+crossref={lics2004}
+}
+
+@article{Baillot2009,
+author=Baillot#{ and }#Terui,
+title={Light types for polynomial time computation in lambda calculus},
+journal=IaC,
+volume={207},
+number={1},
+year={2009},
+pages={41--62},
+doi={10.1016/j.ic.2008.08.005}
+}
+
+@article{Barrington1990,
+author=Barrington#{ and }#Immerman#{ and Straubing, Howard},
+title={On uniformity within NC\(^1\)},
+journal=JCSS,
+year={1990},
+volume={41},
+pages={274--306},
+number={3},
+publisher=Elsevier,
+doi={10.1016/0022-0000(90)90022-D}
+}
+
+@inproceedings{Beffara2012,
+author=Beffara#{ and }#Mogbil,
+title={Proofs as executions},
+booktitle={IFIP TCS},
+pages={280--294},
+publisher=Springer,
+series=LNCS,
+volume=7604,
+year=2012,
+crossref={ifipTCS2012},
+doi={10.1007/978-3-642-33475-7_20}
+}
+
+@phdthesis{Beffara2005,
+author=Beffara,
+title={Logique, réalisabilité et concurrence},
+school={Université Paris 7},
+year=2005,
+month=dec
+}
+
+@techreport{Beffara2010,
+author=Beffara#{ and }#Mogbil,
+title={Concurrent processes as wireless proof nets},
+number={hal-00462484},
+month=feb,
+url={http://hal.archives-ouvertes.fr/hal-00462484/},
+institution={IML - LIPN},
+year=2010
+}
+Institut de mathématiques de Luminy (IML), CNRS : UMR6206 – Université de la Méditerranée - Aix-Marseille II
+Laboratoire d'Informatique de Paris-Nord (LIPN), CNRS : UMR7030 – Université Paris 13 – Institut Galilée – Université Sorbonne Paris Cité (USPC)
+
+@article{Stotts1994,
+author={Stotts, P. David and Pugh, William},
+title={Parallel finite automata for modeling concurrent software systems},
+journal={Journal of Systems and Software},
+volume={27},
+number={1},
+year={1994},
+pages={27-43},
+doi={10.1016/0164-1212(94)90112-0}
+}
+
+@article{DalLago2012,
+author=DalLago#{ and Heindel, Tobias and }#Mazza#{ and Varacca, Daniele},
+title={Computational Complexity of Interactive Behaviors},
+journal=Arxiv,
+archivePrefix={arXiv},
+volume={abs/1209.0663},
+year=2012,
+eprint={1209.0663},
+primaryClass={cs.LO}
+}
+
+@inproceedings{DalLago2012a,
+author=dallago,
+title={A Short Introduction to Implicit Computational Complexity},
+series=LNCS,
+volume={7388},
+pages={89--109},
+year={2011},
+editor={Bezhanishvili, Nick and Goranko, Valentin},
+doi={10.1007/978-3-642-31485-8_3},
+crossref={essli2011}
+}
+
+@book{Sangiorgi2001,
+author={Sangiorgi, Davide and Walker, David},
+title={The Pi-calculus - A Theory of Mobile Processes},
+publisher=CUP,
+year={2001},
+isbn={978-0-521-78177-0},
+pages={I-XII, 1--580}
+}
+
+@techreport{Boudol1992,
+title={{Asynchrony and the Pi-calculus}},
+author={Boudol, Gérard},
+url={https://hal.inria.fr/inria-00076939},
+type={Research Report},
+number={RR-1702},
+pages={15},
+year={1992},
+}
+
+@inproceedings{Baillot2004b,
+author=Baillot#{ and }#Mogbil,
+title={Soft lambda-Calculus: A Language for Polynomial Time Computation},
+year={2004},
+pages={27--41},
+doi={10.1007/978-3-540-24727-2_4},
+crossref={fossacs2004}
+}
+
+@techreport{Bonfante2012,
+author=Bonfante#{ and }#Mogbil,
+title={A circuit uniformity sharper than DLogTime},
+year={2012},
+month=apr,
+institution={CARTE - LIPN},
+url={http://hal.archives-ouvertes.fr/hal-00701420/}
+}
+CARTE (INRIA Nancy - Grand Est / LORIA), CNRS : UMR7503 – INRIA – Université de Lorraine
+Laboratoire d'Informatique de Paris-Nord (LIPN), CNRS : UMR7030 – Université Paris 13 – Institut Galilée – Université Sorbonne Paris Cité (USPC)
+
+@inproceedings{Bonfante2006,
+author=Bonfante,
+title={Some Programming Languages for Logspace and Ptime},
+booktitle={AMAST},
+year={2006},
+pages={66-80},
+doi={10.1007/11784180_8},
+crossref={amast2006},
+}
+
+@article{Borodin1989,
+author=Borodin#{ and }#Cook#{ and Dymond, Patrick W. and }#Ruzzo#{ and Tompa, Martin},
+title={Two Applications of Inductive Counting for Complementation Problems},
+journal=SJC,
+year={1989},
+volume={18},
+pages={559--578},
+number={3},
+doi={10.1137/0218038}
+}
+
+@article{Borodin1989a,
+author=Borodin#{ and }#Cook#{ and Dymond, Patrick W. and }#Ruzzo#{ and Tompa, Martin},
+title={Erratum: Two Applications of Inductive Counting for Complementation Problems},
+journal=SJC,
+volume={18},
+number={6},
+year={1989},
+pages={1283},
+doi={10.1137/0218084}
+}
+
+@inproceedings{Borodin1988,
+author=Borodin#{ and }#Cook#{ and Dymond, Patrick W. and }#Ruzzo#{ and Tompa, Martin},
+title={Two applications of complementation via inductive counting},
+year={1988},
+pages={116--125},
+doi={10.1109/SCT.1988.5271},
+crossref={coco1988},
+}
+
+@article{Boudes2012,
+author={Boudes, Pierre and }#Mazza#{ and }#Tortora,
+title={An abstract approach to stratification in linear logic},
+journal=Arxiv,
+archivePrefix={arXiv},
+volume={abs/1206.6504},
+year=2012,
+eprint={1206.6504}, 
+primaryClass={cs.LO}
+}
+
+@inproceedings{Buss1987,
+author=Buss,
+title={The Boolean Formula Value Problem Is in ALOGTIME},
+year={1987},
+pages={123--131},
+organization=ACM,
+doi={10.1145/28395.28409},
+crossref={STOC1987}
+}
+
+@conference{Chandra1976,
+author=Chandra#{ and }#Stockmeyer,
+title={Alternation},
+year={1976},
+pages={98--108},
+doi={10.1109/SFCS.1976.4},
+crossref={focs1976}
+}
+
+@article{Chandra1981,
+author=Chandra#{ and }#Kozen#{ and }#Stockmeyer, 
+title={Alternation},
+journal=JACM,
+volume={28},
+number={1},
+month=jan,
+year={1981},
+pages={114--133},
+doi={10.1145/322234.322243}
+}
+
+@inproceedings{Yao1993,
+author=Yao,
+title={Quantum Circuit Complexity},
+year={1993},
+pages={352--361},
+doi={10.1109/SFCS.1993.366852},
+crossref={focs1993}
+}
+
+@book{Conway1990,
+author={Conway, John B.},
+title={A Course in Functional Analysis},
+publisher=Springer,
+series={Graduate Texts in Mathematics},
+volume={96},
+isbn={978-0-387-97245-9},
+numpages={XVI, 403},
+year={1990}
+}
+
+@article{Cook1980,
+author=Cook#{ and Rackoff, Charles W.},
+title={Space Lower Bounds for Maze Threadability on Restricted Machines},
+journal=SJC,
+year={1980},
+volume={9},
+pages={636--652},
+number={3},
+publisher=SIAM,
+doi={10.1137/0209048},
+}
+
+@article{Cook1973,
+author=Cook#{ and Reckhow, Robert A.},
+title={Time Bounded Random Access Machines},
+journal=JCSS,
+volume={7},
+number={4},
+year={1973},
+pages={354--375},
+doi={10.1016/S0022-0000(73)80029-7},
+}
+
+@article{Cook1980a,
+author=Cook,
+title={Towards a Complexity Theory of Synchronous Parallel Computation},
+journal=EM,
+year={1981},
+volume={27},
+number={1-2},
+pages={99--124},
+publisher=CIEM,
+doi={10.5169/seals-51742},
+}
+
+@article{Cook1971,
+author=Cook,
+title={Characterizations of Pushdown Machines in Terms of Time-Bounded Computers},
+journal=JACM,
+volume={18},
+number={1},
+year={1971},
+pages={4-18},
+doi={10.1145/321623.321625}
+}
+
+@inproceedings{Andersen1994,
+author={Andersen, Nils and }#Jones,
+title={Generalizing Cook's Transformation to Imperative Stack Programs},
+booktitle={Results and Trends in Theoretical Computer Science},
+year={1994},
+pages={1--18},
+doi={10.1007/3-540-58131-6_33},
+crossref={birthday1994},
+}
+
+@article{Ben-Amram2012,
+author=BenAmram#{ and Christensen, Niels H. and Simonsen, Jakob Grue},
+title={Computational Models with No Linear Speedup},
+journal=CJTCS,
+year={2012},
+volume={2012},
+doi={10.4086/cjtcs.2012.007}
+}
+
+@inproceedings{Andersen2012,
+author={Andersen, Soren Bjerg and Simonsen, Jakob Grue},
+title={Term Rewriting Systems as Topological Dynamical Systems},
+pages={53--68},
+crossref={rta2012},
+doi={10.4230/LIPIcs.RTA.2012.53},
+}
+
+@inproceedings{Carvalho2014,
+author={de Carvalho, Daniel and Simonsen, Jakob Grue},
+title={An Implicit Characterization of the Polynomial-Time Decidable Sets by Cons-Free Rewriting},
+pages={179--193},
+crossref={rtatlca14},
+doi={10.1007/978-3-319-08918-8_13},
+}
+
+@article{Jones2001,
+author=Jones,
+title={The expressive power of higher-order types or, life without {CONS}},
+journal=JFP,
+volume={11},
+number={1},
+year={2001},
+pages={5--94},
+doi={10.1017/S0956796800003889},
+}
+
+@article{Ginsburg1966,
+author=Ginsburg#{ and Greibach, Sheila A.},
+title={Deterministic Context Free Languages},
+journal=ICo,
+volume={9},
+number={6},
+year={1966},
+pages={620--648},
+}
+
+@article{Ginsburg1967a,
+author=Ginsburg#{ and Greibach, Sheila A. and Harrison, Michael A.},
+title={Stack automata and compiling},
+journal=jacm,
+volume={14},
+number={1},
+year={1967},
+pages={172--201},
+doi={10.1145/321371.321385},
+}
+
+@article{Ginsburg1967b,
+author=Ginsburg#{ and Greibach, Sheila A. and Harrison, Michael A.},
+title={One-way stack automata},
+journal=jacm,
+volume={14},
+number={2},
+year={1967},
+page={389--418},
+doi={10.1145/321386.321403}
+}
+
+@article{Chrobak1986,
+author={Chrobak, Marek},
+title={Hierarchies of One-Way Multihead Automata Languages},
+journal=TCSc,
+volume={48},
+number={3},
+year={1986},
+pages={153-181},
+doi={10.1016/0304-3975(86)90093-9}
+}
+
+@article{Chrobak1988,
+author={Chrobak, Marek and Li, Ming},
+title={k+1 Heads Are Better than k for PDAs},
+journal=JCSS,
+volume={37},
+number={2},
+year={1988},
+pages={144-155},
+doi={10.1016/0022-0000(88)90004-9}
+}
+
+@inproceedings{Cook1971a,
+author=Cook,
+title={Linear Time Simulation of Deterministic Two-Way Pushdown Automata},
+year={1971},
+pages={75--80},
+crossref={IFIP1971-1}
+}
+
+@inproceedings{Cook1969,
+author=Cook,
+title={Variations on Pushdown Machines (Detailed Abstract)},
+year={1969},
+pages={229-231},
+doi={10.1145/800169.805437},
+crossref={STOC1969},
+}
+
+@article{Cook1985,
+author=Cook,
+title={A Taxinomy of Problems with Fast Parallel Algorithms},
+journal=ICo,
+year={1985},
+volume={64},
+pages={2--22},
+number={1-3},
+publisher=Elsevier,
+doi={10.1016/S0019-9958(85)80041-3}
+}
+
+@article{Jones1977,
+author=Jones,
+title={A Note on Linear Time Simulation of Deterministic Two-Way Pushdown Automata},
+journal=IPL,
+volume={6},
+number={4},
+year={1977},
+pages={110-112},
+doi={10.1016/0020-0190(77)90022-9},
+}
+
+@techreport{Jones1977-pre,
+author=Jones,
+title={A Note on Linear Time Simulation of Deterministic Two-Way Pushdown Automata},
+year={1977},
+month=apr,
+key={DAIMI PB-75},
+url={http://ojs.statsbiblioteket.dk/index.php/daimipb/article/view/6492},
+institution={University of Aarhus - Institute of Mathematics - Departement of computir Science},
+issn={2245-9316}
+}
+
+@article{Ladermann1994,
+author={Ladermann, M. and Petersen, H.},
+title={Notes on Looping Deterministic Two-Way Pushdown Automata},
+journal=IPL,
+volume={49},
+number={3},
+year={1994},
+pages={123-127},
+doi={10.1016/0020-0190(94)90088-4},
+}
+
+@article{Amtoft1992,
+author={Amtoft, Torben and Tr{\"a}ff, Jesper Larsson},
+title={Partial Memoization for Obtaining Linear Time Behavior of a 2DPDA},
+journal=TCSc,
+volume={98},
+number={2},
+year={1992},
+pages={347--356},
+doi={10.1016/0304-3975(92)90008-4}
+}
+
+@inproceedings{Gluck2013,
+author={Gl{\"u}ck, Robert},
+title={Simulation of Two-Way Pushdown Automata Revisited},
+booktitle={Festschrift for Dave Schmidt},
+year={2013},
+pages={250--258},
+doi={10.4204/EPTCS.129.15},
+crossref={Banerjee2013}
+}
+
+@inproceedings{Atig2010,
+author={Atig, Mohamed Faouzi},
+title={From Multi to Single Stack Automata},
+year={2010},
+pages={117--131},
+doi={10.1007/978-3-642-15375-4_9},
+crossref={concur2010}
+}
+
+@article{Lago2009a,
+author=DalLago#{ and }#Masini#{ and }#Zorzi,
+title={On a measurement-free quantum lambda calculus with classical control},
+journal=MSCS,
+year={2009},
+volume={19},
+pages={297--335},
+number={2},
+publisher=CUP, 
+doi={10.1017/S0960129506005238}
+}
+
+@inproceedings{Lago2010c,
+author=DalLago#{ and }#Martini#{ and }#Zorzi,
+title={General Ramified Recurrence is Sound for Polynomial Time},
+year={2010},
+pages={47--62},
+doi={10.4204/EPTCS.23.4},
+crossref={Dice2010}
+}
+
+@article{Lago2010,
+author=DalLago#{ and }#Hofmann,
+title={Bounded Linear Logic, Revisited},
+journal=LMCS,
+year={2010},
+volume={6},
+number={4},
+doi={10.2168/LMCS-6(4:7)2010}
+}
+
+@inproceedings{Lago2010b,
+author=Dallago#{ and }#Schopp,
+title={Type Inference for Sublinear Space Functional Programming},
+year={2010},
+pages={376--391},
+doi={10.1007/978-3-642-17164-2_26},
+crossref={aplas2010}
+}
+
+@inproceedings{Lago2010d,
+author=Dallago#{ and }#Schopp,
+title={Functional Programming in Sublinear Space},
+pages={205--225},
+doi={10.1007/978-3-642-11957-6_12},
+crossref={esop2010}
+}
+
+@phdthesis{Danos1990,
+author=Danos,
+title={La Logique Linéaire appliquée à l’étude de divers processus de normalisation (principalement du \(\lambda\)-calcul)},
+school={Université Paris VII},
+year={1990}
+}
+
+@article{Danos2003,
+author=Danos#{ and }#Joinet,
+title={Linear Logic \& Elementary Time},
+journal=IaC,
+year={2003},
+volume={183},
+pages={123--137},
+number={1},
+publisher=Elsevier,
+doi={10.1016/S0890-5401(03)00010-5}
+}
+
+@article{Danos1997,
+author=Danos#{ and }#Joinet#{ and Schellinx, Harold},
+title={A New Deconstructive Logic: Linear Logic},
+journal=JSL,
+volume={62},
+number={3},
+year={1997},
+month=sep,
+pages={755--807},
+url={http://projecteuclid.org/euclid.jsl/1183745297},
+doi={10.2307/2275572}
+}
+
+@article{Danos1996,
+author=Danos#{ and }#Regnier,
+title={Reversible, Irreversible and Optimal \(\lambda\)-machines: Extended Abstract},
+year={1996}, 
+journal=ENTCS,
+volume={3},
+number={0},
+pages={40--60},
+issn={1571-0661},
+doi={10.1016/S1571-0661(05)80402-5},
+}
+
+@article{Danos1999,
+author=Danos#{ and }#Regnier,
+title={Reversible, Irreversible and Optimal lambda-Machines},
+journal=TCSc,
+volume={227},
+number={1-2},
+pages={79--97},
+year={1999},
+doi={10.1016/S0304-3975(99)00049-3},
+}
+
+@article{Danos1989,
+author=Danos#{ and }#Regnier,
+title={The Structure of Multiplicatives},
+journal=AML,
+year={1989},
+volume={28},
+pages={181--203},
+number={3},
+doi={10.1007/BF01622878},
+issn={0933-5846},
+publisher=Springer
+}
+
+@article{Fleury1994,
+author={Fleury, Arnaud and Retoré, Christian},
+title={The Mix Rule},
+journal=MSCS,
+year={1994},
+volume={4},
+number={2},
+pages={273--285},
+doi={10.1017/S0960129500000451}
+}
+
+@article{Feynman1982,
+author={Feynman, Richard Phillips},
+title={Simulating physics with computers},
+journal=IJTP,
+year={1982},
+volume={21},
+pages={467--488},
+number={6--7},
+publisher={Kluwer Academic publishers-Plenum publishers},
+issn={0020-7748},
+doi={10.1007/BF02650179}
+}
+
+@article{Kristiansen2005,
+author={Kristiansen, Lars},
+title={Neat function algebraic characterizations of logspace and linspace},
+journal=CC,
+volume={14},
+number={1},
+year={2005},
+pages={72--88},
+doi={10.1007/s00037-005-0191-0}
+}
+
+@article{Furst1984,
+author={Furst, Merrick L. and Saxe, James B. and }#Sipser,
+title={Parity, Circuits, and the Polynomial-Time Hierarchy},
+journal=TCSy,
+year={1984},
+volume={17},
+pages={13--27},
+number={1},
+publisher=Springer,
+doi={10.1007/BF01744431}
+}
+
+@incollection{Girard2012,
+author=Girard,
+title={Normativity in Logic},
+booktitle={Epistemology versus Ontology},
+year={2012},
+pages={243--263},
+doi={10.1007/978-94-007-4435-6_12},
+crossref={epistemo_vs_onto2012}
+}
+
+@book{epistemo_vs_onto2012,
+editor={Dybjer, Peter and Lindström, Sten and Palmgren, Erik and Sundholm, Göran},
+title={Epistemology versus Ontology - Essays on the Philosophy and Foundations of Mathematics in Honour of Per Martin-Löf},
+booktitle={Epistemology versus Ontology},
+publisher=Springer,
+series={Logic, Epistemology, and the Unity of Science},
+volume={27},
+year={2012},
+isbn={978-94-007-4434-9, 978-94-007-4435-6},
+doi={10.1007/978-94-007-4435-6}
+}
+
+@book{Girard2006,
+author=Girard,
+title={Le Point Aveugle I : Vers la Perfection},
+series={Visions des sciences},
+year={2006},
+month=jul,
+publisher={Hermann},
+isbn={2-7056-6633-8}
+}
+
+@book{Girard2007,
+author=Girard,
+title={Le Point Aveugle II : Vers l’Imperfection},
+series={Visions des sciences},
+year={2007},
+month=mar,
+publisher={Hermann},
+isbn={978-2-7056-6634-7}
+}
+
+@book{Girard2011b,
+title={The Blind Spot: Lectures on Logic},
+author=Girard,
+year=2011,
+isbn={978-3-03719-088-3}, 
+doi={10.4171/088},
+month=sep,
+publisher={European Mathematical Society},
+pages={550}
+}
+
+@article{Girard1996,
+author=Girard,
+title={Proof-Nets: The Parallel Syntax for Proof-Theory},
+journal={Logic and Algebra},
+series=LNPAM,
+year={1996},
+month=may,
+publisher={Taylor \& Francis},
+volume={180},
+pages={97--124},
+isbn={0824796063},
+editors={Aglian\`{o}, Paolo and Ursini, Aldo},
+url={http://iml.univ-mrs.fr/~girard/Proofnets.pdf.gz}
+}
+
+@incollection{Girard1995,
+author=Girard,
+title={Light Linear Logic},
+year={1995},
+pages={145--176},
+isbn={978-3-540-60178-4},
+doi={10.1007/3-540-60178-3_83},
+crossref={lcc1994}
+}
+url={http://iml.univ-mrs.fr/~girard/LLL.pdf.gz},
+
+@article{Girard1998,
+author=Girard,
+title={Light Linear Logic},
+journal=IaC,
+volume={143},
+number={2},
+year={1998},
+pages={175--204},
+doi={10.1006/inco.1998.2700},
+}
+
+@inproceedings{Girard1990,
+author=Girard,
+title={The system {F} of variable types, fifteen years later},
+booktitle={Logical foundations of functional programming},
+year={1990},
+pages={87--126},
+organization={Addison-Wesley Longman Publishing Co., Inc.},
+}
+
+@article{Girard1986,
+author=Girard,
+title={The system {F} of variable types, fifteen years later},
+journal=TCSc,
+volume={45},
+number={0},
+pages={159--192},
+year={1986},
+issn={0304-3975},
+doi={10.1016/0304-3975(86)90044-7},
+}
+
+@article{Girard1989a,
+author=Girard,
+title={Geometry of interaction 1: Interpretation of System {F}},
+journal=studiesinlogic,
+year={1989},
+volume={127},
+pages={221--260},
+publisher=Elsevier,
+doi={10.1016/S0049-237X(08)70271-4}
+}
+
+@inproceedings{Girard1989b,
+author=Girard,
+title={Towards a geometry of interaction},
+pages={69--108},
+year=1989,
+doi={10.1090/conm/092/1003197},
+crossref={AMS-IMS-SIAM1989}
+}
+Dispo à
+http://fr.scribd.com/doc/62892959/Girard-Towards-a-Geometry-of-Interaction
+
+@article{Girard1987,
+author=Girard,
+title={Linear logic},
+journal=TCSc,
+year={1987},
+volume={50},
+pages={1--101},
+number={1},
+publisher=Elsevier,
+doi={10.1016/0304-3975(87)90045-4}
+}
+
+@article{Girard1992,
+author=Girard#{ and Scedrov, Andre and }#Scott,
+title={Bounded linear logic: a modular approach to polynomial-time computability},
+journal=TCSc,
+year={1992},
+volume={97},
+pages={1--66},
+number={1},
+publisher=Elsevier,
+doi={10.1016/0304-3975(92)90386-T}
+}
+
+@inproceedings{Gonthier1992,
+author={Gonthier, Georges and Abadi, Mart{\'\i}n and Lévy, Jean-Jacques},
+title={The Geometry of Optimal Lambda Reduction},
+year={1992},
+pages={15--26},
+doi={10.1145/143165.143172},
+crossref={popl1992}
+}
+
+@article{Alur2005,
+author={Alur, Rajeev and Benedikt, Michael and Etessami, Kousha and Godefroid, Patrice and Reps, Thomas W. and Yannakakis, Mihalis},
+title={Analysis of recursive state machines},
+journal=ACMTPLS,
+volume={27},
+number={4},
+year={2005},
+pages={786--818},
+doi={10.1145/1075382.1075387},
+}
+
+@inproceedings{Chaudhuri2008,
+author={Chaudhuri, Swarat},
+title={Subcubic algorithms for recursive state machines},
+year={2008},
+pages={159--169},
+doi={10.1145/1328438.1328460},
+crossref={popl2008},
+}
+
+@article{Dantsin2001,
+author={Dantsin, Evgeny and Eiter, Thomas and }#Gottlob#{ and Voronkov, Andrei},
+title={Complexity and expressive power of logic programming},
+journal=ACMCS,
+volume={33},
+number={3},
+year={2001},
+pages={374--425},
+doi={10.1145/502807.502810},
+}
+
+@inproceedings{Marchiori1994,
+author={Marchiori, Massimo},
+title={Logic Programs as term Rewriting Systems},
+pages={223--241},
+doi={10.1007/3-540-58431-5_16},
+crossref={alp1994},
+}
+
+@inproceedings{Dantsin1997,
+author={Dantsin, Evgeny and Eiter, Thomas and }#Gottlob#{ and Voronkov, Andrei},
+title={Complexity and Expressive Power of Logic Programming},
+year={1997},
+pages={82--101},
+doi={10.1109/CCC.1997.612304},
+crossref={coco1997},
+}
+
+@article{Gottlob2003,
+author=Gottlob#{ and }#Papadimitriou,
+title={On the complexity of single-rule datalog queries},
+journal=IaC,
+year={2003},
+volume={183},
+pages={104--122},
+number={1},
+publisher=Elsevier,
+doi={10.1016/S0890-5401(03)00012-9}
+}
+
+@article{Hillebrand1995,
+author={Hillebrand, Gerd G. and }#Kanellakis#{ and }#Mairson#{ and }#Vardi,
+title={Undecidable Boundedness Problems for Datalog Programs},
+journal=JLP,
+volume={25},
+number={2},
+year={1995},
+pages={163--190},
+doi={0.1016/0743-1066(95)00051-K}
+}
+
+@book{Greenlaw1995,
+author={Greenlaw, Raymond and Hoover, H. James and }#Ruzzo,
+title={Limits to Parallel Computation : P-Completeness theory},
+publisher={Oxford UP},
+year={1995}
+}
+
+@article{Guerrini2005,
+author=Guerrini,
+title={Sharing Implementations of Graph Rewriting Systems},
+journal=ENTCS,
+year={2005},
+volume={127},
+pages={113--132},
+number={5},
+doi={10.1016/j.entcs.2005.04.020}
+}
+
+@article{Guerrini1999,
+author=Guerrini,
+title={A General Theory of Sharing Graphs},
+journal=TCSc,
+year={1999},
+volume={227},
+pages={99--151},
+number={1-2},
+doi={10.1016/S0304-3975(99)00050-X}
+}
+
+
+@article{Haagerup1975,
+author={Haagerup, Uffe},
+title={The Standard Form of von Neumann Algebras},
+journal=MS,
+year={1975},
+volume={37},
+number={271--283},
+}
+
+@article{Hartmanis1972,
+author=Hartmanis,
+title={On Non-Determinancy in Simple Computing Devices},
+journal=AI,
+year={1972},
+volume={1},
+pages={336--344},
+number={4},
+publisher=Springer,
+doi={10.1007/BF00289513}
+}
+
+@article{Lange2000,
+author=Lange#{ and }#McKenzie#{ and Tapp, Alain},
+title={Reversible Space Equals Deterministic Space},
+journal=JCSS,
+volume={60},
+number={2},
+year={2000},
+pages={354--367},
+doi={10.1006/jcss.1999.1672}
+}
+
+@article{Lange2010,
+author=Lange,
+title={A Note on the P-completeness of Deterministic One-way Stack Language},
+journal=JUCS,
+year={2010},
+volume={16},
+number={5},
+pages={795--799},
+doi={10.3217/jucs-016-05-0795},
+}
+
+@inproceedings{Axelsen2012,
+author={Axelsen, Holger Bock},
+title={Reversible Multi-head Finite Automata Characterize Reversible Logarithmic Space},
+pages={95--105},
+doi={10.1007/978-3-642-28332-1_9},
+crossref={lata2012}
+}
+
+@article{Hesse2002,
+author={Hesse, William and }#Allender#{ and }#Barrington,
+title={Uniform constant-depth threshold circuits for division and iterated multiplication},
+journal=JCSS,
+year={2002},
+volume={65},
+pages={695--716},
+number={4},
+doi={10.1016/S0022-0000(02)00025-9},
+issn={0022-0000},
+publisher=Elsevier,
+url={http://ftp.cs.rutgers.edu/pub/allender/division.pdf}
+}
+
+@book{Hirvensalo2004,
+author={Hirvensalo, Mika},
+title={Quantum computing},
+publisher=Springer,
+year={2004},
+doi={10.1007/978-3-662-09636-9},
+isbn={978-3-642-07383-0},
+serie={Natural Computing Series }
+}
+
+@article{Hofmann2003,
+author=Hofmann,
+title={Linear types and non-size-increasing polynomial time computation},
+journal=IaC,
+year={2003},
+volume={183},
+pages={57--85},
+number={1},
+publisher=Elsevier,
+doi={10.1016/S0890-5401(03)00009-9}
+}
+
+@article{Hofmann2008,
+author=Hofmann#{ and }#Schopp,
+title={Pure Pointer Programs with Iteration},
+journal=ACMTCL,
+volume={11},
+number={4},
+year={2010},
+doi={10.1145/1805950.1805956},
+}
+
+@inproceedings{Immerman1988,
+author=Immerman,
+title={Nondeterministic space is closed under complementation},
+year={1988},
+pages={112--115},
+crossref={coco1988},
+doi={10.1109/SCT.1988.5270},
+}
+
+@article{Immerman1988a,
+author=Immerman,
+title={Nondeterministic Space is Closed under Complementation},
+journal=SJC,
+volume={17},
+number={5},
+pages={935--938},
+year={1988},
+doi={10.1137/0217058},
+}
+
+@inproceedings{Immerman1989,
+author=Immerman,
+title={Descriptive and Computational Complexity},
+pages={75--91},
+crossref={CCT}
+}
+
+@inproceedings{Immerman1983,
+author=Immerman,
+title={Languages Which Capture Complexity Classes (Preliminary Report)},
+year={1983},
+pages={347--354},
+isbn={0-89791-099-0},
+crossref={STOC1983},
+doi={10.1145/800061.808765}
+}
+
+@article{Immerman1987,
+author=Immerman,
+title={Languages that Capture Complexity Classes},
+journal=SJC,
+volume={16},
+number={4},
+year={1987},
+pages={760--778},
+doi={10.1137/0216051}
+}
+
+@article{Inoue1979,
+author={Inoue, Katsushi and Takanami, Itsuo and Nakamura, Akira and Ae, Tadashi},
+title={One-way simple multihead finite automata},
+journal=TCSc,
+year={1979},
+volume={9},
+pages={311--328},
+number={3},
+issn={0304-3975},
+doi={10.1016/0304-3975(79)90033-1}
+}
+
+@techreport{Jenner1997,
+author={Jenner, Birgit and }#Lange#{ and }#McKenzie,
+title={Tree Isomorphism and Some Other Complete Problems for Deterministic Logspace},
+institution={Université de Montréal - }#DIRO,
+year={1997},
+key={1059},
+url={http://www.iro.umontreal.ca/~mckenzie/jelamc97.ps}
+}
+
+@article{Cook1987,
+author=Cook#{ and }#McKenzie,
+title={Problems Complete for Deterministic Logarithmic Space},
+journal=JA,
+volume={8},
+number={3},
+year={1987},
+pages={385--394},
+doi={10.1016/0196-6774(87)90018-6}
+}
+
+@article{Jones1976,
+author=Jones#{ and Lien, Y. Edmund and }#Laaser,
+title={New Problems Complete for Nondeterministic Log Space},
+journal=MST,
+volume={10},
+number={1},
+pages={1--17},
+year={1976},
+publisher=Springer,
+doi={10.1007/BF01683259}
+}
+
+@article{Jones1999,
+author=Jones,
+title={LOGSPACE and PTIME Characterized by Programming Languages},
+journal=TCSc,
+volume={228},
+number={1--2},
+year={1999},
+pages={151--174},
+doi={10.1016/S0304-3975(98)00357-0},
+}
+
+@article{Jones1975,
+author=Jones,
+title={Space-Bounded Reducibility among Combinatorial Problems},
+journal=JCSS,
+volume={11},
+number={1},
+year={1975},
+pages={68--85},
+addendum={See also \cite{Jones1977r}},
+doi={10.1016/S0022-0000(75)80050-X}
+}
+
+@article{Jones1977r,
+author=Jones,
+title={Corrigendum: Space-Bounded Reducibility among Combinatorial
+Problems},
+journal=JCSS,
+volume={15},
+number={2},
+year={1977},
+pages={241},
+doi={10.1016/S0022-0000(77)80009-3}
+}
+
+@techreport{Knill1996,
+author={Knill, Emanuel},
+title={Conventions for quantum pseudocode},
+year={1996},
+month=jun,
+institution=LANL,
+key={LAUR-96-2724},
+doi={10.2172/366453}
+}
+
+@inproceedings{Kozen2002,
+author=Kozen,
+title={On Two Letters versus Three},
+year={2002},
+pages={44--50},
+crossref={fics2002}
+}
+
+@book{Kozen1997,
+author=Kozen,
+title={Automata and computability},
+publisher=Springer,
+series={Undergraduate texts in computer science},
+year={1997},
+isbn={978-0-387-94907-9},
+pages={I-XIII, 1-400},
+}
+
+@inproceedings{Plump1994,
+author={Plump, Detlef and Habel, Annegret},
+title={Graph Unification and Matching},
+pages={75--88},
+doi={10.1007/3-540-61228-9_80},
+crossref={Tagt1994},
+url={http://www-users.cs.york.ac.uk/det/Papers/gragra.94.pdf}
+}
+
+@article{Ladner1975,
+author={Ladner, Richard E.},
+title={The circuit value problem is log space complete for P},
+journal=ACMSN,
+year={1975},
+volume={7},
+pages={18--20},
+numpages={3},
+number={1},
+publisher=ACM,
+issn={0163-5700},
+doi={10.1145/990518.990519}
+}
+
+@article{Lafont2004,
+author=Lafont,
+title={Soft linear logic and polynomial time},
+journal=TCSc,
+year={2004},
+volume={318},
+pages={163--180},
+number={1},
+publisher=Elsevier,
+doi={10.1016/j.tcs.2003.10.018}
+}
+
+@inproceedings{Lago2005,
+author=DalLago,
+title={The Geometry of Linear Higher-Order Recursion},
+year={2005},
+pages={366--375},
+crossref={lics2005}, 
+doi={10.1109/LICS.2005.52}
+}
+
+@inproceedings{Lago2012a,
+author=DalLago#{ and }#Faggian,
+title={On Multiplicative Linear Logic, Modality and Quantum Circuits},
+year={2011},
+pages={55--66},
+doi={10.4204/EPTCS.95.6},
+crossref={QPL2011},
+}
+
+@inproceedings{Lamping1989,
+author={Lamping, John},
+title={An algorithm for optimal lambda calculus reduction},
+numpages={15},
+pages={16--30},
+organization=ACM,
+doi={10.1145/96709.96711},
+crossref={popl1990}
+}
+
+@article{Mairson2004,
+author=Mairson,
+title={Linear lambda calculus and PTIME-completeness},
+journal=JFP,
+year={2004},
+month=nov,
+volume={14},
+issn={0956-7968},
+pages={623--633},
+number={6},
+numpages={11},
+doi={10.1017/S0956796804005131},
+}
+
+@phdthesis{Horn2009,
+author={Van Horn, David},
+title={The Complexity of Flow Analysis in Higher-Order Languages},
+year={2009},
+month={08},
+number={3369445},
+school={Brandeis University},
+pages={162},
+url={http://gradworks.umi.com/33/69/3369445.html}
+}
+
+@inproceedings{Horn2007,
+author={Van Horn, David and }#Mairson,
+title={Relating complexity and precision in control flow analysis},
+pages={85--96},
+year={2007},
+crossref={icfp2007},
+doi={10.1145/1291151.1291166}
+}
+
+@inproceedings{Mairson2002,
+author=Mairson,
+title={From Hilbert Spaces to Dilbert Spaces: Context Semantics Made Simple},
+pages={2--17},
+year={2002},
+crossref={fsttcs2002},
+doi={10.1007/3-540-36206-1_2},
+}
+
+
+@article{Mairson2003,
+author=Mairson#{ and }#Terui,
+title={On the Computational Complexity of Cut-Elimination in Linear Logic},
+journal=TCSc,
+year={2003},
+pages={23--36},
+publisher=Springer,
+doi={10.1007/978-3-540-45208-9_4}
+}
+
+@article{Matsuno1985,
+author={Matsuno, Hiroshi and Inoue, Katsushi and Taniguchi, Hiroshi and Takanami, Itsuo},
+title={Alternating simple multihead finite automata},
+journal=TCSc,
+year={1985},
+volume={36},
+pages={291--308},
+number={0},
+issn={0304-3975},
+doi={10.1016/0304-3975(85)90048-9}
+}
+
+@inproceedings{Maurel2003,
+author={Maurel, François},
+title={Nondeterministic Light Logics and NP-Time},
+year={2003},
+pages={241--255},
+doi={10.1007/3-540-44904-3_17},
+crossref={tlca2003}
+}
+
+@thesis{Mogbil2012,
+author=Mogbil,
+title={Complexité en logique linéaire, et logique linéaire en complexité implicite},
+school={Université Paris XIII},
+year={2012},
+type=HDR#{ en Informatique},
+url={http://lipn.univ-paris13.fr/~mogbil/hdr/mogbil-hdr-memoire.pdf},
+month=nov
+}
+
+@thesis{Joinet2007,
+author={Joinet, Jean-Baptiste},
+title={Logique et interaction},
+school={Université Paris Diderot (Paris 7)},
+type=HDR,
+year={2007},
+month=dec,
+}
+
+@phdthesis{Clairambault2010,
+title={Logique et interaction : Une étude sémantique de la totalité},
+author={Clairambault, Pierre},
+year={2010},
+month=feb,
+school={Université Paris Diderot - Paris VII},
+}
+
+@incollection{Mogbil2009,
+author=Mogbil,
+title={Non-deterministic Boolean Proof Nets},
+year={2009},
+pages={131--145},
+doi={10.1007/978-3-642-15331-0_9},
+url={http://hal.archives-ouvertes.fr/docs/00/44/39/25/PDF/nBPN_preprintLIPN09.pdf},
+crossref={forapa2009},
+}
+
+@article{Monien1976,
+author=Monien,
+title={Transformational Methods and their Application to Complexity Problems},
+journal=AI,
+volume={6},
+year={1976},
+pages={95--108},
+addendum={See also \cite{Monien1977}},
+doi={10.1007/BF00263746},
+}
+
+@article{Monien1977,
+author=Monien,
+title={Corrigenda: Transformational Methods and Their Application to Complexity Problems},
+journal=AI,
+volume={8},
+year={1977},
+pages={383--384},
+doi={10.1007/BF00271346},
+}
+
+@article{Monien1980,
+author=Monien,
+title={Two-Way Multihead Automata Over a One-Letter Alphabet},
+journal=RAIRO,
+year={1980},
+volume={14},
+pages={67--82},
+number={1},
+url={http://archive.numdam.org/article/ITA_1980__14_1_67_0.pdf}
+}
+
+@book{Murphy1990,
+author={Murphy, Gerard J.},
+title={{C\(^{\ast}\)}-algebras and operator theory},
+publisher={Academic Press},
+isbn={9780125113601},
+year={1990},
+numpages={296},
+}
+
+@conference{Naurois2008,
+author=deNaurois#{ and }#Mogbil,
+title={Correctness of Multiplicative Additive Proof Structures is NL-Complete},
+year={2008},
+pages={476--485},
+crossref={lics2008},
+doi={10.1109/LICS.2008.20}
+}
+
+@book{Nielsen2010,
+author={Nielsen, Michael Aaron and Chuang, Isaac L.},
+title={Quantum computation and quantum information},
+publisher=CUP,
+year={2010},
+doi={10.1017/CBO9780511976667},
+}
+
+@book{Papadimitriou1995,
+author=Papadimitriou,
+title={Computational Complexity},
+number={v. 3-4},
+isbn={9780335012916},
+series={Mathematics / a second level course},
+year={1995},
+publisher=Addison-Wesley
+}
+
+@book{Poizat1995,
+author={Poizat, Bruno},
+title={Les petits cailloux},
+publisher={Aléas},
+year={1995},
+isbn={2-908016-58-3}
+}
+
+@article{Raussendorf2001,
+author={Raußendorf, Robert and Briegel, Hans J.},
+title={A one-way quantum computer},
+journal=PRL,
+year={2001},
+volume={86},
+pages={5188--5191},
+number={22},
+publisher=APS,
+doi={10.1103/PhysRevLett.86.5188}
+}
+
+@article{Reingold2008,
+author={Reingold, Omer},
+title={Undirected connectivity in log-space},
+journal=JACM,
+year={2008},
+month=sep,
+volume={55},
+pages={17:1--17:24},
+number={4},
+publisher=ACM,
+issn={0004-5411},
+doi={10.1145/1391289.1391291}
+}
+
+@article{Venkateswaran1991,
+author={Venkateswaran, Hari},
+title={Properties that Characterize LOGCFL},
+journal=JCSS,
+volume={43},
+number={2},
+year={1991},
+pages={380--404},
+doi={10.1016/0022-0000(91)90020-6}
+}
+
+@article{Cantini2011,
+author={Cantini, Luigi and Sportiello, Andrea},
+title={Proof of the Razumov-Stroganov conjecture},
+journal=JCT,
+volume={118},
+number={5},
+pages={1549--1574},
+year=2011,
+issn={0097-3165},
+doi={10.1016/j.jcta.2011.01.007}
+}
+
+@book{Robinson1996,
+author={Robinson, Derek John Scott},
+title={A Course in the Theory of Groups},
+publisher=Springer,
+year={1996},
+series={Graduate Texts in Mathematics},
+volume={80},
+doi={10.1007/978-1-4419-8594-1},
+isbn={978-1-4612-6443-9}
+}
+
+@article{Rosenberg1966,
+author={Rosenberg, Arnold L.},
+title={On multi-head finite automata},
+journal=IBMJRD,
+year={1966},
+volume={10},
+pages={388--394},
+number={5},
+publisher={IBM},
+doi={10.1147/rd.105.0388}
+}
+
+@inproceedings{Rosenberg1965,
+author={Rosenberg, Arnold L.},
+title={On multi-head finite automata},
+pages={221--228},
+crossref={focs1965},
+doi={10.1109/FOCS.1965.19}
+}
+
+@article{Rabin1959,
+author={Rabin, Michael Oser and Scott, D.},
+title={Finite Automata and Their Decision Problems},
+journal=IBMJRD,
+volume={3},
+number={2},
+month=apr,
+year={1959},
+issn={0018-8646},
+pages={114--125},
+numpages={12},
+doi={10.1147/rd.32.0114},
+publisher={IBM},
+} 
+
+@article{Shepherdson1959,
+author={Shepherdson, J. C.},
+title={The Reduction of Two-way Automata to One-way Automata},
+journal=IBMJRD,
+volume={3},
+number={2},
+month=apr,
+year={1959},
+issn={0018-8646},
+pages={198--200},
+publisher={IBM},
+doi={10.1147/rd.32.0198}
+}
+
+ré-imprimé dans ?
+@book{Moore1964,
+author={Moore, Edward F.},
+title={Sequential Machines: Selected Papers},
+publisher=Addison-Wesley,
+address={Reading, MA, USA},
+pages={v + 266},
+year={1964},
+series={Addison-Wesley series in computer science and information processing},
+}
+
+@article{Vardi1989,
+author=Vardi,
+title={A Note on the Reduction of Two-Way Automata to One-Way Automata},
+journal=IPL,
+volume={30},
+number={5},
+year={1989},
+pages={261--264},
+doi={10.1016/0020-0190(89)90205-6},
+}
+
+@incollection{Birget1989,
+author={Birget, Jean-Camille},
+title={Basic techniques for two-way finite automata},
+publisher={Springer Berlin Heidelberg},
+pages={56--64},
+-year={1989},
+isbn={978-3-540-51631-6},
+booktitle={Formal Properties of Finite Automata and Applications},
+volume={386},
+series=LNCS,
+editor={Pin, J.E.},
+doi={10.1007/BFb0013111},
+}
+
+@article{Ruzzo1981,
+author=Ruzzo,
+title={On Uniform Circuit Complexity},
+journal=JCSS,
+month=jun,
+volume={22},
+year={1981},
+pages={365--383},
+number={3},
+issn={0022-0000},
+publisher=Elsevier,
+doi={10.1016/0022-0000(81)90038-6}
+}
+
+@article{Ruzzo1980,
+author=Ruzzo,
+title={Tree-Size Bounded Alternation},
+journal=JCSS,
+volume={21},
+number={2},
+year={1980},
+pages={218--235},
+doi={10.1016/0022-0000(80)90036-7}
+}
+
+@book{Sakai1971,
+author={Sakai, Shôichirô},
+title={C*-algebras and W*-algebras},
+publisher=Springer,
+isbn={978-3-540-63633-5},
+year={1971},
+series={Classics in Mathematics},
+volume={60},
+doi={10.1007/978-3-642-61993-9}
+}
+
+@article{Savitch1970,
+author={Savitch, Walter J.},
+title={Relationships between nondeterministic and deterministic tape complexities},
+journal=JCSS,
+year={1970},
+volume={4},
+pages={177--192},
+number={2},
+address={Orlando, FL, USA},
+issn={0022-0000},
+publisher={Academic Press},
+doi={10.1016/S0022-0000(70)80006-X}
+}
+
+@inproceedings{Schopp2008,
+author=Hofmann#{ and }#Schopp,
+title={Pointer Programs and Undirected Reachability},
+year={2009},
+pages={133--142},
+doi={10.1109/LICS.2009.41},
+crossref={lics2009},
+}
+
+@article{Schopp2008p,
+author=Hofmann#{ and }#Schopp,
+title={Pointer Programs and Undirected Reachability},
+journal=ECCC,
+volume={15},
+number={090},
+year={2008},
+url={http://eccc.hpi-web.de/eccc-reports/2008/TR08-090/index.html}
+}
+
+@inproceedings{Hofmann2013,
+author=Hofmann#{ and Ramyaa, Ramyaa and }#Schopp,
+title={Pure Pointer Programs and Tree Isomorphism},
+year={2013},
+pages={321--336},
+doi={10.1007/978-3-642-37075-5_21},
+crossref={fossacs2013}
+}
+
+@phdthesis{Seiller2012,
+author=Seiller,
+title={Logique dans le facteur hyperfini : géometrie de l'interaction et complexité},
+school={Université de la Méditerranée},
+year={2012},
+url={http://tel.archives-ouvertes.fr/tel-00768403/}
+}
+
+@article{Seiller2012a,
+author=Seiller,
+title={Interaction Graphs: Multiplicatives},
+journal=APAL,
+year={2012},
+volume={163},
+pages={1808--1837},
+month=dec,
+doi={10.1016/j.apal.2012.04.005},
+}
+
+@article{Seiller2012b,
+author=seiller,
+title={Interaction Graphs: Additives},
+journal=Arxiv,
+archivePrefix={arXiv},
+volume={abs/1205.6557},
+year=2012,
+eprint={1205.6557},
+primaryClass={cs.LO}
+}
+
+@article{Seiller2014a,
+author=seiller,
+title={Interaction Graphs: Graphings},
+journal={Submitted},
+year={2014},
+url={http://arxiv.org/pdf/1405.6331}
+}
+
+@article{Seiller2014b,
+author=seiller,
+journal={Submitted},
+title={A Correspondence between Maximal Abelian Sub-Algebras and Linear Logic Fragments},
+year={2014},
+url={http://arxiv.org/pdf/1408.2125}
+}
+
+@article{Selinger2004,
+author=Selinger,
+title={Towards a quantum programming language},
+journal=MSCS,
+year={2004},
+volume={14},
+pages={527--586},
+number={4},
+publisher=CUP,
+doi={10.1017/S0960129504004256}
+}
+
+@article{Selinger2008,
+author=Selinger#{ and }#Valiron,
+title={On a fully abstract model for a quantum linear functional language},
+journal=ENTCS,
+year={2008},
+volume={210},
+pages={123--137},
+publisher=Elsevier,
+doi={10.1016/j.entcs.2008.04.022}
+}
+
+@article{Selinger2006,
+author=Selinger#{ and }#Valiron,
+title={A lambda calculus for quantum computation with classical control},
+journal=MSCS,
+year={2006},
+volume={16},
+pages={527-–552},
+number={3},
+publisher=CUP,
+doi={10.1017/S0960129506005238}
+}
+
+@article{Szelepcsenyi1988,
+author={Szelepcsényi, Róbert},
+title={The method of forced enumeration for nondeterministic automata},
+journal=AI,
+year={1988},
+volume={26},
+pages={279--284},
+number={3},
+publisher=Springer, 
+doi={10.1007/BF00299636}
+}
+
+@article{Szelepcsenyi1987,
+author={Szelepcsényi, Róbert},
+title={The moethod of focing for nondeterministic automata},
+journal={Bulletin of the EATCS},
+volume={33},
+year={1987},
+pages={96-99}
+}
+
+@article{Gradel1995,
+author=Grädel#{ and McColm, Gregory L.},
+title={On the Power of Deterministic Transitive Closures},
+journal=IaC,
+volume={119},
+number={1},
+year={1995},
+pages={129-–135},
+doi={10.1006/inco.1995.1081}
+}
+
+@book{Takesaki2001,
+author=Takesaki,
+title={Theory of Operator Algebras 1},
+publisher=Springer,
+year={2001},
+volume={124},
+series={Encyclopedia of Mathematical Sciences}
+}
+
+@book{Takesaki2003,
+author=Takesaki,
+title={Theory of Operator Algebras 2},
+publisher=Springer,
+year={2003},
+volume={125},
+series={Encyclopedia of Mathematical Sciences}
+}
+
+@book{Takesaki2003a,
+author=Takesaki,
+title={Theory of Operator Algebras 3},
+publisher=Springer,
+year={2003},
+volume={127},
+series={Encyclopedia of Mathematical Sciences}
+}
+
+@article{Tondervan2004,
+author={van Tondervan, André},
+title={A Lambda Calculus for Quantum Computation},
+journal=SJC,
+year={2004},
+volume={33},
+pages={1109--1135},
+number={5},
+publisher=SIAM, 
+doi={10.1137/S0097539703432165}
+}
+
+@article{Boas1989,
+author=Boas,
+title={Space Measures for Storage Modification Machines},
+journal=IPL,
+volume={30},
+number={2},
+year={1989},
+pages={103--110},
+doi={10.1016/0020-0190(89)90117-8},
+}
+
+@inproceedings{Shvachko1991,
+author={Shvachko, Konstantin V.},
+title={Different Modifications of Pointer Machines and Their Computational Power},
+pages={426--435},
+doi={10.1007/3-540-54345-7_86},
+crossref={mfcs1991}
+}
+
+@article{Gurevich2000,
+author={Gurevich, Yuri},
+title={Sequential abstract-state machines capture sequential algorithms},
+journal=ACMTCL,
+volume={1},
+number={1},
+year={2000},
+pages={77--111},
+doi={10.1145/343369.343384},
+}
+
+@inproceedings{Gurevich1994,
+author={Gurevich, Yuri},
+title={Evolving Algebras},
+pages={423--427},
+crossref={ifip1994-1},
+}
+
+@book{Vollmer1999,
+author=Vollmer,
+title={Introduction to Circuit Complexity: A Uniform Approach},
+publisher=Springer,
+year={1999},
+isbn={978-3-642-08398-3},
+series={Texts in Theoretical Computer Science An EATCS Series},
+doi={10.1007/978-3-662-03927-4}
+}
+
+@book{Wegener1987,
+author={Wegener, Ingo}, 
+title={The complexity of Boolean functions},
+publisher={Teubner},
+year={1987},
+url={eccc.hpi-web.de/resources/pdf/cobf.pdf}
+}
+
+@inproceedings{Wigderson1992,
+author=Wigderson,
+title={The Complexity of Graph Connectivity},
+year={1992},
+pages={112--132},
+publisher=Springer,
+doi={10.1007/3-540-55808-X_10},
+crossref={mfcs1992}
+}
+
+@article{Wolf1994,
+author={Wolf, Marty J.},
+title={Nondeterministic Circuits, Space Complexity and Quasigroups},
+journal=TCSc,
+year={1994},
+volume={125},
+pages={295--313},
+number={2},
+publisher=Elsevier, 
+doi={10.1016/0304-3975(92)00014-I}
+}
+
+@article{Yao1978,
+author=Yao#{ and }#Rivest,
+title={\(k+ 1\) Heads Are Better Than \(k\)},
+journal=jacm,
+volume={25},
+number={2},
+year={1978},
+pages={337--340},
+doi={10.1145/322063.322076}
+}
+
+@inproceedings{Yao1976,
+author=Yao#{ and }#Rivest,
+title={\(k+ 1\) Heads Are Better Than \(k\)},
+year={1976},
+pages={67--70},
+url={http://people.csail.mit.edu/rivest/pubs/YR78.pdf},
+doi={10.1109/SFCS.1976.18},
+crossref={focs1976}
+}
+
+@article{Goldschlager82,
+title={A universal interconnection pattern for parallel computers},
+author=Goldschlager,
+journal=JACM,
+volume={29},
+number={4},
+pages={1073–1086},
+year={1982},
+publisher=ACM,
+doi={10.1145/322344.322353}
+}
+
+@inproceedings{Goldschlager1978,
+author=Goldschlager,
+title={A Unified Approach to Models of Synchronous Parallel Machines},
+year={1978},
+pages={89--94},
+doi={10.1145/800133.804336},
+crossref={STOC1978}
+}
+
+@article{Chandra1984,
+title={Constant Depth Reducibility},
+author=Chandra#{ and }#Stockmeyer#{ and Vishkin, Uzi},
+journal=SJC,
+volume={13},
+number={2},
+pages={423–439},
+year={1984},
+publisher=SIAM,
+doi={10.1137/0213028}
+}
+
+@booklet{Allender2000,
+author=Allender#{ and McCartin, Catherine},
+title={Basic Complexity},
+year={2000},
+note={Summary of a series of Lectures presented at the NRZI Summer 2000 workshop},
+url={http://www.cs.rutgers.edu/pub/allender/nz.pdf}
+}
+
+@techreport{Laurent2008,
+author=Laurent,
+title={Théorie de la démonstration},
+url={http://perso.ens-lyon.fr/olivier.laurent/thdem.pdf},
+note={LMFI's master \emph{Polycopié}},
+type={Lecture notes},
+year=2008
+}
+
+@techreport{Beffara2013,
+author=Beffara,
+title={Introduction to linear logic},
+type={Lecture notes},
+month=aug,
+url={http://iml.univ-mrs.fr/~beffara/biblio/intro-ll.pdf},
+year=2013
+}
+
+@techreport{Mazza2014,
+title={Non-Uniform Polytime Computation in the Infinitary Affine Lambda-Calculus},
+author=Mazza,
+institution={L.I.P.N.},
+year=2014,
+}
+
+@inproceedings{Mazza2014a,
+author=Mazza,
+title={Non-uniform Polytime Computation in the Infinitary Affine Lambda-Calculus},
+pages={305--317},
+doi={0.1007/978-3-662-43951-7_26},
+crossref={icalp2014-2},
+}
+
+@inproceedings{Laurent2001,
+author=Laurent,
+title={A Token Machine for Full Geometry of Interaction (Extended Abstract)},
+month=may,
+year={2001},
+pages={283--297},
+isbn={978-3-540-41960-0},
+doi={10.1007/3-540-45413-6_23},
+crossref={tlca2001}
+}
+
+@inproceedings{Laurent2006,
+author=Laurent#{ and }#Tortora,
+title={Obsessional Cliques: {A} Semantic Characterization of Bounded Time Complexity},
+booktitle={21th {IEEE} Symposium on Logic in Computer Science {(LICS} 2006), 12-15 August 2006, Seattle, WA, USA, Proceedings},
+year={2006},
+pages={179--188},
+crossref={lics2006},
+doi={10.1109/LICS.2006.37}
+}
+
+@article{Lambek1958,
+title={The Mathematics of Sentence Structure},
+author={Lambek, Joachim},
+journal=TAMM,
+volume={65},
+number={3},
+pages={154–170},
+year={1958},
+publisher={JSTOR},
+doi={10.2307/2310058}
+}
+
+@inproceedings{Fagin1974,
+author={Fagin, Ronald},
+title={Generalized First-Order Spectra and Polynomial-Time Recognizable Sets},
+pages={27--41},
+crossref={Karp1974}
+}
+
+@article{Gentzen1935,
+author=Gentzen,
+title={Untersuchungen über das logische Schließen. I},
+journal=MZ,
+volume={39},
+number={1},
+doi={10.1007/BF01201353},
+publisher={Springer-Verlag},
+pages={176–210 and 405–431},
+year={1935},
+issn={0025-5874},
+note={Translated as \enquote{Investigations into Logical Deduction} \cite[p.~68--131]{Gentzen1969}.}
+}
+
+@article{Gentzen1936,
+author=Gentzen,
+title={Die Widerspruchsfreiheit der reinen Zahlentheorie},
+year={1936},
+issn={0025-5831},
+journal={Mathematische Annalen},
+volume={112},
+number={1},
+doi={10.1007/BF01565428},
+publisher={Springer-Verlag},
+pages={493--565},
+note={Translated as \enquote{The consistency of elementary number theory} \cite[p.~132--213]{Gentzen1969}.}
+}
+
+@book{Gentzen1969,
+author=Gentzen,
+title={The Collected Papers of Gerhard Gentzen},
+publisher={North-Holland},
+series=studiesinlogic,
+year=1969,
+editor={M. E. Szabo}
+}
+
+@book{Girard1989,
+author=Girard#{ and }#Lafont#{ and Taylor, Paul},
+title={Proofs and Types},
+volume={7},
+Series={Cambridge Tracts in Theoretical Computer Science},
+publisher=CUP,
+year={1989},
+isbn={0-521-37181-3}
+}
+
+@inproceedings{Ben-amram1995,
+author=BenAmram,
+title={What is a “Pointer Machine”?},
+booktitle={Science of Computer Programming},
+year={1995},
+month=Jun,
+publisher=ACM,
+journal=ACMSN,
+volume={26},
+number={2},
+pages={88--95},
+issn={0163-5700},
+doi={10.1145/202840.202846},
+}
+
+@book{Fulman1997,
+title={Crossed products of von Neumann algebras by equivalence relations and their subalgebras},
+author={Fulman, Igor},
+year={1997},
+publisher={AMS Bookstore},
+series=MAMS,
+doi={10.1090/memo/0602}, 
+volume={126},
+number={602},
+}
+
+@book{Immerman1999,
+title={Descriptive complexity},
+author=Immerman,
+year={1999},
+publisher=Springer,
+series={Graduate Texts in Computer Science},
+isbn={978-0-387-98600-5},
+pages={I-XVI, 1-268},
+doi={10.1007/978-1-4612-0539-5}
+}
+
+@book{Ebbinghaus1995,
+author={Ebbinghaus, Heinz-Dieter and Flum, Jörg},
+title={Finite model theory},
+publisher=Springer,
+series={Perspectives in Mathematical Logic},
+year={1995},
+isbn={978-3-540-60149-4},
+pages={I-XV, 1-327}
+}
+
+@inproceedings{Leivant2013,
+author=Leivant#{ and }#Marion,
+title={Evolving Graph-Structures and Their Implicit Computational Complexity},
+year={2013},
+pages={349–360},
+doi={10.1007/978-3-642-39212-2_32},
+url={http://hal.inria.fr/hal-00939484},
+crossref={icalp2013-2}
+}
+
+@inproceedings{Trajan1977,
+author={Tarjan, Robert Endre},
+title={Reference Machines Require Non-linear Time to Maintain Disjoint Sets},
+year={1977},
+pages={18--29},
+doi={10.1145/800105.803392},
+crossref={STOC1977}
+}
+
+@inproceedings{Sipser1983,
+author=Sipser,
+title={Borel Sets and Circuit Complexity},
+year={1983},
+pages={61-–69},
+doi={10.1145/800061.808733},
+crossref={STOC1983}
+}
+
+@article{delaharpe2011,
+author={de la Harpe, Pierre},
+title={The Fuglede-Kadison determinant, theme and variations},
+journal=Arxiv,
+archivePrefix={arXiv},
+eprint={1107.1059},
+primaryClass={math.OA},
+year=2011,
+month=jul
+}
+
+@book{Barendregt1984,
+author={Hendrik Pieter Barendregt},
+title={The Lambda Calculus – Its Syntax and Semantics},
+publisher={North-Holland},
+year=1984,
+volume={103},
+series=studiesinlogic,
+}
+
+@article{Lincoln1995,
+title={Deciding Provability of Linear Logic Formulas},
+author={Lincoln, Patrick D.},
+journal=LMSLNS,
+pages={109–122},
+year={1995},
+publisher=CUP,
+doi={10.1017/CBO9780511629150.006}
+}
+
+@article{Borodin1977,
+author=Borodin,
+title={On Relating Time and Space to Size and Depth},
+journal=SJC,
+volume={6},
+number={4},
+year={1977},
+pages={733--744},
+doi={10.1137/0206054}
+}
+
+@article{Andreoli2006,
+title={Non-commutative proof construction: A constraint-based approach},
+author={Andreoli, Jean-Marc and Maieli, Roberto and Ruet, Paul},
+journal=APAL,
+volume={142},
+number={1–3},
+pages={212--244},
+year={2006},
+issn={0168-0072},
+doi={10.1016/j.apal.2006.01.002}
+}
+
+@article{Lago2009b,
+author=dallago,
+title={Context Semantics, Linear Logic, and Computational Complexity},
+journal=ACMTCL,
+issue_date={August 2009},
+volume={10},
+number={4},
+month=aug,
+year={2009},
+issn={1529-3785},
+pages={25:1–25:32},
+articleno={25},
+numpages={32},
+doi={10.1145/1555746.1555749},
+publisher={ACM}
+} 
+
+@article{Lago2011confluence,
+author=DalLago#{ and }#Masini#{ and }#Zorzi,
+title={Confluence Results for a Quantum Lambda Calculus with Measurements},
+journal=ENTCS,
+year={2011},
+volume={270},
+pages={251--261},
+number={2},
+note={Proceedings of the 6th International Workshop on Quantum Physics and Logic (QPL 2009)},
+issn={1571-0661},
+doi={10.1016/j.entcs.2011.01.035}
+}
+
+@inproceedings{Lago2008,
+author=DalLago#{ and }#Laurent,
+title={Quantitative Game Semantics for Linear Logic},
+year={2008},
+pages={230--245},
+doi={10.1007/978-3-540-87531-4_18},
+crossref={CSL2008},
+}
+
+@article{Sangiorgi2009,
+author={Sangiorgi, Davide},
+title={On the origins of bisimulation and coinduction},
+journal=ACMTPLS,
+year={2009},
+volume={31},
+number={4},
+doi={10.1145/1516507.1516510},
+}
+
+@inproceedings{Milner1992,
+author={Milner, Robin and Sangiorgi, Davide},
+title={Barbed Bisimulation},
+pages={685--695},
+year={1992},
+crossref={icalp1992},
+doi={10.1007/3-540-55719-9_114}
+}
+
+@article{Maher1992,
+author=Maher,
+title={Some norm inequalities concerning generalized inverses},
+journal=LAAIA,
+volume={174},
+pages={99--110},
+year={1992},
+publisher=Elsevier,
+issn={0024-3795},
+doi={10.1016/0024-3795(92)90063-G}
+}
+
+@article{Maher1990,
+author=Maher,
+title={Some operator inequalities concerning generalized inverses},
+journal=IJM,
+year={1990},
+volume={34},
+pages={503–514},
+number={3},
+publisher={University of Illinois at Urbana-Champaign, Department of Mathematics},
+url={http://projecteuclid.org/euclid.ijm/1255988167}
+}
+
+@article{Post1947,
+title={Recursive Unsolvability of a Problem of Thue},
+author={Post, Emil L.},
+journal=JSL,
+volume={12},
+number={1},
+pages={1-–11},
+ISSN={00224812},
+year={1947}, 
+doi={10.2307/2267170}
+}
+
+@article{Minsky1961,
+title={Recursive unsolvability of Post's problem of "tag" and other topics in theory of Turing machines},
+author={Minsky, Marvin L.},
+journal=AM,
+volume={74},
+number={3},
+pages={437--455},
+year={1961},
+month=nov,
+publisher={JSTOR}, 
+doi={10.2307/1970290}
+}
+
+@inproceedings{Jones1993,
+author=Jones,
+title={Constant Time Factors \emph{Do} Matter},
+year={1993},
+pages={602--611},
+doi={10.1145/167088.167244},
+crossref={STOC1993}
+}
+
+@article{Ben-Amram2000,
+author=BenAmram#{ and }#Jones,
+title={Computational Complexity via Programming Languages: Constant Factors Do Matter},
+journal=AI,
+issue_date={2000},
+volume={37},
+number={2},
+month=oct,
+year={2000},
+issn={0001-5903},
+pages={83--120},
+numpages={38},
+doi={10.1007/s002360000038}
+}
+
+@article{Yoshida2004,
+author={Yoshida, Nobuko and Berger, Martin and }#Honda,
+title={Strong normalisation in the \(\pi\)-calculus},
+journal=IaC,
+volume={191},
+number={2},
+year={2004},
+pages={145--202},
+issn={0890-5401},
+doi={10.1016/j.ic.2003.08.004}
+}
+[University of Trier]
+
+@article{Honda1995,
+author=Honda#{ and Yoshida, Nobuko},
+title={On Reduction-Based Process Semantics},
+journal=TCSc,
+volume={151},
+number={2},
+pages={437--486},
+year={1995},
+doi={10.1016/0304-3975(95)00074-7},
+}
+
+@article{Honda2010,
+author=Honda#{ and }#Laurent,
+title={An exact correspondence between a typed pi-calculus and polarised proof-nets},
+journal=TCSc,
+volume={411},
+number={22-24},
+pages={2223--2238},
+month=may,
+year={2010},
+doi={10.1016/j.tcs.2010.01.028}
+}
+
+@article{King1988,
+author={King, K. N.},
+title={Alternating Multihead Finite Automata},
+journal=TCSc,
+volume={61},
+number={2–3},
+year={1988},
+pages={149--174},
+issn={0304-3975},
+doi={10.1016/0304-3975(88)90122-3}
+}
+
+@inproceedings{Sudborough1973,
+author=Sudborough,
+title={On Tape-Bounded Complexity Classes and Multi-Head Finite Automata},
+year={1973},
+pages={138--144},
+doi={10.1109/SWAT.1973.20},
+crossref={focs1973}
+}
+
+@inproceedings{Sudborough1977a,
+author=Sudborough,
+title={Separating Tape Bounded Auxiliary Pushdown Automata Classes},
+pages={208--217},
+doi={10.1145/800105.803410},
+crossref={STOC1977},
+}
+
+@article{Sudborough1977,
+author=Sudborough,
+title={Some Remarks on Multihead Automata},
+journal=RAIRO,
+volume={11},
+number={3},
+year={1977},
+pages={181-195},
+url={http://www.numdam.org/item?id=ITA_1977__11_3_181_0}
+}
+
+@phdthesis{Seiferas1974,
+author={Seiferas, Joel Irvin},
+title={Nondeterministic Time and Space Complexity Classes},
+year={1974},
+school={MIT},
+key={MIT-LCS-TR-137},
+url={http://publications.csail.mit.edu/lcs/specpub.php?id=705},
+}
+
+@PhdThesis{Sobocinski2004,
+author={Sobociński, Paweł},
+title={Deriving process congruences from reaction rules},
+school={BRICS, University of Aarhus},
+year={2004},
+url={http://users.ecs.soton.ac.uk/~ps/papers/thesis.pdf}
+}
+
+@inproceedings{Merro2003,
+author={Merro, Massimo and Zappa Nardelli, Francesco},
+title={Bisimulation Proof Methods for Mobile Ambients},
+pages={584--598},
+year={2003},
+crossref={icalp2003},
+doi={10.1007/3-540-45061-0_47},
+}
+
+@report{Chomsky1962,
+title={Context-Free Grammars and Pushdown Storage},
+author={Chomsky, Noam},
+institution=MIT #{ }# RLE,
+pages={187--194},
+type={Quarterly Progress Report},
+year={1962},
+month=apr,
+number={65},
+url={http://hdl.handle.net/1721.1/53697}
+}
+
+@inproceedings{Newell1959,
+author={Newell, Allen and Shaw, J. C. and Simon, Herbert A.},
+title={Report on a general problem-solving program},
+pages={256--264},
+url={http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-1584_Report_On_A_General_Problem-Solving_Program_Feb59.pdf},
+crossref={IFIP1960},
+}
+
+@inproceedings{Henriksson2009,
+author={Henriksson, Sten},
+title={A brief history of the stack},
+url={http://www.sigcis.org/files/A%20brief%20history.pdf},
+crossref={SIGCISwork2009}
+}
+
+@article{Aho1968,
+author=Aho#{ and }#Hopcroft#{ and }#Ullman,
+title={Time and Tape Complexity of Pushdown Automaton Languages},
+journal=ICo,
+volume={13},
+number={3},
+year={1968},
+pages={186--206},
+doi={10.1016/S0019-9958(68)91087-5}
+}
+
+@book{Aho1974,
+author=Aho#{ and }#Hopcroft#{ and }#Ullman,
+title={The Design and Analysis of Computer Algorithms},
+publisher=Addison-Wesley,
+year={1974},
+isbn={0-201-00029-6}
+}
+
+@article{Hopcroft1967a,
+author=Hopcroft#{ and }#Ullman,
+title={Nonerasing Stack Automata},
+journal=JCSS,
+volume={1},
+number={2},
+year={1967},
+pages={166--186},
+doi={10.1016/S0022-0000(67)80013-8}
+}
+
+@article{Hopcroft1968,
+author=Hopcroft#{ and }#Ullman,
+title={Sets Accepted by One-Way Stack Automata Are Context Sensitive},
+journal=ICo,
+volume={13},
+number={2},
+year={1968},
+pages={114--133},
+doi={10.1016/S0019-9958(68)90722-5}
+}
+
+@inproceedings{Hopcroft1967b,
+author=Hopcroft#{ and }#Ullman,
+title={An Approach to a Unified Theory of Automata},
+booktitle={SWAT (FOCS)},
+year={1967},
+pages={140--147},
+doi={10.1109/FOCS.1967.4},
+crossref={focs1967}
+}
+
+@article{David2014,
+author={David, Matei and Papakonstantinou, Periklis A.},
+title={Tradeoff lower lounds for stack machines},
+journal=CC,
+volume={23},
+number={1},
+year={2014},
+pages={99--146},
+doi={10.1007/s00037-012-0057-1}
+}
+
+@book{Hopcroft2003,
+author=Hopcroft#{ and Motwani, Rajeev and }#Ullman,
+title={Introduction to automata theory, languages, and computation},
+edition={international edition (2. ed)},
+publisher=Addison-Wesley,
+year={2003},
+isbn={978-0-321-21029-6},
+pages={I-XIV, 1-521}
+}
+
+@inproceedings{Bellantoni1992,
+author=Bellantoni#{ and }#Cook,
+title={A New Recursion-Theoretic Characterization of the Polytime Functions (Extended Abstract)},
+year={1992},
+pages={283--93},
+doi={10.1145/129712.129740},
+crossref={STOC1992}
+}
+
+@article{Bellantoni1992a,
+author=Bellantoni#{ and }#Cook,
+title={A New Recursion-Theoretic Characterization of the Polytime Functions},
+journal=CC,
+volume={2},
+year={1992},
+pages={97--110},
+doi={10.1007/BF01201998},
+}
+
+@book{Sakarovitch2009,
+author={Sakarovitch, Jacques},
+title={Elements of Automata Theory},
+publisher=CUP,
+year={2009},
+isbn={978-0-521-84425-3},
+doi={10.1017/CBO9781139195218},
+pages={I-XXIV, 1-758},
+url={http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=9780521844253}
+}
+
+@inproceedings{Leivant1998,
+author=Leivant,
+title={A Characterization of NC by Tree Recurrence},
+year={1998},
+pages={716--724},
+doi={10.1109/SFCS.1998.743522},
+crossref={focs1998}
+}
+
+@article{Simmons1988,
+author={Simmons, Harold},
+title={The realm of primitive recursion},
+journal=AML,
+volume={27},
+year={1988},
+pages={177--188},
+issue={2},
+doi={10.1007/BF01620765}
+}
+
+@inproceedings{Leivant1991,
+author=Leivant,
+title={A Foundational Delineation of Computational Feasiblity},
+year={1991},
+pages={2--11},
+doi={10.1109/LICS.1991.151625},
+crossref={lics1991}
+}
+
+@article{Marion2009,
+author=Marion,
+title={On tiered small jump operators},
+journal=LMCS,
+volume={5},
+number={1},
+year={2009},
+doi={10.2168/LMCS-5(1:7)2009}
+}
+
+@article{Leivant2000,
+author=Leivant#{ and }#Marion, 
+title={A characterization of alternating log time by ramified recurrence},
+journal=TCSc,
+volume={236},
+number={1--2},
+year={2000},
+pages={193--208},
+doi={10.1016/S0304-3975(99)00209-1}
+}
+
+@article{Gaboardi2012,
+author={Gaboardi, Marco and }#Marion#{ and Ronchi Della Rocca, Simona},
+title={An Implicit Characterization of PSPACE},
+journal=ACMTCL,
+volume={13},
+number={2},
+year={2012},
+pages={18:1--18:36},
+doi={10.1145/2159531.2159540},
+}
+
+@inproceedings{Leivant1993,
+author=Leivant,
+title={Stratified Functional Programs and Computational Complexity},
+year={1993},
+pages={325--333},
+doi={10.1145/158511.158659},
+crossref={popl1993}
+}
+
+@book{Goldreich2008,
+author={Goldreich, Oded},
+title={Computational complexity - a conceptual perspective},
+publisher=CUP,
+year={2008},
+isbn={978-0-521-88473-0},
+pages={I-XXIV, 1-606}
+}
+
+@book{Balcazar1990,
+author={Balcàzar, José L. and D\'{\i}az, Josep and Gabarr{\'o}, Joaquim},
+title={Structural Complexity II},
+publisher=Springer,
+series={EATCS Monographs on Theoretical Computer Science},
+volume={22},
+year={1990},
+isbn={978-3-642-75359-6, 978-3-642-75357-2},
+pages={I-IX, 1-285},
+doi={10.1007/978-3-642-75357-2},
+}
+
+@inproceedings{Bellantoni1994,
+author=Bellantoni,
+title={Characterizing Parallel Time by Type 2 Recursions With Polynomial Output Length},
+year={1994},
+pages={253--268},
+doi={10.1007/3-540-60178-3_88},
+crossref={lcc1994}
+}
+
+@inproceedings{Bonfante2008,
+author=Bonfante#{ and Reinhard Kahle and }#Marion#{ and Isabel Oitavem},
+title={Recursion Schemata for NCk},
+year={2008},
+pages={49--63},
+doi={10.1007/978-3-540-87531-4_6},
+crossref={CSL2008}
+}
+
+@article{Eberhard2013,
+author={Eberhard, Sebastian},
+title={Applicative theories for logarithmic complexity classes},
+journal=TCSc,
+year={2013},
+note={In press},
+edition={Special Issue on Implicit Computational Complexity},
+url={http://www.iam.unibe.ch/ltgpub/2012/ebe12b.pdf},
+}
+
+@book{Wagner1986,
+author={Wagner, Klaus W. and Wechsung, Gerd},
+title={Computational Complexity},
+isbn={9789027721464},
+volume={21},
+year={1986},
+series={Mathematics and its Applications},
+publisher=Springer,
+}
+
+@article{Engelfriet1991,
+author={Engelfriet, Joost},
+title={Iterated Stack Automata and Complexity Classes},
+journal=IaC,
+volume={95},
+number={1},
+year={1991},
+pages={21--75},
+doi={10.1016/0890-5401(91)90015-T}
+}
+
+@article{Edmonds1965,
+author={Edmonds, Jack},
+title={Paths, trees, and flowers},
+journal=CJM,
+month=feb,
+pages={449--467},
+volume={17},
+year={1965},
+doi={10.4153/CJM-1965-045-4},
+}
+
+@article{Schonhage1980,
+author={Schönhage, Arnold},
+title={Storage Modification Machines},
+journal=SJC,
+volume={9},
+number={3},
+year={1980},
+pages={490--508},
+doi={10.1137/0209036},
+keywords={smm}
+}
+
+Article{Kolmogorov1958ru,
+author={Колмого́ров, Андре́й Никола́евич and Успе́нский, Влади́мир Андре́евич},
+title={К определению алгоритма},
+journal={Успехи математических наук (}#UMN#{)},
+ISSN={0042-1316},
+volume={13},
+number={4(82)},
+Pages={3–28},
+year={1958},
+publisher={Izdatel'stvo Nauka, Moskva},
+hyphenation={russian},
+MSC2010={03-XX},
+Zbl={0090.01101}
+}
+
+@article{Kolmogorov1958,
+author={Kolmogorov, Andrey Nikolaevic and Uspenski\u\i, Vladimir Andreyevich},
+title={On the definition of an algorithm},
+journal=UMN,
+ISSN={0042-1316},
+volume={13},
+number={4(82)},
+pages={3-–28},
+year={1958},
+publisher={Izdatel'stvo Nauka, Moskva},
+MSC2010={03-XX},
+Zbl={0090.01101},
+keywords={kum}
+}
+
+@article{Kolmogorov1963,
+author={Kolmogorov, Andrey Nikolaevic and Uspenski\u\i, Vladimir Andreyevich},
+title={On the definition of an algorithm},
+journal=AMSTS2,
+ISSN={0065-9290},
+volume={29},
+pages={217--245},
+year={1963},
+publisher={American Mathematical Society, Providence, RI},
+Zbl={0128.01302},
+keywords={kum}
+}
+
+@article{Dexter1997,
+author={Dexter, Scott and Doyle, Patrick and Gurevich, Yuri},
+title={Gurevich Abstract State Machines and Schönhage Storage Modification Machines},
+journal=JUCS,
+volume={3},
+month=apr,
+number={4},
+year={1997},
+pages={279--303},
+url={http://www.jucs.org/jucs_3_4/gurevich_abstract_state_machines},
+}
+
+@inproceedings{Colson1989,
+author={Colson, Loïc},
+title={About Primitive Recursive Algorithms},
+pages={194--206},
+year={1989},
+crossref={icalp1989},
+doi={10.1007/BFb0035761},
+}
+
+@article{Cai92,
+author={Cai, Jin-Yi and Fürer, Martin and }#Immerman,
+title={An optimal lower bound on the number of variables for graph identifications},
+journal=Comb,
+volume={12},
+number={4},
+year={1992},
+pages={389-–410},
+doi={10.1007/BF01305232}
+}
+
+@book{Krivine1993,
+author=Krivine,
+title={Lambda-calculus, types and models},
+publisher={Masson},
+series={Ellis Horwood series in computers and their applications},
+year={1993},
+isbn={978-0-13-062407-9},
+pages={I-VIII, 1-180},
+url={http://cel.archives-ouvertes.fr/docs/00/57/45/75/PDF/Lambda.pdf}
+}
+
+@inproceedings{Scott1982,
+author={Scott, Dana S.},
+title={Domains for Denotational Semantics},
+year={1982},
+pages={577--613},
+doi={10.1007/BFb0012801},
+crossref={icalp1982}
+}
+
+@article{Kanovich1994,
+author=Kanovich,
+title={The Complexity of Horn Fragments of Linear Logic},
+journal=APAL,
+volume={69},
+number={2-3},
+year={1994},
+pages={195--241},
+doi={10.1016/0168-0072(94)90085-X}
+}
+
+@inproceedings{Kanovich1992,
+author=Kanovich,
+title={Horn Programming in Linear Logic Is NP-Complete},
+year={1992},
+pages={200-–210},
+doi={10.1109/LICS.1992.185533},
+crossref={lics1992},
+}
+
+@inproceedings{Asperti1994,
+author=Asperti#{ and }#Danos#{ and Laneve, Cosimo and }#Regnier,
+title={Paths in the lambda-calculus},
+year={1994},
+pages={426--436},
+doi={10.1109/LICS.1994.316048},
+crossref={lics1994},
+}
+
+@inproceedings{Ong1997,
+author={Ong, Chih-Hao Luke and Stewart, Charles A.},
+title={A Curry-Howard Foundation for Functional Computation with Control},
+year={1997},
+pages={215--227},
+doi={10.1145/263699.263722},
+crossref={popl1997}
+}
+
+@inproceedings{Wadler1991,
+author={Wadler, Philip},
+title={Is there a use for linear logic?},
+year={1991},
+pages={255--273},
+doi={10.1145/115865.115894},
+crossref={pepm1991},
+}
+
+@periodical{jucs-3-4,
+year={1997},
+editor={Börger, Egon},
+title=JUCS,
+issuetitle={Ten years of Gurevich's Abstract State Machines},
+volume={3},
+number={4},
+doi={10.3217/jucs-003-04}
+}
+
+@article{Berarducci1993,
+author={Berarducci, Alessandro and Zilli, Marisa Venturini},
+title={Generalizations of Unification},
+journal=JSC,
+volume={16},
+number={5},
+year={1993},
+pages={479--491},
+doi={10.1006/jsco.1993.1059}
+}
+ 
+@article{Dwork1988,
+author=Dwork#{ and }#Kanellakis#{ and }#Stockmeyer,
+title={Parallel Algorithms for Term Matching},
+journal=SJC,
+volume={17},
+number={4},
+year={1988},
+pages={711--731},
+doi={10.1137/0217046}
+}
+
+@inproceedings{Dwork1986,
+author=Dwork#{ and }#Kanellakis#{ and }#Stockmeyer,
+title={Parallel Algorithms for Term Matching},
+year={1986},
+pages={416--430},
+doi={10.1007/3-540-16780-3_109},
+crossref={cade1986}
+}
+
+@incollection{Kanellakis1988,
+author=Kanellakis,
+title={Logic Programming and Parallel Complexity},
+publisher={Morgan Kaufmann},
+pages={547--585},
+crossref={Apt1988}
+}
+
+@book{Apt1988,
+booktitle={Foundations of Deductive Databases and Logic Programming.},
+title={Foundations of Deductive Databases and Logic Programming.},
+author={Apt, Krzysztof R. and Minker, Jack},
+isbn={9780934613408},
+year={1988},
+publisher={M. Kaufmann Publishers}
+}
+
+@article{Bellia2003,
+author={Bellia, Marco and Occhiuto, Maria Eugenia},
+title={N-axioms Parallel Unification},
+journal=FI,
+volume={55},
+number={2},
+year={2003},
+pages={115--128},
+}
+ee={http://iospress.metapress.com/content/e90k28vwwlubyru0/},
+
+
+@article{Itai1987,
+author={Itai, Alon and Makowsky, Johann A.},
+title={Unification as a Complexity Measure for Logic Programming},
+journal=JLP,
+volume={4},
+number={2},
+year={1987},
+pages={105--117},
+doi={10.1016/0743-1066(87)90014-8}
+}
+
+@article{Vitter1986,
+author={Vitter, Jeffrey Scott and Simons, Roger A.},
+title={New Classes for Parallel Complexity: A Study of Unification and Other Complete Problems for {\it P}},
+journal=IEETC,
+volume={35},
+number={5},
+year={1986},
+pages={403--418},
+doi={10.1109/TC.1986.1676783}
+}
+
+@inproceedings{Vitter1984,
+author={Vitter, Jeffrey Scott and Simons, Roger A.},
+title={Parallel algorithms for unification and other complete problems in p},
+year={1984},
+pages={75--84},
+doi={10.1145/800171.809607},
+crossref={acm1984}
+}
+
+@inproceedings{Maluszynski1985,
+author={Maluszynski, Jan and Komorowski, Henryk Jan},
+title={Unification-Free Execution of Logic Programs},
+year={1985},
+pages={78--86},
+crossref={slp1985}
+}
+
+@article{Ramesch1989,
+author={Ramesh, R. and Verma, Rakesh M. and Thirunarayan, Krishnaprasad and Ramakrishnan, I. V.},
+title={Term Matching on Parallel Computers},
+journal=JLP,
+volume={6},
+number={3},
+year={1989},
+pages={213--228},
+doi={10.1016/0743-1066(89)90014-9}
+}
+ 
+@article{Delcher1992,
+author={Delcher, Arthur L. and Kasif, Simon},
+title={Efficient Parallel Term Matching and Anti-Unification},
+journal=JAR,
+volume={9},
+number={3},
+year={1992},
+pages={391--406},
+doi={10.1007/BF00245298}
+}
+ 
+@article{Harland1987,
+author={Harland, James and Jaffar, Joxan},
+title={On Parallel Unification for Prolog},
+journal=NGC,
+volume={5},
+number={3},
+year={1987},
+pages={259--279},
+doi={10.1007/BF03037466}
+}
+ 
+@article{Baader1998,
+author=Baader,
+title={On the Complexity of Boolean Unification},
+journal=IPL,
+volume={67},
+number={4},
+year={1998},
+pages={215--220},
+doi={10.1016/S0020-0190(98)00106-9}
+}
+
+@techreport{Ohkubo1987,
+author={Ohkubo, Masaaki and Yasuura, Hiroto and Yajima, Shuzo},
+title={On Parallel Computation Time of Unification for Restricted Terms},
+journal={RIMS Kokyuroku},
+ISSN={1880-2818},
+publisher={Kyoto University},
+institution={Kyoto University},
+year=1987,
+month=may,
+volume=625,
+pages={147--156},
+ee={http://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/99956/1/0625-17.pdf},
+}
+
+@inproceedings{Baader1991,
+author=Baader,
+title={Unification, Weak Unification, Upper Bound, Lower Bound, and Generalization Problems},
+year={1991},
+pages={86--97},
+doi={10.1007/3-540-53904-2_88},
+crossref={RTA1991}
+} 
+ 
+@article{Dwork1984,
+author=Dwork#{ and }#Kanellakis#{ and John C. Mitchell},
+title={On the Sequential Nature of Unification},
+journal=JLP,
+volume={1},
+number={1},
+year={1984},
+pages={35--50},
+doi={10.1016/0743-1066(84)90022-0}
+}
+
+@article{Knight1989,
+author={Knight, Kevin},
+title={Unification: A Multidisciplinary Survey},
+journal=ACMCS,
+volume={21},
+number={1},
+year={1989},
+pages={93--124},
+doi={10.1145/62029.62030}
+}
+
+@article{Cockett2012,
+author={Cockett, J. Robin B. and D\'{\i}az-Bo\"{\i}ls, Joaqu\'{\i}n and Gallagher, Jonathan and Hrubes, Pavel},
+title={Timed Sets, Functional Complexity, and Computability},
+journal=ENTCS,
+volume={286},
+year={2012},
+pages={117--137},
+doi={10.1016/j.entcs.2012.08.009}
+}
+
+@inproceedings{Danos2005,
+author=Danos#{ and }#JKrivine,
+title={Transactions in RCCS},
+booktitle={CONCUR},
+year={2005},
+pages={398--412},
+doi={10.1007/11539452_31},
+crossref={concur2005}
+}
+
+@inproceedings{Danos2004,
+author=Danos#{ and }#JKrivine,
+title={Reversible Communicating Systems},
+booktitle={CONCUR},
+year={2004},
+pages={292--307},
+doi={10.1007/978-3-540-28644-8_19},
+crossref={concur2004}
+}
+
+@article{Phillips2007,
+author=Phillips#{ and }#Ulidowski,
+title={Reversibility and Models for Concurrency},
+journal=ENTCS,
+year={2007},
+volume={192},
+number={1},
+pages={93--108},
+doi={10.1016/j.entcs.2007.08.018},
+}
+
+@inproceedings{Ulidowski2003,
+author=Ulidowski,
+title={Priority Rewrite Systems for {OSOS} Process Languages},
+pages={87--101},
+crossref={concur2003},
+doi={10.1007/978-3-540-45187-7_6}
+}
+
+@inproceedings{Ulidowski2014,
+author=Ulidowski#{ and }#Phillips#{ and Yuen, Shoji},
+title={Concurrency and Reversibility},
+pages={1--14},
+doi={10.1007/978-3-319-08494-7_1},
+crossref={rc2014}
+}
+
+@inproceedings{Cherief1992,
+author={Ferroudja Cherief},
+title={Back and Forth Bisimulations On Prime Event Structures},
+pages={843--858},
+doi={10.1007/3-540-55599-4_128},
+crossref={parle1992},
+}
+
+@article{Glabbeek2001,
+author={van Glabbeek, Rob J. and Goltz, Ursula},
+title={Refinement of actions and equivalence notions for concurrent systems},
+journal=AI,
+year={2001},
+volume={37},
+number={4/5},
+pages={229--327}
+}
+
+@inproceedings{Fiore1999,
+author={Fiore, Marcelo P. and Cattani, Gian Luca and Winskel, Glynn},
+title={Weak Bisimulation and Open Maps},
+pages={67--76},
+doi={10.1109/LICS.1999.782590},
+crossref={lics1999}
+}
+
+@article{Winskel2011,
+author={Winskel, Glynn},
+title={Events, Causality and Symmetry},
+journal=CJ,
+volume={54},
+number={1},
+pages={42--57},
+year={2011},
+doi={10.1093/comjnl/bxp052},
+}
+
+@inbook{Winskel1995,
+author={Winskel, Glynn and Nielsen, Mogens},
+title={Models for concurrency},
+pages={1--148},
+crossref={Abramsky1995}
+}
+
+@book{Abramsky1995,
+editor={Abramsky, S. and Gabbay, Dov M. and Maibaum, T. S. E.},
+title={Semantic Modelling},
+booktitle={Semantic Modelling},
+year={1995},
+isbn={0-19-853780-8},
+series={Handbook of Logic in Computer Science},
+volume={4},
+publisher={Oxford University Press},
+}
+
+@inproceedings{Staton2010,
+author={Staton, Sam and Winskel, Glynn},
+title={On the Expressivity of Symmetry in Event Structures},
+pages={392--401},
+year={2010},
+crossref={lics2010},
+doi={10.1109/LICS.2010.37}
+}
+
+@article{Vogler1993,
+author={Vogler, Walter},
+title={Bisimulation and Action Refinement},
+journal=TCSc,
+volume={114},
+number={1},
+pages={173--200},
+year={1993},
+doi={10.1016/0304-3975(93)90157-O}
+}
+
+@article{Joyal1996b,
+author={Joyal, André and Nielsen, Mogens and Winskel, Glynn},
+title={Bisimulation from Open Maps},
+journal=IaC,
+year={1996},
+volume={127},
+number={2},
+pages={164--185},
+doi={10.1006/inco.1996.0057},
+}
+
+@inproceedings{Nicola1990,
+author={{De Nicola}, Rocco and Montanari, Ugo and Vaandrager, Frits W.},
+title={Back and Forth Bisimulations},
+pages={152--165},
+crossref={concur1990},
+doi={10.1007/BFb0039058},
+}
+
+@inproceedings{Giambiagi2004,
+author={Giambiagi, Pablo and Schneider, Gerardo and Valencia, Frank D.},
+title={On the Expressiveness of Infinite Behavior and Name Scoping in Process Calculi},
+year={2004},
+pages={226--240},
+crossref={fossacs2004},
+doi={10.1007/978-3-540-24727-2_17}
+}
+
+@inproceedings{Busi2003,
+author={Busi, Nadia and Gabbrielli, Maurizio and Zavattaro, Gianluigi},
+title={Replication vs. Recursive Definitions in Channel Based Calculi},
+pages={133--144},
+crossref={icalp2003},
+doi={10.1007/3-540-45061-0_12}
+}
+
+@inproceedings{Bernardi2013,
+author={Bernardi, Giovanni and Hennessy, Matthew},
+title={Mutually Testing Processes - (Extended Abstract)},
+booktitle={CONCUR},
+year={2013},
+pages={61-75},
+doi={10.1007/978-3-642-40184-8_6},
+crossref={concur2013}
+}
+
+@techreport{Bednarczyk1991,
+author={Bednarczyk, Marek A.},
+title={Hereditary History Preserving Bisimulations or What is the Power of the Future Perfect in Program Logics},
+year={1991},
+Institute={Instytut Po dstaw Informatyki PAN filia w Gdańsku},
+url={http://www.ipipan.gda.pl/~marek/papers/historie.ps.gz}
+}
+
+@article{Baldan2014,
+author=Baldan#{ and }# Crafa,
+title={A Logic for True Concurrency},
+journal=JACM,
+volume={61},
+number={4},
+pages={24},
+year={2014},
+doi={10.1145/2629638}
+}
+
+@inproceedings{Baldan2010,
+author=Baldan#{ and }# Crafa,
+title={A Logic for True Concurrency},
+pages={147--161},
+doi={10.1007/978-3-642-15375-4_11},
+crossref={concur2010},
+}
+
+@article{Ramyaa2011,
+author={Ramyaa, Ramyaa and }#Leivant,
+title={Ramified Corecurrence and Logspace},
+journal=ENTCS,
+volume={276},
+year={2011},
+pages={247--261},
+doi={10.1016/j.entcs.2011.09.025},
+}
+
+@inproceedings{Darondeau1990,
+author=Darondeau#{ and Degano, Pierpaolo},
+title={Event Structures, Causal Trees, and Refinements},
+pages={239--245},
+crossref={mfcs1990},
+doi={10.1007/BFb0029614},
+}
+
+@article{Darondeau1993,
+author=Darondeau#{ and Degano, Pierpaolo},
+title={Refinement of Actions in Event Structures and Causal Trees},
+journal=TCSc,
+year={1993},
+volume={118},
+number={1},
+pages={21--48},
+doi={10.1016/0304-3975(93)90361-V},
+}
+
+@inproceedings{Phillips2011,
+author=Phillips#{ and }#Ulidowski,
+title={A Logic with Reverse Modalities for History-preserving Bisimulations},
+year={2011},
+pages={104--118},
+doi={10.4204/EPTCS.64.8},
+crossref={eptcs64}
+}
+
+@article{Phillips2012,
+author=Phillips#{ and }#Ulidowski,
+title={A hierarchy of reverse bisimulations on stable configuration structures},
+journal=MSCS,
+year={2012},
+volume={22},
+number={2},
+pages={333--372},
+doi={10.1017/S0960129511000429},
+}
+
+@inproceedings{Phillips2013,
+author=Phillips#{ and }#Ulidowski,
+title={Reversibility and Asymmetric Conflict in Event Structures},
+pages={303--318},
+doi={10.1007/978-3-642-40184-8_22},
+crossref={concur2013},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Livres et chapitres
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@incollection{Thomas1997,
+title={Languages, Automata, and Logic},
+author={Thomas, Wolfgang},
+pages={389 -- 455},
+crossref={Rozenberg1997}
+}
+
+@incollection{Staiger1997,
+author={Staiger, Ludwig},
+title={\(\omega\)-Languages},
+pages={339--387},
+crossref={Rozenberg1997}
+}
+
+@book{Rozenberg1997,
+editor={Rozenberg, Grzegorz and Salomaa, Arto},
+title={Handbook of Formal Languages, Volume {III}: Beyond Words},
+booktitle={Handbook of Formal Languages, Volume {III}: Beyond Words},
+year={1997},
+isbn={3-540-60649-1},
+publisher={Springer},
+}
+
+@incollection{Hoogeboom2004,
+author={Hoogeboom, Hendrik Jan and Engelfriet, Joost},
+title={Pushdown Automata},
+pages={117--138},
+crossref={Martin2004},
+}
+
+@book{Martin2004,
+author={Martín-Vide, Carlos and Mitrana, Victor and P{\u{a}}un, Gheorghe},
+title={Formal Languages and Applications},
+booktitle={Formal Languages and Applications},
+isbn={978-3-540-39886-8},
+series={Studies in Fuzziness and Soft Computing},
+volume={148},
+year={2004},
+publisher=Springer
+}
+
+@incollection{Edmonds1987,
+author={Edmonds, Jack},
+title={Paths, Trees, and Flowers},
+year={1987},
+isbn={978-0-8176-4841-1},
+doi={10.1007/978-0-8176-4842-8_26},
+pages={361--379},
+crossref={classicpaperincombinatorics}
+}
+
+@book{classicpaperincombinatorics,
+editor={Gessel, Ira and Rota, Gian-Carlo},
+title={Classic Papers in Combinatorics},
+booktitle={Classic Papers in Combinatorics},
+publisher={Birkhäuser Boston},
+series={Modern Birkhäuser Classics},
+year={2008},
+isbn={978-0-8176-4842-8},
+ean={9780817648411},
+doi={10.1007/978-0-8176-4842-8}
+}
+
+@incollection{Clote1990,
+author=Clote,
+title={Sequential, machine-independent characterizations of the parallel complexity classes AlogTIME, ACk, NCk and NC},
+year={1990},
+doi={10.1007/978-1-4612-3466-1_4},
+pages={49--69},
+crossref={FeasibleMathematicsI}
+}
+
+@incollection{Clote1995,
+author=Clote#{ and Takeuti, Gaisi},
+title={First Order Bounded Arithmetic and Small Boolean Circuit Complexity Classes},
+pages={154--218},
+doi={10.1007/978-1-4612-2566-9_6},
+crossref={FeasibleMathematicsII},
+}
+
+@incollection{Leivant1995,
+author=Leivant,
+title={Ramified Recurrence and Computational Complexity I: Word Recurrence and Poly-time},
+doi={10.1007/978-1-4612-2566-9_11},
+pages={320--343},
+crossref={FeasibleMathematicsII}
+}
+
+@book{FeasibleMathematicsI,
+editors=Buss#{ and }#Scott,
+title={Feasible Mathematics},
+subtitle={A Mathematical Sciences Institute Workshop, Ithaca, New York, June 1989},
+year={1990},
+doi={10.1007/978-1-4612-3466-1},
+isbn={978-0-8176-3483-4},
+series={Progress in Computer Science and Applied Logic},
+volume={9},
+publisher={Birkhäuser Boston}
+}
+ 
+@book{FeasibleMathematicsII,
+editors=Clote#{ and Remmel, Jeffrey B.},
+title={Feasible Mathematics {II}},
+maintitle={Feasible Mathematics {II}},
+year={1995},
+doi={10.1007/978-1-4612-2566-9},
+isbn={978-1-4612-7582-4},
+series={Progress in Computer Science and Applied Logic},
+volume={13},
+publisher={Birkhäuser Boston}
+}
+
+@incollection{Schonage1970,
+author={Schönhage, Arnold},
+title={Universelle Turing Speicherung},
+years={1970},
+pages={369--383},
+crossref={dorr1970}
+}
+
+@book{dorr1970,
+maintitle={Automatentheorie und formale Sprachen},
+title={Automatentheorie und formale Sprachen},
+editors={Dörr, Johannes and Hotz, Gunter},
+volume={3},
+publisher={Bibliographishes Institut, Mannheim},
+series={Berichte aus dem mathematischen Forschungsinstitut Oberwolfach},
+month=oct,
+year=1970,
+url={http://www.sudoc.abes.fr/DB=2.1/SRCH?IKT=12&TRM=005478014},
+pubstate={Connu que par référence}
+}
+
+@incollection{Mellies2009,
+title={Categorical Semantics of Linear Logic},
+author=Mellies,
+pages={1--196},
+crossref={int-prog}
+}
+
+@book{int-prog,
+editor=Curien#{ and Herbelin, Hugo and }#Krivine#{ and }#Mellies,
+title={Interactive models of computation and program behaviour},
+maintitle={Interactive models of computation and program behaviour},
+series={Panoramas et synthèses},
+number=27,
+year={2009},
+publisher=SMF,
+}
+
+@incollection{Baader2001,
+author=Baader#{ and Snyder, Wayne},
+title={Unification Theory},
+pages={445--532},
+crossref={Robinson2001},
+}
+
+@book{Robinson2001,
+editor={Robinson, John Alan and Voronkov, Andrei},
+title={Handbook of Automated Reasoning (in 2 volumes)},
+maintitle={Handbook of Automated Reasoning (in 2 volumes)},
+publisher={Elsevier and MIT Press},
+year={2001},
+isbn={0-444-50813-9, 0-262-18223-8},
+}
+
+@incollection{Allender2004,
+author=Allender,
+title={Arithmetic circuits and counting complexity classes},
+pages={33--72},
+month=nov,
+crossref={CCP13}
+}
+
+@book{CCP13,
+editor={Krajíček, Jan},
+booktitle={Complexity of computations and proofs},
+maintitle={Complexity of computations and proofs},
+publisher={Quaderni di Matematica},
+volume={13},
+year={2004},
+pages={424},
+url={http://www.dimat.unina2.it/quaderni/quaderni13.htm}
+}
+
+@incollection{Boas1990,
+author=Boas,
+title={Machine Models and Simulation},
+pages={1--66},
+crossref={vanLeeuwen1990}
+}
+
+@incollection{Vitanyi1990,
+author={Vitányi, Paul M. B. and Li, M.},
+title={Kolmogorov complexity and its applications},
+pages={187--254},
+crossref={vanLeeuwen1990}
+}
+
+@incollection{Aho1990,
+author=Aho,
+title={Algorithms for finding patterns in strings},
+pages={255--3000},
+crossref={vanLeeuwen1990}
+}
+
+@book{vanLeeuwen1990,
+editor={Van Leeuwen, Jan},
+maintitle={Handbook of Theoretical Computer Science. volume A: Algorithms and Complexity},
+title={Handbook of Theoretical Computer Science. volume A: Algorithms and Complexity},
+booktitle={Handbook of Theoretical Computer Science. volume A: Algorithms and Complexity},
+publisher=Elsevier,
+year={1990},
+isbn={0-444-88071-2},
+ean={9780444880758},
+}
+
+@incollection{Girard2004,
+author=Girard,
+title={Between Logic and Quantic: a Tract},
+pages={346--381},
+doi={10.1017/CBO9780511550850.011},
+crossref={linearlogicincomputerscience}
+}
+
+@incollection{Mellies2004,
+author=Mellies,
+title={A Topological Correctness Criterion for Multiplicative Non-Commutative Logic},
+pages={283--322},
+doi={10.1017/CBO9780511550850.009},
+crossref={linearlogicincomputerscience}
+}
+
+@incollection{Lafont1995,
+author=Lafont,
+title={From Proof-Nets to Interaction Nets},
+pages={225--247},
+crossref={AdvancesinLL},
+doi={10.1017/CBO9780511629150.012}
+}
+
+@incollection{Girard1995a,
+title={Geometry of interaction {III}: accommodating the additives},
+author=Girard,
+pages={329--389},
+crossref={AdvancesinLL},
+doi={10.1017/CBO9780511629150.017}
+}
+
+@incollection{Danos1995,
+author=Danos#{ and }#Regnier,
+title={Proof-nets and the Hilbert space},
+crossref={AdvancesinLL},
+pages={307--328},
+doi={10.1017/CBO9780511629150.016}
+}
+
+@incollection{Jiang2009,
+author={Jiang, Tao and Li, Ming and Ravikumar, Bala},
+title={Basic notions in computational complexity},
+crossref={Atallah1998}
+} 
+
+@incollection{Allender2009,
+author=allender#{ and Loui, Michael C. and }#Regan,
+title={Complexity Classes},
+pages={674--696},
+crossref={Atallah1998}
+}
+
+@incollection{Allender2009b,
+author=allender#{ and Loui, Michael C. and }#Regan,
+title={Reducibility and Completeness},
+pages={697--724},
+crossref={Atallah1998}
+}
+
+@book{Atallah1998,
+maintitle={Algorithms and Theory of Computation Handbook},
+title={Algorithms and Theory of Computation Handbook},
+editor={Atallah, Mikhail J. and Blanton, Marina},
+year={1998},
+publisher=CRC,
+isbn={978-0-8493-2649-3},
+doi={10.1201/9781584888239}
+}
+
+@book{Atallah2009,
+editors={Atallah, Mikhail J. and Blanton, Marina},
+title={Algorithms and Theory of Computation Handbook, volume 1: General Concepts and Techniques},
+maintitle={Algorithms and Theory of Computation Handbook, volume 1: General Concepts and Techniques},
+editor={Atallah, Mikhail J. and Blanton, Marina},
+year={2009},
+publisher={Chapman \& Hall/CRC},
+series={Applied Algorithms and Data Structures},
+isbn={978-0-8493-2649-3},
+doi={10.1201/9781584888239},
+address={Hoboken, NJ},
+volume={1},
+edition={2},
+}
+
+@book{AdvancesinLL,
+title={Advances in Linear Logic},
+maintitle={Advances in Linear Logic},
+editor=Girard#{ and }#Lafont#{ and }#Regnier,
+number={222},
+year={1995},
+month=jun,
+publisher=CUP,
+series=LMSLNS
+}
+
+@book{linearlogicincomputerscience,
+editor=Ehrhard#{ and }#Girard#{ and Ruet, Paul and }#Scott,
+maintitle={Linear Logic in Computer Science},
+series=LMSLNS,
+number={316},
+publisher=CUP,
+year={2004},
+isbn={0521608570},
+ean={9780521608572},
+doi={10.1017/CBO9780511550850}
+}
+
+@article{Girard2011a,
+author=Girard,
+title={Geometry of Interaction {V}: logic in the hyperfinite factor},
+pages={1860--1883},
+doi={10.1016/j.tcs.2010.12.016},
+ee={http://iml.univ-mrs.fr/~girard/GdI5.1.pdf},
+crossref={TCS-girard-festschrift},
+}
+
+@article{Denaurois2011,
+author=deNaurois#{ and }#Mogbil,
+title={Correctness of linear logic proof structures is NL-complete},
+pages={1941--1957},
+doi={10.1016/j.tcs.2010.12.020},
+crossref={TCS-girard-festschrift},
+}
+
+@article{Carvalho2011,
+author={de Carvalho, Daniel and Pagani, Michele and }#Tortora,
+title={A Semantic Measure of the Execution Time in Linear Logic},
+pages={1884--1902},
+doi={10.1016/j.tcs.2010.12.017},
+crossref={TCS-girard-festschrift},
+}
+
+@periodical{TCS-girard-festschrift,
+editor=Ehrhard#{ and }#Faggian#{ and }#Laurent,
+title=TCSc,
+journal=TCSc,
+issuetitle={Girard’s Festschrift},
+year={2011},
+month=apr,
+volume={412},
+number={20},
+publisher=Elsevier,
+issn={0304-3975},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Conférences
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%
+% CONCUR
+%%%%%%%%%%
+@proceedings{concur1990,
+editor={Baeten, Jos C. M. and Klop, Jan Willem},
+title={{CONCUR} '90, Theories of Concurrency: Unification and Extension, Amsterdam, The Netherlands, August 27-30, 1990, Proceedings},
+series=LNCS,
+booktitle={{CONCUR} '90},
+year={1990},
+volume={458},
+publisher={Springer},
+isbn={3-540-53048-7}
+}
+
+@proceedings{concur2003,
+editor={Amadio, Roberto M. and Lugiez, Denis},
+title={{CONCUR} 2003 - Concurrency Theory, 14th International Conference, Marseille, France, September 3-5, 2003, Proceedings},
+series=LNCS,
+booktitle={CONCUR},
+year={2003},
+volume={2761},
+publisher={Springer},
+isbn={3-540-40753-7}
+}
+
+@proceedings{concur2004,
+editor={Gardner, Philippa and Nobuko Yoshida},
+title={CONCUR 2004 - Concurrency Theory, 15th International Conference, London, UK, August 31 - September 3, 2004, Proceedings},
+booktitle={CONCUR},
+publisher=Springer,
+series=LNCS,
+volume={3170},
+year={2004},
+isbn={3-540-22940-X}
+}
+
+@proceedings{concur2005,
+editor={Abadi, Mart\'{\i}n and de Alfaro, Luca},
+title={CONCUR 2005 - Concurrency Theory, 16th International Conference, CONCUR 2005, San Francisco, CA, USA, August 23-26, 2005, Proceedings},
+booktitle={CONCUR},
+publisher=Springer,
+series=LNCS,
+volume={3653},
+year={2005},
+isbn={3-540-28309-9}
+}
+
+@proceedings{concur2010,
+editor={Gastin, Paul and Laroussinie, François},
+title={CONCUR 2010 - Concurrency Theory, 21th International Conference, CONCUR 2010, Paris, France, August 31-September 3, 2010. Proceedings},
+booktitle={CONCUR},
+publisher=Springer,
+series=LNCS,
+volume={6269},
+year={2010},
+isbn={978-3-642-15374-7},
+doi={10.1007/978-3-642-15375-4},
+}
+
+@proceedings{concur2013,
+editor={D'Argenio, Pedro R. and Melgratti, Hern{\'a}n C.},
+title={CONCUR 2013 - Concurrency Theory - 24th International Conference, CONCUR 2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings},
+booktitle={CONCUR},
+publisher={Springer},
+series=LNCS,
+volume={8052},
+year={2013},
+isbn={978-3-642-40183-1},
+doi={10.1007/978-3-642-40184-8},
+}
+
+%%%%%%%%%%%%%
+% LICS
+%%%%%%%%%%%%%
+@proceedings{lics1991,
+title={Proceedings of the Sixth Annual Symposium on Logic in Computer Science (LICS '91), Amsterdam, The Netherlands, July 15-18, 1991},
+booktitle=LICS,
+publisher=ieeecs,
+year={1991},
+isbn={0-8186-2230-X}
+}
+
+@proceedings{lics1992,
+title={Proceedings of the Seventh Annual Symposium on Logic in Computer Science (LICS '92), Santa Cruz, California, USA, June 22–25, 1992},
+booktitle=LICS,
+publisher=ieeecs,
+year={1992},
+isbn={0-8186-2735-2},
+}
+
+@proceedings{lics1994,
+title={Proceedings of the Ninth Annual Symposium on Logic in Computer Science (LICS '94), Paris, France, July 4-7, 1994},
+booktitle=LICS,
+publisher=ieeecs,
+year={1994},
+isbn={0-8186-6310-3}
+}
+
+@proceedings{lics1999,
+title={14th Annual {IEEE} Symposium on Logic in Computer Science, Trento, Italy, July 2-5, 1999},
+booktitle=LICS,
+year={1999},
+publisher=IEEEcs,
+isbn={0-7695-0158-3},
+}
+
+@proceedings{lics2004,
+title={19th IEEE Symposium on Logic in Computer Science (LICS 2004), 14–17 July 2004, Turku, Finland, Proceedings},
+year={2004},
+publisher=ieeecs,
+booktitle=LICS,
+isbn={0-7695-2192-4}
+}
+
+@proceedings{lics2005,
+title={20th IEEE Symposium on Logic in Computer Science (LICS 2005), 26–29 June 2005, Chicago, {IL}, {USA}, Proceedings},
+booktitle=LICS,
+publisher=ieeecs,
+year={2005},
+isbn={0-7695-2266-1}
+}
+
+@proceedings{lics2006,
+title={21th {IEEE} Symposium on Logic in Computer Science {(LICS} 2006), 12-15 August 2006, Seattle, WA, USA, Proceedings},
+year={2006},
+publisher=ieeecs,
+}
+
+@proceedings{lics2007,
+title={22nd IEEE Symposium on Logic in Computer Science (LICS 2007), 10–12 July 2007, Wroclaw, Poland, Proceedings},
+year={2007},
+publisher=ieeecs,
+booktitle=LICS
+}
+
+@proceedings{lics2008,
+title={Proceedings of the Twenty-Third Annual IEEE Symposium on Logic in Computer Science, LICS 2008, 24–27 June 2008, Pittsburgh, PA, USA},
+booktitle=LICS,
+publisher=ieeecs,
+year={2008},
+isbn={978-0-7695-3183-0}
+}
+
+@proceedings{lics2009,
+title={Proceedings of the 24th Annual IEEE Symposium on Logic in Computer Science, LICS 2009, 11–14 August 2009, Los Angeles, CA, USA},
+booktitle=LICS,
+publisher=ieeecs,
+year={2009},
+isbn={978-0-7695-3746-7}
+}
+
+@proceedings{lics2010,
+title={Proceedings of the 25th Annual {IEEE} Symposium on Logic in Computer Science, {LICS} 2010, 11-14 July 2010, Edinburgh, United Kingdom},
+booktitle=LICS,
+publisher=ieeecs,
+year={2010},
+isbn={978-0-7695-4114-3}
+}
+
+@proceedings{lics2013,
+title={28th Annual ACM/IEEE Symposium on Logic in Computer Science, LICS 2013, New Orleans, LA, USA, June 25-28, 2013},
+booktitle=LICS,
+publisher=ieeecs,
+year={2013},
+isbn={978-1-4799-0413-6},
+url={http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6570844}
+}
+
+%%%%%%%%%%%%
+% ACM
+%%%%%%%%%%%
+
+@proceedings{STOC1969,
+editor={Fischer, Patrick C. and }#Ginsburg#{ and }#Harrison,
+title={Proceedings of the 1st Annual ACM Symposium on Theory of Computing, May 5-7, 1969, Marina del Rey, CA, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1969}
+}
+
+@proceedings{STOC1977,
+editor=Hopcroft#{ and Friedman,Emily P. and }#Harrison,
+title={Proceedings of the 9th Annual ACM Symposium on Theory of Computing, May 4–6, 1977, Boulder, Colorado, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1977}
+}
+
+@proceedings{STOC1978,
+editor={Lipton, Richard J. and Burkhard, Walter A. and Savitch, Walter J. and Friedman, Emily P. and }#Aho,
+title={Proceedings of the 10th Annual ACM Symposium on Theory of Computing, May 1-3, 1978, San Diego, California, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1978},
+}
+
+
+@proceedings{STOC1982,
+editor={Lewis, Harry R. and Simons, Barbara B. and Burkhard, Walter A. and Landweber, Lawrence H.},
+title={Proceedings of the 14th Annual {ACM} Symposium on Theory of Computing, May 5-7, 1982, San Francisco, California, {USA}},
+year={1982},
+booktitle=STOC,
+publisher=ACM,
+isbn={0-89791-070-2},
+}
+
+@proceedings{STOC1987,
+editor=Aho,
+title={Proceedings of the 19th Annual ACM Symposium on Theory of Computing, 1987, New York, New York, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1987},
+isbn={0-89791-221-7},
+}
+
+@proceedings{STOC1992,
+editor={Kosaraju, S. Rao and Fellows, Mike and }#Wigderson#{ and Ellis, John A.},
+title={Proceedings of the 24th Annual ACM Symposium on Theory of Computing, May 4-6, 1992, Victoria, British Columbia, Canada},
+booktitle=STOC,
+publisher=ACM,
+year={1992},
+isbn={0-89791-511-9}
+}
+
+@proceedings{STOC1983,
+editor={Johnson, David S. and Fagin, Ronald and Michael L. Fredman and Harel, David and Karp, Richard M. and Lynch, Nancy A. and }#Papadimitriou#{ and }#Rivest#{ and }#Ruzzo#{ and Seiferas, Joel I.},
+title={Proceedings of the 15th Annual ACM Symposium on Theory of Computing, 25-27 April, 1983, Boston, Massachusetts, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1983}
+}
+
+@proceedings{STOC1993,
+editor={Kosaraju, S. Rao and Johnson, David S. and Aggarwal, Alok},
+title={Proceedings of the Twenty-Fifth Annual ACM Symposium on Theory of Computing, May 16–18, 1993, San Diego, CA, USA},
+booktitle=STOC,
+publisher=ACM,
+year={1993},
+location={San Diego, California, USA},
+isbn={0-89791-591-7}
+}
+
+
+@proceedings{aplas2010,
+editor={Ueda, Kazunori},
+title={Programming Languages and Systems - 8th Asian Symposium, APLAS 2010, Shanghai, China, November 28 - December 1, 2010. Proceedings},
+booktitle=APLAS,
+publisher=Springer,
+series=LNCS,
+volume={6461},
+year={2010},
+isbn={978-3-642-17163-5},
+doi={10.1007/978-3-642-17164-2}
+}
+
+@proceedings{aplas2004,
+editor={Chin, Wei-Ngan},
+title={Programming Languages and Systems: Second Asian Symposium, {APLAS} 2004, Taipei, Taiwan, November 4-6, 2004. Proceedings},
+series=LNCS,
+volume={3302},
+publisher={Springer},
+year={2004},
+isbn={3-540-23724-0},
+doi={10.1007/978-3-540-30477-7_21}
+}
+
+@proceedings{aplas2014,
+editor={Garrigue, Jacques},
+title={12th Asian Symposium on Programming Languages and Systems, November 17-19, 2014, Singapore},
+booktitle=APLAS,
+publisher=Springer,
+series=LNCS,
+volume={8858},
+year={2014},
+}
+
+@proceedings{ACM1992,
+title={Proc. of the 19$^{th}$ Annual {ACM} Symposium on Principles of Programming Languages},
+year={1992},
+publisher={ACM Press},
+booktitle={Proc. of the 19$^{th}$ Annual ACM Symposium on Principles of Programming Languages},
+}
+
+@proceedings{ACM1990,
+title={Proc. of the 17$^{th}$ Annual {ACM} Symposium on Principles of Programming Languages},
+year={1990},
+address={San Francisco},
+publisher={ACM Press},
+booktitle={Proc. of the 17$^{th}$ Annual ACM Symposium on Principles of Programming Languages},
+}
+
+@proceedings{CSL2008,
+editor={Michael Kaminski and }#Martini,
+title={Computer Science Logic, 22nd International Workshop, CSL 2008, 17th Annual Conference of the EACSL, Bertinoro, Italy, September 16-19, 2008. Proceedings},
+booktitle=CSL,
+publisher=Springer,
+series=LNCS,
+volume={5213},
+year={2008},
+isbn={978-3-540-87530-7}
+}
+
+@proceedings{csl2013,
+editor={Ronchi Della Rocca, Simona},
+title={Computer Science Logic 2013 (CSL 2013), CSL 2013, September 2-5, 2013, Torino, Italy},
+booktitle=CSL,
+publisher={Schloss Dagstuhl - Leibniz-Zentrum für Informatik},
+series=LIPIcs,
+volume={23},
+year={2013},
+isbn={978-3-939897-60-6},
+url={http://drops.dagstuhl.de/opus/portals/extern/index.php?semnr=13009}
+}
+
+@proceedings{csl2014,
+editor={Henzinger, Thomas A. and Miller, Dale},
+title={Joint Meeting of the Twenty-Third {EACSL} Annual Conference on Computer Science Logic {(CSL)} and the Twenty-Ninth Annual {ACM/IEEE} Symposium on Logic in Computer Science (LICS), {CSL-LICS} '14, Vienna, Austria, July 14 - 18, 2014},
+booktitle=CSL,
+publisher=ACM,
+year={2014},
+}
+
+@proceedings{mfcs1984,
+editor={Chytil, Michal and Koubek, V{\'a}clav},
+title={Mathematical Foundations of Computer Science 1984, Praha, Czechoslovakia, September 3-7, 1984, Proceedings},
+booktitle=MFCS,
+publisher=Springer,
+series=LNCS,
+volume={176},
+year={1984},
+isbn={3-540-13372-0}
+}
+
+@proceedings{mfcs1990,
+editor={Rovan, Branislav},
+title={Mathematical Foundations of Computer Science 1990, MFCS'90, Bansk{\'{a}}, Bystrica, Czechoslovakia, August 27-31, 1990, Proceedings},
+booktitle={MFCS},
+year={1990},
+series=LNCS,
+volume={452},
+publisher=Springer,
+isbn={3-540-52953-5},
+}
+
+@proceedings{mfcs1991,
+title={Mathematical Foundations of Computer Science 1991},
+booktitle={MFCS},
+editor={Tarlecki, Andrzej},
+year=1991,
+isbn={978-3-540-54345-9},
+volume={520},
+series=LNCS,
+publisher={Springer Berlin Heidelberg},
+}
+
+@proceedings{mfcs1992,
+editor={Havel, Ivan M. and Koubek, Václav},
+title={Mathematical Foundations of Computer Science 1992, 17th International Symposium, MFCS'92, Prague, Czechoslovakia, August 24-28, 1992, Proceedings},
+booktitle=MFCS,
+publisher=Springer,
+series=LNCS,
+volume={629},
+year={1992},
+isbn={3-540-55808-X}
+}
+
+%%%%%%%%
+% Ifip TCS
+%%%%%%%%%%
+
+@proceedings{ifipTCS2012, 
+editor={Baeten, Jos C. M. and Ball, Thomas and de Boer, Frank S.},
+title={Theoretical Computer Science - 7th IFIP TC 1/WG 2.2 International Conference, TCS 2012, Amsterdam, The Netherlands, September26-28, 2012. Proceedings},
+booktitle={IFIP TCS},
+publisher=Springer,
+series=LNCS,
+volume={7604},
+year={2012},
+isbn={978-3-642-33474-0},
+doi={10.1007/978-3-642-33475-7}
+}
+
+@proceedings{IFIP1960,
+title={Proceedings of the International Conference on Information Processing. UNESCO, Paris, France, June 13-23, 1959.},
+booktitle={IFIP Congress},
+publisher={R. Oldenbourg (München) and Butterworths (London)},
+year={1960},
+url={http://www.unesco.org/ulis/cgi-bin/ulis.pl?catno=51334&set=53CFD134_1_61&gp=1&lin=1&ll=1},
+}
+@string{ediifip={C. V. Freiman, John E. Griffith, J. L. Rosenfeld}}
+@string{lieuifip={{Ljubljana, Yugoslavia, August 23-28, 1971}}}
+@string{titreifip={Information Processing 71, Proceedings of IFIP Congress 71,}}
+
+@proceedings{ifip1994-1,
+editors={Pehrson, Bjorn and Simon, Imre},
+title={Technology and Foundations - Information Processing '94, Volume 1, Proceedings of the IFIP 13th World Computer Congress},
+booktitle={{IFIP} Congress {(1)}},
+publisher={North-Holland},
+year={1994}, 
+isbn={0-444-81989-4 },
+}
+location={Hamburg, Germany, 28 August - 2 September, 1994},
+
+
+@proceedings{IFIP1971-1,
+editors=ediifip,
+title=titreifip#{ Volume 1 - Foundations and Systems},
+booktitle={IFIP Congress (1)},
+year={1972},
+publisher=North-Holland,
+location=lieuifip,
+isbn={0-7204-2063-6}
+}
+
+@proceedings{IFIP1971-2,
+editors=ediifip,
+title=titreifip#{ Volume 2 - Applications},
+booktitle={IFIP Congress (2)},
+year={1972},
+publisher=North-Holland,
+location=lieuifip,
+isbn={0-7204-2063-6}
+}
+
+Pas dispo en ligne : 
+http://www.unesco.org/ulis/cgi-bin/ulis.pl?catno=51336&set=53E0C71E_2_403&gp=1&lin=1&ll=1
+
+%%%%%%%%%%%
+% Fossacs
+%%%%%%%%
+
+@proceedings{fossacs2004,
+editor={Walukiewicz, Igor},
+title={Foundations of Software Science and Computation Structures, 7th International Conference, FOSSACS 2004, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2004, Barcelona, Spain, March 29 - April 2, 2004, Proceedings},
+booktitle=fossacs,
+publisher=Springer,
+series=LNCS,
+volume={2987},
+year={2004},
+isbn={3-540-21298-1},
+}
+
+@proceedings{fossacs2013,
+editor={Pfenning, Frank},
+title={Foundations of Software Science and Computation Structures - 16th International Conference, FOSSACS 2013, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2013, Rome, Italy, March 16-24, 2013. Proceedings},
+booktitle=fossacs,
+publisher=Springer,
+series=LNCS,
+volume={7794},
+year={2013},
+isbn={978-3-642-37074-8},
+doi={10.1007/978-3-642-37075-5}
+}
+
+%%%%%%%%
+% Focs
+%%%%%%%%
+@proceedings{focs1965,
+title={6th Annual Symposium on Switching Circuit Theory and Logical Design, Ann Arbor, Michigan, USA, October 6-8, 1965},
+booktitle={SWCT (FOCS)},
+publisher=ieeecs,
+year={1965}
+}
+
+@proceedings{focs1967,
+title={8th Annual Symposium on Switching and Automata Theory, Austin, Texas, USA, October 18-20, 1967},
+booktitle={SWAT (FOCS)},
+publisher=ieeecs,
+year={1967}
+}
+
+@proceedings{focs1973,
+title={14th Annual Symposium on Switching and Automata Theory, Iowa City, Iowa, USA, October 15-17, 1973},
+booktitle={SWAT (FOCS)},
+publisher=ieeecs,
+year={1973}
+}
+
+@proceedings{focs1976,
+title={17th Annual Symposium on Foundations of Computer Science, Houston, Texas, USA, 25-27 October 1976},
+booktitle=FOCS,
+publisher=ieeecs,
+year={1976}
+}
+
+@proceedings{focs1993,
+title={34th Annual Symposium on Foundations of Computer Science, Palo Alto, California, USA, 3-5 November 1993},
+booktitle=FOCS,
+publisher=IEEECS,
+year={1993},
+}
+
+@proceedings{focs1998,
+title={39th Annual Symposium on Foundations of Computer Science, FOCS '98, November 8-11, 1998, Palo Alto, California, USA},
+booktitle=FOCS,
+publisher=ieeecs,
+year={1998}
+}
+
+%%%%%%%
+% Icalp
+%%%%%%
+
+@proceedings{icalp1982,
+editor={Nielsen, Mogens and Schmidt, Erik Meineche},
+title={Automata, Languages and Programming, 9th Colloquium, Aarhus, Denmark, July 12-16, 1982, Proceedings},
+booktitle=ICALP,
+publisher=Springer,
+series=LNCS,
+volume={140},
+year={1982},
+isbn={3-540-11576-5}
+}
+
+@proceedings{icalp1989,
+editor={Ausiello, Giorgio and Dezani{-}Ciancaglini, Mariangiola and Ronchi Della Rocca, Simona},
+booktitle={ICALP},
+title={Automata, Languages and Programming, 16th International Colloquium, ICALP89, Stresa, Italy, July 11-15, 1989, Proceedings},
+series=LNCS,
+volume={372},
+publisher=Springer,
+year={1989},
+isbn={3-540-51371-X},
+}
+
+@proceedings{icalp1992,
+editor={Kuich, Werner},
+title={Automata, Languages and Programming, 19th International Colloquium, ICALP92, Vienna, Austria, July 13-17, 1992, Proceedings},
+booktitle={ICALP},
+series=LNCS,
+volume={623},
+publisher=Springer,
+year={1992},
+isbn={3-540-55719-9}
+}
+
+@proceedings{icalp1995,
+editor={Fülöp, Zoltán and Gécseg, Ferenc},
+title={Automata, Languages and Programming, 22nd International Colloquium, ICALP95, Szeged, Hungary, July 10-14, 1995, Proceedings},
+booktitle=ICALP,
+publisher=Springer,
+series=LNCS,
+volume={944},
+year={1995},
+isbn={3-540-60084-1},
+}
+
+@proceedings{icalp2003,
+editor={Baeten, Jos C. M. and Lenstra, Jan Karel and Parrow, Joachim and Woeginger, Gerhard J.},
+title={Automata, Languages and Programming, 30th International Colloquium, {ICALP} 2003, Eindhoven, The Netherlands, June 30 - July 4, 2003. Proceedings},
+series=LNCS,
+booktitle=ICALP,
+year={2003},
+volume={2719},
+publisher=Springer,
+isbn={3-540-40493-7},
+}
+
+@proceedings{icalp2004,
+editor={Díaz, Josep and Karhumäki, Juhani and Lepistö, Arto and Sannella, Donald},
+title={Automata, Languages and Programming: 31st International Colloquium, {ICALP} 2004, Turku, Finland, July 12-16, 2004. Proceedings},
+booktitle=ICALP,
+series=LNCS,
+volume={3142},
+publisher={Springer},
+year={2004},
+isbn={3-540-22849-7},
+}
+
+@proceedings{icalp2013-2,
+editor={Fomin, Fedor V. and Freivalds, Rusins Martins and Kwiatkowska, Marta Z. and Peleg, David},
+title={Automata, Languages, and Programming - 40th International Colloquium, ICALP 2013, Riga, Latvia, July 8-12, 2013, Proceedings, Part II},
+booktitle={ICALP (2)},
+publisher=Springer,
+series=LNCS,
+volume={7966},
+year={2013},
+month=jul,
+isbn={978-3-642-39211-5},
+doi={10.1007/978-3-642-39212-2}
+}
+
+@proceedings{icalp2014-2,
+editor={Esparza, Javier and Fraigniaud, Pierre and Husfeldt, Thore and Koutsoupias, Elias},
+title={Automata, Languages, and Programming - 41st International Colloquium, ICALP 2014, Copenhagen, Denmark, July 8-11, 2014, Proceedings, Part II},
+booktitle={ICALP (2)},
+publisher=Springer,
+series=LNCS,
+volume={8573},
+year={2014},
+isbn={978-3-662-43950-0},
+doi={10.1007/978-3-662-43951-7},
+}
+
+@proceedings{QPL2011,
+editor={Jacobs, Bart and }#Selinger#{ and Spitters, Bas},
+title={Proceedings 8th International Workshop on Quantum Physics and Logic},
+booktitle=QPL,
+series=EPTCS,
+volume={95},
+year={2011},
+doi={10.4204/EPTCS.95}
+}
+
+@proceedings{fics2002,
+editor={{\'E}sik, Zolt{\'a}n and Ing{\'o}lfsd{\'o}ttir, Anna},
+title={Fixed Points in Computer Science, FICS 2002, Copenhagen, Denmark, 20-21 July 2002, Preliminary Proceedings},
+booktitle=FICS,
+publisher={University of Aarhus},
+series={BRICS Notes Series},
+volume={NS-02-2},
+year={2002},
+month=jul,
+pages={iv+81}
+}
+This volume contains the preliminary proceedings of FICS '01 held in Copenhagen on July 20 and 21, 2002, as a satellite workshop of LICS '02 under FLoC '02
+
+@proceedings{CSP2009,
+title={Proceedings International Workshop on The Complexity of Simple Programs, Cork, Ireland, 6-7th December 2008},
+year={2009},
+editor={Neary, Turlough and Woods, Damien and Seda, Anthony Karel and Murphy, Niall},
+volume={1},
+series=EPTCS,
+booktitle=CSP,
+doi={10.4204/EPTCS.1}
+}
+
+@proceedings{LFCS2007,
+title={Logical Foundations of Computer Science, International Symposium, {LFCS} 2007, New York, {NY}, {USA}, June 4-7, 2007, Proceedings},
+year={2007},
+editor={Artëmov, Sergei N. and Nerode, Anil},
+volume={4514},
+series=LNCS,
+publisher=Springer,
+booktitle=LFCS,
+isbn={978-3-540-72732-3}
+}
+
+@proceedings{Dice2011,
+editor=Marion,
+title={Proceedings Second Workshop on Developments in Implicit Computational Complexity},
+booktitle=DICE,
+series=EPTCS,
+volume={75},
+year={2011},
+doi={10.4204/EPTCS.75}
+}
+
+@proceedings{Dice2010,
+editor=Baillot,
+title={Proceedings International Workshop on Developments in Implicit Computational complExity},
+booktitle=DICE,
+series=EPTCS,
+volume={23},
+year={2010},
+doi={10.4204/EPTCS.23}
+}
+
+@proceedings{Banerjee2013,
+editor={Banerjee, Anindya and Danvy, Olivier and Doh, Kyung-Goo and Hatcliff, John},
+title={Semantics, Abstract Interpretation, and Reasoning about Programs: Essays Dedicated to David A. Schmidt on the Occasion of his Sixtieth Birthday, Manhattan, Kansas, USA, 19-20th September 2013},
+booktitle={Festschrift for Dave Schmidt},
+series=EPTCS,
+volume={129},
+year={2013},
+doi={10.4204/EPTCS.129}
+}
+
+@proceedings{forapa2009,
+editor={van Eekelen, Marko C. J. D. and Shkaravska, Olha},
+title={Foundational and Practical Aspects of Resource Analysis - First International Workshop, FOPARA 2009, Eindhoven, The Netherlands, November 6, 2009, Revised Selected Papers},
+booktitle=FOPARA,
+publisher=Springer,
+series=LNCS,
+volume={6324},
+year={2010},
+isbn={978-3-642-15330-3},
+doi={10.1007/978-3-642-15331-0},
+}
+
+@proceedings{popl1990,
+editor={Allen, Frances E.},
+title={Conference Record of the Seventeenth Annual ACM Symposium on Principles of Programming Languages, San Francisco, California, USA, January 1990},
+booktitle=POPL,
+publisher={ACM Press},
+month=jan,
+isbn={0-89791-343-4},
+}
+
+@proceedings{popl1992,
+editor={Sethi, Ravi},
+title={Conference Record of the Nineteenth Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, Albuquerque, New Mexico, USA, January 19-22, 1992},
+booktitle=POPL,
+publisher={ACM Press},
+year={1992},
+isbn={0-89791-453-8},
+}
+url={http://dl.acm.org/citation.cfm?id=143165},
+
+@proceedings{popl1993,
+editor={Van Deusen, Mary S. and Lang, Bernard},
+title={Conference Record of the Twentieth Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+booktitle=POPL,
+publisher={ACM Press},
+location={Charleston, South Carolina, USA},
+year={1993},
+isbn={0-89791-560-7},
+}
+url={http://dl.acm.org/citation.cfm?id=158511}
+month=jan,
+
+
+@proceedings{popl1997,
+editor={Lee, Peter and Henglein, Fritz and }#Jones,
+title={Conference Record of POPL'97: The 24th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, Papers Presented at the Symposium, Paris, France, 15-17 January 1997},
+booktitle=POPL,
+publisher={ACM Press},
+year={1997},
+isbn={0-89791-853-3},
+}
+url={http://dl.acm.org/citation.cfm?id=263699}
+
+@proceedings{popl2008,
+editor={Necula, George C. and Wadler, Philip},
+title={Proceedings of the 35th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, POPL 2008, San Francisco, California, USA, January 7-12, 2008},
+booktitle=POPL,
+publisher=ACM,
+year={2008},
+isbn={978-1-59593-689-9},
+}
+url={http://dl.acm.org/citation.cfm?id=1328438},
+
+@proceedings{lcc1994,
+editor=Leivant,
+title={Logical and Computational Complexity. Selected Papers. Logic and Computational Complexity, International Workshop LCC '94, Indianapolis, Indiana, USA, 13-16 October 1994},
+booktitle=LCC,
+publisher=Springer,
+series=LNCS,
+volume={960},
+year={1995},
+isbn={3-540-60178-3}
+}
+
+@proceedings{coco1997,
+title={Proceedings of the Twelfth Annual IEEE Conference on Computational Complexity, Ulm, Germany, June 24-27, 1997},
+booktitle=coco,
+publisher=ieeecs,
+year={1997},
+isbn={0-8186-7907-7}
+}
+
+@proceedings{coco1988,
+title={Proceedings: Third Annual Structure in Complexity Theory Conference, Georgetown University, Washington, D. C., USA, June 14-17, 1988},
+booktitle=coco,
+publisher=ieeecs,
+year={1988},
+isbn={0-8186-0794-7},
+url={http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=209}
+}
+
+@proceedings{cade1986,
+editor={Siekmann, Jörg H.},
+title={8th International Conference on Automated Deduction, Oxford, England, July 27 - August 1, 1986, Proceedings},
+booktitle=CADE,
+publisher=Springer,
+series=LNCS,
+volume={230},
+year={1986},
+isbn={3-540-16780-3}
+}
+
+@proceedings{slp1985,
+title={Proceedings of the 1985 Symposium on Logic Programming, Boston, Massachusetts, USA, July 15-18, 1985},
+booktitle=SLP,
+publisher=ieeecs,
+year={1985},
+isbn={0-8186-0636-3}
+}
+
+@proceedings{acm1984,
+editor={Muller, Richard L. and Pottmyer, James J.},
+title={Proceedings of the 1984 ACM Annual Conference on Computer Science: The fifth generation challenge, San Francisco, CA, USA, October 1984},
+booktitle={ACM Conference on Computer Science},
+publisher=ACM,
+year={1984},
+isbn={0-89791-144-X},
+}
+
+@proceedings{RTA1991,
+editor={Book, Ronald V.},
+title={Rewriting Techniques and Applications, 4th International Conference, RTA-91, Como, Italy, April 10-12, 1991, Proceedings},
+booktitle=RTA,
+publisher=Springer,
+series=LNCS,
+volume={488},
+year={1991},
+isbn={3-540-53904-2}
+}
+
+
+@proceedings{rtatlca14,
+editor={Dowek, Gilles},
+title={Rewriting and Typed Lambda Calculi - Joint International Conference, RTA-TLCA 2014, Held as Part of the Vienna Summer of Logic, {VSL} 2014, Vienna, Austria, July 14-17, 2014. Proceedings},
+booktitle={RTA-TLCA},
+publisher=Springer,
+series=LNCS,
+volume={8650},
+isbn={978-3-319-08917-1},
+doi={10.1007/978-3-319-08918-8},
+year={2014}
+}
+
+@proceedings{rta2012,
+editor={Tiwari, Ashish},
+title={23rd International Conference on Rewriting Techniques and Applications (RTA'12) , {RTA} 2012, May 28 - June 2, 2012, Nagoya, Japan},
+series=LIPIcs,
+year={2012},
+volume={15},
+publisher={Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},
+doi={10.4230/LIPIcs.RTA.2012.i},
+isbn={978-3-939897-38-5}
+}
+
+@proceedings{pepm1991,
+editor={Consel, Charles and Danvy, Olivier},
+title={Proceedings of the Symposium on Partial Evaluation and Semantics-Based Program Manipulation, PEPM'91, Yale University, New Haven, Connecticut, USA, June 17-19, 1991},
+booktitle=PEPM,
+publisher=ACM,
+year={1991},
+isbn={0-89791-433-3}
+}
+
+%%%%%%%%
+% Misc %
+%%%%%%%%
+@proceedings{essli2011,
+editor={Bezhanishvili, Nick and Goranko, Valentin},
+title={Lectures on Logic and Computation - ESSLLI 2010 Copenhagen, Denmark, August 2010, ESSLLI 2011, Ljubljana, Slovenia, August 2011, Selected Lecture Notes},
+booktitle=ESSLLI,
+publisher=Springer,
+series=LNCS,
+volume={7388},
+year={2012},
+isbn={978-3-642-31484-1},
+doi={10.1007/978-3-642-31485-8},
+}
+
+@proceedings{AMS-IMS-SIAM1989,
+editor={Gray, John W. and {\v{S}}{\v{c}}edrov, Andre},
+booktitle={Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference held June 14-20, 1987},
+series={Categories in Computer Science and Logic},
+year={1989},
+volume={92},
+journal=CM,
+publisher=AMS,
+isbn={978-0-8218-5100-5},
+doi={10.1090/conm/092}
+}
+booktitle={Proceedings of the AMS Conference on Categories, Logic and Computer Science},
+
+@proceedings{Karp1974,
+title={Complexity of Computation},
+booktitle={Complexity of Computation, SIAM-AMS Proceedings},
+editor={Karp, Richard M.},
+series={SIAM-AMS Proceedings},
+volume={7},
+year={1974},
+publisher=AMS,
+isbn={9780821813270},
+}
+http://www.ams.org/bookstore?fn=20&arg1=siamsseries&ikey=SIAMS-7
+Proceedings of a symposium in applied mathematics of The American Mathematical Society and the Society for Industrial and Applied Mathematics held in New York City April 18--19, 1973
+
+@proceedings{tlca1999,
+editor=Girard,
+title={Typed Lambda Calculi and Applications, 4th International Conference, TLCA'99, L'Aquila, Italy, April 7-9, 1999, Proceedings},
+booktitle=TLCA,
+publisher=Springer,
+series=LNCS,
+volume={1581},
+year={1999},
+isbn={3-540-65763-0},
+}
+
+@proceedings{tlca2001,
+editor=Abramsky,
+title={Typed Lambda Calculi and Applications, 5th International Conference, TLCA 2001, Krakow, Poland, May 2-5, 2001, Proceedings},
+booktitle=TLCA,
+publisher=Springer,
+series=LNCS,
+volume={2044},
+year={2001},
+isbn={3-540-41960-8},
+}
+
+@proceedings{tlca2003,
+editor=Hofmann,
+title={Typed Lambda Calculi and Applications, 6th International Conference, TLCA 2003, Valencia, Spain, June 10-12, 2003, Proceedings},
+booktitle=TLCA,
+publisher=Springer,
+series=LNCS,
+volume={2701},
+year={2003},
+isbn={3-540-40332-9},
+}
+
+@proceedings{Tagt1994,
+editor={Cuny, Janice E. and Ehrig, Hartmut and Engels, Gregor and Rozenberg, Grzegorz},
+title={Graph Gramars and Their Application to Computer Science, 5th International Workshop, Williamsburg, VA, USA, November 13-18, 1994, Selected Papers},
+booktitle=TAGT,
+publisher=Springer,
+series=LNCS,
+volume={1073},
+year={1996},
+isbn={3-540-61228-9}
+}
+
+@proceedings{amast2006,
+editor={Johnson, Michael and Vene, Varmo},
+title={Algebraic Methodology and Software Technology, 11th International Conference, AMAST 2006, Kuressaare, Estonia, July 5-8, 2006, Proceedings},
+booktitle={AMAST},
+publisher=Springer,
+series=LNCS,
+volume={4019},
+year={2006},
+isbn={3-540-35633-9},
+}
+
+@proceedings{birthday1994,
+editor={Karhum{\"a}ki, Juhani and Maurer, Hermann A. and Rozenberg, Grzegorz},
+title={Results and Trends in Theoretical Computer Science, Colloquium in Honor of Arto Salomaa, Graz, Austria, June 10-11, 1994, Proceedings},
+booktitle={Results and Trends in Theoretical Computer Science},
+publisher=Springer,
+series=LNCS,
+volume={812},
+year={1994},
+isbn={3-540-58131-6},
+}
+
+@proceedings{Arató1981,
+editor={Arató, Mátyás and Varga, László},
+booktitle={Mathematical Models In Computer Systems: Proceedings Of The Third Hungarian Computer Sciences Conference, Budapest, January 1981},
+pages={370},
+year={1981},
+publisher={Akad{\'e}miai Kiad{\'o}},
+isbn={9630529459}
+}
+Magyar Számítástudományi Konferencia (3.) 
+
+@proceedings{AFL2014,
+editor={{\'E}sik, Zolt{\'a}n and F{\"u}l{\"o}p, Zolt{\'a}n},
+title={Proceedings 14th International Conference on Automata and Formal Languages, AFL 2014, Szeged, Hungary, May 27-29, 2014},
+booktitle={AFL},
+series={EPTCS},
+volume={151},
+year={2014},
+doi={10.4204/EPTCS.151},
+}
+
+@proceedings{spin2008,
+editor={Havelund, Klaus and Majumdar, Rupak and Palsberg, Jens},
+title={Model Checking Software, 15th International SPIN Workshop, Los Angeles, CA, USA, August 10-12, 2008, Proceedings},
+booktitle={SPIN},
+publisher=Springer,
+series=LNCS,
+volume={5156},
+year={2008},
+isbn={978-3-540-85113-4}
+}
+
+
+@proceedings{SIGCISwork2009,
+title={SIGCIS 2009 Workshop},
+year={2009},
+url={http://www.sigcis.org/workshop09c},
+}
+2009 Worksop, Special Interest Group, Computers, Information and Society, Society for the History of Technology.
+"Michael Mahoney and the Histories of Computing"
+Sunday, October 18, 2009, Hilton Hotel, Pittsbugh, Pennsylvania
+
+
+@proceedings{LMPS1964,
+booktitle={Logic, methodology and philosophy of science: Proceedings of the 1964 international congress held at the Hebrew university of Jerusalem, Israel, from August 26 to September 2, 1964},
+editor={Bar-Hillel, Yehoshua},
+publisher={North-Holland Publishing Company},
+series={Studies in Logic and the foundations of mathematics},
+year={1965},
+asin={B001D3SQPE},
+}
+http://www.dlmpst.org/pages/past-congresses/bulletin-3.php
+
+@proceedings{lata2012,
+editor={Adrian Horia Dediu and Carlos Mart\'{\i}n-Vide},
+title={Language and Automata Theory and Applications - 6th International Conference, LATA 2012, A Coru{\~n}a, Spain, March 5-9, 2012. Proceedings},
+booktitle={LATA},
+publisher=Springer,
+series=LNCS,
+volume={7183},
+year={2012},
+isbn={978-3-642-28331-4},
+doi={10.1007/978-3-642-28332-1},
+}
+
+@proceedings{CCT,
+editor=Hartmanis,
+title={Proceedings of Symposia in Applied Mathematics},
+booktitle={Computational Complexity Theory},
+year={1989},
+volume={38},
+isbn={978-0-8218-9253-4 },
+publisher=AMS,
+doi={10.1090/psapm/038}
+}
+
+@proceedings{alp1994,
+editor={Levi, Giorgio and Rodr\'{\i}guez-Artalejo, Mario},
+title={Algebraic and Logic Programming, 4th International Conference, ALP'94, Madid, Spain, September 14-16, 1994, Proceedings},
+booktitle={ALP},
+publisher=Springer,
+series=lncs,
+volume={850},
+year={1994},
+isbn={3-540-58431-5}
+}
+
+
+@proceedings{esop2010,
+editor={Andrew D. Gordon},
+title={Programming Languages and Systems, 19th European Symposium on Programming, ESOP 2010, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2010, Paphos, Cyprus, March 20-28, 2010. Proceedings},
+booktitle={ESOP},
+publisher=Springer,
+series=LNCS,
+volume={6012},
+year={2010},
+isbn={978-3-642-11956-9},
+doi={10.1007/978-3-642-11957-6}
+}
+
+@proceedings{eptcs64,
+editor={Luttik, Bas and Valencia, Frank},
+title={Proceedings 18th International Workshop on Expressiveness in Concurrency, {EXPRESS} 2011, Aachen, Germany, 5th September 2011},
+booktitle={EXPRESS},
+series=EPTCS,
+year={2011},
+volume={64},
+doi={10.4204/EPTCS.64}
+}
+
+@proceedings{parle1992,
+editor={Etiemble, Daniel and Syre, Jean{-}Claude},
+booktitle={{PARLE} '92},
+title={{PARLE} '92: Parallel Architectures and Languages Europe, 4th International {PARLE} Conference, Paris, France, June 15-18, 1992, Proceedings},
+series=LNCS,
+year={1992},
+volume={605},
+publisher={Springer},
+isbn={3-540-55599-4}
+}
+
+@proceedings{rc2014,
+editor={Shigeru Yamashita and Shin{-}ichi Minato},
+title={Reversible Computation - 6th International Conference, {RC} 2014, Kyoto, Japan, July 10-11, 2014. Proceedings},
+booktitle={{RC} 2014},
+series=LNCS,
+year={2014},
+volume={8507},
+publisher={Springer},
+doi={10.1007/978-3-319-08494-7},
+isbn={978-3-319-08493-0},
+}
+
+@proceedings{lsfa2012,
+editor={Kesner, Delia and Viana, Petr{\'{u}}cio},
+title={Proceedings Seventh Workshop on Logical and Semantic Frameworks, with Applications, {LSFA} 2012, Rio de Janeiro, Brazil, September 29-30, 2012},
+series=EPTCS,
+volume={113},
+year={2012},
+doi={10.4204/EPTCS.113},
+}
+
+@proceedings{stacs1991,
+editor={Choffrut, Christian and Jantzen, Matthias},
+title={{STACS} 91, 8th Annual Symposium on Theoretical Aspects of Computer Science, Hamburg, Germany, February 14-16, 1991, Proceedings},
+booktitle={{STACS} 91, 8th Annual Symposium on Theoretical Aspects of Computer Science, Hamburg, Germany, February 14-16, 1991, Proceedings},
+series=LNCS,
+volume={480},
+publisher=Springer,
+year={1991},
+isbn={3-540-53709-0},
+}
+
+@proceedings{iclp1982,
+editor={Van Caneghem, Michel},
+title={Proceedings of the First International Logic Programming Conference, Faculté des Science de Luminy, ADDP-GIA, Marseille, France, September, 14-17, 1982},
+booktitle={Proceedings of the First International Logic Programming Conference, Faculté des Science de Luminy, ADDP-GIA, Marseille, France, September, 14-17, 1982},
+publisher={{ADDP-GIA}},
+year={1982}
+}
+
+
+@proceedings{fsttcs2002,
+editor={Agrawal, Manindra and Seth, Anil},
+title={{FST} {TCS} 2002: Foundations of Software Technology and Theoretical Computer Science, 22nd Conference Kanpur, India, December 12-14, 2002, Proceedings},
+booktitle={{FST} {TCS}},
+series=LNCS,
+volume={2556},
+publisher=Springer,
+year={2002},
+isbn={3-540-00225-1}
+}
+
+@proceedings{icfp2007,
+editor={Hinze, Ralf and Ramsey, Norman},
+title={Proceedings of the 12th {ACM} {SIGPLAN} International Conference on Functional Programming, {ICFP} 2007, Freiburg, Germany, October 1-3, 2007},
+booktitle={{ICFP}},
+publisher=ACM,
+year={2007},
+isbn={978-1-59593-815-2},
+}
+
+@proceedings{ACM1967,
+editor={Rosenthal, Solomon},
+title={ACM '67: Proceedings of the 1967 22Nd National Conference},
+year={1967},
+location={Washington, D.C., USA},
+source={Library of Congress Catalog Number: 64-25615},
+publisher=ACM
+}

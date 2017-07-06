@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                %
+%           macros               %
+%                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% local (this paper)
+\newcommand{\quotient}[2]{\catf{#1}\text{\footnotesize$/\!#2$}}
+\newcommand{\quotientsmall}[2]{\catf{#1}\text{\scriptsize$/\!#2$}}
+\newcommand{\embed}[1]{\funcf E_{\catf #1}}
+\newcommand{\embd}[1]{\funcf d_{\catf #1}}
+\newcommand{\embt}[1]{\funcf t_{\catf #1}}
+\newcommand{\tra}[1]{\mathbf T(\catf #1)}
+\newcommand{\dial}[1]{\mathbf D(\catf #1)}
+\newcommand{\state}[1]{\mathbf S(\catf #1)}
+\newcommand{\eq}{\sim}
+\newcommand{\eqQ}{{\normalfont(\ref{eq_Q})}}
+\newcommand{\eqS}{{\normalfont(\ref{eq_S})}}
+\newcommand{\quo}{\approxident}
+\newcommand{\ye}{\approx}
+\newcommand{\yl}[1]{\prec_{#1}}
+\newcommand{\yr}[1]{\succ_{#1}}
+
+%% monoidal and traced cat
+\newcommand{\monp}{\otimes}
+\newcommand{\hide}[1]{{\normalfont\textsf{\textbf{H}}^{#1}}}
+\newcommand{\defined}{\!\downarrow}
+\newcommand{\inv}{^{-1}}
+\newcommand{\symm}[2]{\sigma_{#1,#2}}
+\newcommand{\Tr}[1]{{\normalfont\textsf{\textbf{Tr}}}^{#1}}		%trace
+\newcommand{\unitobj}{\mathbf 1}				% unit object
+
+%% locutions
+\newcommand{\locit}[1]{#1}			% not italic
+%\newcommand{\locit}[1]\emph{#1}}	% italic
+\newcommand{\eg}{\locit{e.g.}~}
+\newcommand{\ie}{\locit{i.e.}~}
+\newcommand{\via}{\locit{via}~}
+\newcommand{\cf}{\locit{cf.}~}
+%\renewcommand{\iff}{\locit{iff}~}
+\newcommand{\wloss}{\locit{w.l.o.g.}~} 
+\newcommand{\vs}{\locit{vs}~}
+\newcommand{\resp}{resp.~}
+\newcommand{\etc}{\locit{etc.}\xspace}
+\newcommand{\etal}{\locit{et al.}\xspace}
+
+\newcommand{\incise}[1]{---\,#1\,---}
+\newcommand{\halfincise}[1]{---\,#1}
+
+%% fonts
+\newcommand{\funcf}[1]{\textit{\textsf{#1}}}
+\newcommand{\catf}[1]{\mathbb{#1}}
+
+%% text macros
+\newcommand{\modulo}{\emph{modulo}\xspace}
+\newcommand{\cut}{{\tt cut}\xspace}
+\newcommand{\GoI}{{\sc GoI}\xspace}
+\newcommand{\GofI}{geometry of interaction\xspace}
+\newcommand{\Lcalc}{{\hbox{$\lambda$-cal}culus}\xspace}
+\newcommand{\Lterm}{\hbox{$\lambda$-term}\xspace}
+\newcommand{\Lterms}{$\lambda$-terms\xspace}
+\newcommand{\bred}{\hbox{$\beta$-re}duction\xspace}
+\newcommand{\systF}{{\sc System~F}\xspace}
+\newcommand{\mells}{MELL\textsubscript{2}\xspace}
+\newcommand{\mellp}{MELL\textsubscript{p}\xspace}
+\newcommand{\MGU}{MGU\xspace}
+
+%% general math
+\newcommand{\ZZ}{\mathbb Z}		% relative integers
+\newcommand{\NN}{\mathbb N}		% integers
+\newcommand{\RR}{\mathbb R}		% reals
+\newcommand{\CC}{\mathbb C}		% complex
+\newcommand{\sequ}[1]{\vec{#1}}			% notation for sequences
+\newcommand{\norm}[1]{\|#1\|}
+\newcommand{\powerset}{\mathcal P}
+\newcommand{\adj}[1]{#1^\dagger}				% ajoint
+\DeclareMathOperator{\card}{Card}				% cardinal
+\newcommand{\extlist}[2]{#1,\,\dots\,,#2}					% list/sequence in extension
+\newcommand{\extinflist}[1]{#1,\,\dots}						% list/sequence in extension
+\newcommandx{\extset}[3][1=]{#1\{#2,\,\dots\,,#3#1\}}		% set in extension
+\newcommand{\extinfset}[1]{\left\{\,#1,\,\dots\,\right\}}		% set in extension
+\newcommandx{\set}[3][1=]{#1\{\:#2 \ #1|\ #3\:#1\}}		% set in comprehension
+\newcommand{\Id}{\mbox{Id}}										% identity
+\newcommand{\void}{\varnothing}									% emptyset
+%\newcommand{\empty}{\varnothing}								% emptyset
+
+%% category theory
+\newcommand{\sq}{\textbf{\tt;}}									% sequential composition
+\newcommand{\morph}[3]{#1:#2\rightarrow #3}		% morphism
+\newcommand{\morphc}[4]{#1:#2\rightarrow_{\catf #4} #3}		% morphism
+\newcommand{\iso}{\xrightarrow[]{\,_\sim}}						% isomorphism arrow
+\newcommand{\isom}[3]{#1\,:\,#2\isom #3}	% morphism
+\newcommand{\retr}[2]{\,:\,#1\,\lhd\, #2}		% retraction
+
+%% partial equality
+\newcommand{\rightharpoonupeq}{\mathrel{%
+\resizebox{\widthof{$=$}}{\height}{%
+\raise.22ex\hbox{$\rightharpoonup $}%
+\setbox0=\hbox{$\relbar\mkern-9.1mu\relbar$}%
+\kern -.98\wd0 \lower.23ex\box0}}}%
+
+\newcommand{\leftharpoonupeq}{\mathrel{%
+\resizebox{\widthof{$=$}}{\height}{%
+\raise.22ex\hbox{$\leftharpoonup $}%
+\setbox0=\hbox{$\relbar\mkern-9.1mu\relbar$}%
+\kern -.98\wd0 \lower.22ex\box0}}}%
+
+\newcommand{\leftrightharpooneq}{\mathrel{%
+\resizebox{\widthof{$=$}}{\height}{%
+\lower.02ex\hbox{$\leftrightharpoons$}%
+\setbox0=\hbox{}%
+\kern -.98\wd0 \raise.22ex\box0}}}%
+
+\newcommand{\peqr}{\rightharpoonupeq}
+\newcommand{\peql}{\leftharpoonupeq}
+\newcommand{\peq}{\leftrightharpooneq}
+
+%% triple simeq
+
+\newcommand*{\approxident}{%
+  \mathrel{\vcenter{\offinterlineskip
+  \hbox{$\sim$}\vskip-.35ex\hbox{$\sim$}\vskip-.35ex\hbox{$\sim$}}}}
+
+%\makeatletter
+%\providecommand*{\approxident}{%
+%  \mathrel{%
+%    \mathpalette\@approxident\sim
+%  }%
+%}   
+%\newcommand*{\@approxident}[2]{%
+%  \sbox0{$#1\vcenter{}$}%
+%  \sbox2{$\m@th#1\equiv$}%
+%  \dimen2=\dimexpr\ht2 - \ht0\relax
+%  \sbox4{$\m@th#1\sim$}%
+%  \dimen4=\dimexpr\ht4 - \ht0\relax
+%  \dimen0=\dimexpr
+%    -\ht4 - \dp4 %
+%    + \dimen2 %
+%  \relax
+%  \vcenter{\offinterlineskip
+%    \copy4 %
+%    \kern\dimen0 %
+%    \copy4 %
+%    \kern\dimen0 %
+%    \copy4 %
+%    \ifdim\dp4=\z@
+%      \kern\dimexpr -\ht0 + \dimen4\relax
+%    \fi
+%  }%   
+%}      
+%\makeatother

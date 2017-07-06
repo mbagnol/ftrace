@@ -1,0 +1,62 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1em, column sep=1.5em]
+{
+&&&&&&&&&&&\node [inner sep=0](88'){};&&\node [inner sep=0](88){}; &&&\node (99){};&&\node [inner sep=0](99'){};\\
+&&&&&&&
+&&&&&\node [inner sep=0](8p'){};&\node [inner sep=0](8p){}; &&&\node (9p){};&\node [inner sep=0](9p'){};\\
+%
+&&\node [inner sep=0](8'){};&\node [inner sep=0](8){}; &&&\node (9){};&\node [inner sep=0](9'){};
+&&&&&\node [inner sep=0](Bp'){};&\node[inner sep=0pt](Bp) {V};&\node (1p){};&\node (4p){};&\node[inner sep=0pt] (Ap) {V};&\node[inner sep=0pt] (Ap') {};\\
+%
+&&\node [inner sep=0](B'){};&\node[inner sep=0pt](B) {U\monp V};&\node (1){};&\node (4){};&\node[inner sep=0pt] (A) {U\monp V};&\node[inner sep=0pt] (A') {};&
+&&&\node(BBp'){};&\node [inner sep=0](Bp''){};&\node[inner sep=0pt](BBp) {U};&&&\node[inner sep=0pt] (AAp) {U};&&\node[inner sep=0pt] (AAp') {};\\
+&&&&&&&&&\scalebox{1.33}{$\kleeq$}\\
+%
+&\node (D) {A}; &&&\node (2){};&\node (3){};&&&\node (C) {B};&&
+\node (D') {A}; &&&&\node (2'){};&\node (3'){};&&&&\node (C') {B};\\
+};
+
+\node [fit=(1)(4)(2)(3),inner sep=2pt,minimum height=8mm,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (fg) {\raisebox{-8pt}{$\mathlarger {f}$}};
+
+\node [fit=(1p)(2')(3')(4p),inner sep=2pt,minimum height=8mm,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f) {\raisebox{-8pt}{$\mathlarger {f}$}};
+
+\draw [postaction={decorate}] (B) -- (B-|fg.west) ;
+\draw [postaction={decorate}] (A-|fg.east) -- (A);
+\draw [postaction={decorate}] (C-|fg.east) -- (C);
+\draw [postaction={decorate}] (D) -- (D-|fg.west);
+
+\draw [postaction={decorate}] (C'-|f.east) -- (C');
+\draw [postaction={decorate}] (D') -- (D'-|f.west);
+
+\draw [postaction={decorate}] (Bp) -- (Bp-|f.west) ;
+\draw [postaction={decorate}] (Ap-|f.east) -- (Ap);
+\draw [postaction={decorate}] (AAp-|f.east) -- (AAp);
+\draw [postaction={decorate}] (BBp) -- (BBp-|f.west);
+
+
+\draw [postaction={decorate}] (9.center) -- (8.center);
+\draw (B) .. controls (B') and (8') .. (8.center);
+\draw (A) .. controls (A') and (9') .. (9.center);
+
+\draw [postaction={decorate}] (99.center) -- (88.center);
+\draw [postaction={decorate}] (9p.center) -- (8p.center);
+%\draw (B) .. controls (B') and (8') .. (8.center);
+\draw (Ap) .. controls (Ap') and (9p') .. (9p.center);
+\draw (AAp) .. controls (AAp') and (99') .. (99.center);
+
+\draw (Bp) .. controls (Bp') and (8p') .. (8p.center);
+\draw (BBp) .. controls (BBp') and (88') .. (88.center);
+
+\node [fill opacity=.1, fill=black, fit=(fg)(8')(9'),inner sep=6pt,rounded corners=4pt,draw=gray,dotted] () {};
+
+\node [fill opacity=.1, fill=black, fit=(f)(99')(88'),inner sep=6pt,rounded corners=4pt,draw=gray,dotted] () {};
+
+\node [fill opacity=.1, fill=black, fit=(f)(8p')(9p'),inner sep=3pt,rounded corners=8pt,draw=gray,dotted] () {};
+
+
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.5 with {\arrow{<}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1.5em, column sep=1.5em, ampersand replacement=\&]
+{
+\&\node [inner sep=0](8'){};\&\node [inner sep=0](8){}; \&            \&            \&\&\node (9){};\&\node [inner sep=0](9'){};\\
+\&\node [inner sep=0](B'){};\&\node[inner sep=0pt](B) {U};\&\node (1){};\&\node (4){};\&\&\node[inner sep=0pt] (A) {U};\&\node[inner sep=0pt] (A') {};\\
+\node (D) {A}; \&\&\&\&\node (2){};\&\node (3){};\&\&\&\node (C) {B};\\
+};
+
+\node [fit=(1)(2)(3)(4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (fg) {\raisebox{-8pt}{$\mathlarger {f}$}};
+
+\draw (A) -- (A-|fg.east);
+\draw [postaction={decorate}] (C) -- (C-|fg.east);
+\draw (B-|fg.west) -- (B);
+\draw [postaction={decorate}] (D-|fg.west) -- (D);
+
+\draw [postaction={decorate}] (8.center) -- (9.center);
+\draw (B) .. controls (B') and (8') .. (8.center);
+\draw (A) .. controls (A') and (9') .. (9.center);
+
+\node [fill opacity=.1, fill=black, fit=(fg)(8')(9'),inner sep=4pt,rounded corners=4pt,draw=gray,dotted] () {};
+\end{tikzpicture}

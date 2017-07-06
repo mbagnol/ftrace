@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                %
+% package loading and settings   %
+%                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% packages
+
+% encoding and language
+\usepackage[T1]{fontenc}		% output font encoding
+\usepackage[utf8]{inputenc}		% input encoding
+\usepackage[english]{babel}				% language-specific typesetting
+
+% extending and fixing tex
+\usepackage{tabularx}			% advanced arrays
+\usepackage{etex}				% extended memory
+\usepackage{etoolbox}
+\usepackage{xargs,ifthen}	% programming
+\usepackage{fixltx2e} 			% fixes stuff in LaTeX
+\usepackage{fnpct}				% better footnotesv
+
+% writing algorithms
+\usepackage{algorithmic}
+
+% Drawings
+\usepackage{tikz}
+	\usetikzlibrary{calc,arrows,matrix,positioning,fit,decorations.markings}
+
+% mise en page
+\usepackage{needspace}		% fine handling of page breaking
+\usepackage{multicol}		% colonnes multiples
+\usepackage{wrapfig}		% texte autour d'une figure
+\usepackage{graphicx}		% rotation, rescaling etc.
+\usepackage{enumitem}		% paramétrage itemize
+	\setitemize{itemsep=0pt}
+	\setenumerate{itemsep=0pt}
+	\newlength{\savedparindent}
+	\setlength{\savedparindent}{\parindent}
+	\setitemize{leftmargin=\savedparindent}
+	\setenumerate{leftmargin=\savedparindent}
+	\setitemize{topsep=\parskip}
+%	\AfterEndEnvironment{itemize}{\noindentnext}
+%	\AfterEndEnvironment{enumerate}{\noindentnext}
+
+\usepackage{xcolor}			% couleurs
+\usepackage{aliascnt}
+%\usepackage{autoref}
+%\crefname{notation}{notation}{notation}
+
+% typography
+\usepackage{blindtext}
+%\usepackage[osf]{mathpazo}		% sets font
+%\usepackage{lmodern}			% latin Modern = enhanced Computer Modern.
+\usepackage{xspace}			% gestion des espaces après les macro de texte
+\usepackage{microtype}		% for typography geeks
+\usepackage[autostyle = true, english = american, strict = true, autopunct=true]{csquotes}		% guillemets
+\usepackage{relsize}		% relative sizes in math 
+\usepackage{ellipsis}
+
+% symboles math, theoremes, police
+%\usepackage[mathb]{mathabx}
+\usepackage{amssymb}			% AMS stuff
+\usepackage{mathtools}			% other math commands (loads AMSmath)
+%\usepackage{amsthm}
+\usepackage{thmtools}
+
+% logique
+\usepackage{cmll}			% EB package for LL
+\usepackage{stmaryrd}		% for the parr and with
+%\usepackage{pn}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% settings
+
+\AtBeginDocument{
+	% symbole pour itemize
+	\renewcommand{\labelitemi}{\scalebox{0.8}{$\circ$}}
+	% coupures de lignes, espacement et hyphénation
+	\hyphenpenalty=1000
+	\tolerance=400
+	\setlength{\parskip}{2pt}
+}
+
+% tweaking space for displayed math
+% defaults
+
+%\abovedisplayskip=12pt plus 3pt minus 9pt
+%\abovedisplayshortskip=0pt plus 3pt
+%\belowdisplayskip=12pt plus 3pt minus 9pt
+%\belowdisplayshortskip=7pt plus 3pt minus 4pt
+
+\abovedisplayskip=8pt plus 2pt minus 6pt
+\abovedisplayshortskip=0pt plus 2pt
+\belowdisplayskip=8pt plus 2pt minus 6pt
+\belowdisplayshortskip=4pt plus 2pt minus 2pt
+
+% adding a slight space before/after inline math.
+% FINALLY FOUND IT!!
+% defaults = 0pt
+
+\mathsurround=1pt
+
+

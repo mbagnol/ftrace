@@ -1,0 +1,67 @@
+\begin{tikzpicture}[
+every node/.style={anchor=center,line width=1pt},
+every path/.style={line width=1pt},
+decoration={markings,mark=at position 0.55 with {\arrow{>}}}]
+]
+
+\matrix (m) [matrix of math nodes, row sep=1em, column sep=1em, ampersand replacement=\&]
+{
+\node [inner sep=0pt](Vg) {V};\&\&\&\&\&\node (g1){};\&\node(g2){};\&
+\&\&\&\&
+\node[inner sep=0pt](Vd){V};
+\\
+%
+\node [inner sep=0pt](Ug) {U};\&\&\coordinate (Ug');\&\&\coordinate (Cg'');
+\&\node (g3){};\&\node(g4){};\&
+\coordinate (Dd) ;\&\&\coordinate (Ud');\&\&\node [inner sep=0pt](Ud'') {U};
+\\
+%
+%
+\node [inner sep=0pt](Cg) {C};\&\&\coordinate (Cg');\&\&\coordinate (Ug'');
+\&\node (f1){};\&\node(f2){};\&
+\coordinate (Ud) ;\&\&\coordinate (Dd');\&\&\node [inner sep=0pt](Dd'') {D};
+\\
+%
+\node [inner sep=0pt](A) {A};\&\&\&\&\&\node (f3){};\&\node(f4){};\&\&\&\&\&\node[inner sep=0pt](B){B};
+\\
+};
+
+
+\node [fit=(f1)(f2)(f3)(f4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (f) {\raisebox{-6pt}{$\mathlarger {f}$}};
+
+
+\node [fit=(g1)(g2)(g3)(g4),inner sep=2pt,rectangle,rounded corners=4pt,draw=black,fill=lightgray] (g) {\raisebox{-6pt}{$\mathlarger {g}$}};
+
+\draw [postaction={decorate}] (Vg) -- (Vg-|g.west);
+\draw [postaction={decorate}] (Vd-|g.east) -- (Vd);
+
+\draw [postaction={decorate}] (A) -- (A-|f.west);
+\draw [postaction={decorate}] (B-|f.east) -- (B);
+
+\draw [postaction={decorate}] (Ug) -- (Ug');
+\draw (Ug') -- (Ug'') -- (Ug''-|f.west);
+
+\draw [postaction={decorate}] (Cg) -- (Cg');
+\draw (Cg') -- (Cg'') -- (Cg''-|g.west);
+
+\draw (Dd-|g.east) -- (Dd) -- (Dd');
+\draw [postaction={decorate}] (Dd') -- (Dd'');
+
+\draw (Ud-|g.east) -- (Ud) -- (Ud');
+\draw [postaction={decorate}] (Ud') -- (Ud'');
+
+
+%\draw (Ug-|f.east) -- (Ug');
+%\draw [postaction={decorate}] (Ug) -- (Ug-|f.west);
+%\draw (Ug') -- (Ug'');
+%\draw [postaction={decorate}] (Ug'') -- (Ud');
+%\draw (Ud') -- (Ud'') -- (Ud);
+%\draw [postaction={decorate}] (A) -- (A-|f.west);
+%\draw (Vd'-|g.east) -- (Vd') -- (Vd'');
+%\draw [postaction={decorate}] (Vd'') -- (Vd);
+%\draw [postaction={decorate}] (A-|f.east) -- (A-|g.west);
+%\draw [postaction={decorate}]  (A-|g.east) -- (B);
+
+\end{tikzpicture}
+
+
