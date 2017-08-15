@@ -1,0 +1,127 @@
+%%% TeX-master: "MAIN" %% Please do not remove this line (hoshino)
+
+\section{\(2\)-adjunction}
+\label{2-adjunction}
+
+Let \(\SMC\) be the \(2\)-category of symmetric monoidal categories,
+strong symmetric monoidal functors and monoidal natural
+isomorphisms; and let \(\TSMC\) be the \(2\)-category of traced
+symmetric monoidal categories, traced symmetric monoidal functors and
+monoidal natural isomorphisms. We prove that
+\(\U\) is a right \(2\)-adjoint. To see this, we construct
+an inverse \((-)^{\vee}\) of
+\begin{equation*}
+  \TSMC(\F\catf{A},\catf{B}) \xrightarrow{\U}
+  \TSMC(\U\F\catf{A},\U\catf{B}) \xrightarrow{(-) \circ \embed{A}}
+  \SMC(\catf{A},\U(\catf{\catf{B}})).
+\end{equation*}
+For a symmetric monoidal functor \((F,n^{F} \colon I \to FI,
+m^{F}_{X,Y} \colon FX \otimes FY \to F(X \otimes Y)) \colon \catf{A} \to \U(\catf{B})\),
+we define a traced symmetric monoidal functor \(F^{\vee} \colon \F\catf{A} \to \catf{B}\)
+as follows:
+\begin{align*}
+  F^{\vee}X &= F, \\
+  F^{\vee}((f,U) \colon X \to Y)
+  &= \Tr{FU}_{FX,FY}((m_{Y,U}^{F})^{-1} \circ Ff \circ m_{X,U}), \\
+  n^{F^{\vee}} &= n, \\
+  m^{F^{\vee}}_{X,Y} &= m_{X,Y}.
+\end{align*}
+For a monoidal natural isomorphism \(\alpha \colon (F,n^{F},m^{F}) \to
+(G,n^{G},m^{G})\), we define a monoidal natural isomorphism
+\(\alpha^{\vee} \colon (F,n^{F},m^{F}) \to
+(G,n^{G},m^{G})\) to be \(\alpha\).
+
+Below, we check that \((-)^{\vee}\) is a functor.
+We first check that \(F^{\vee}\) is a functor. For \(X \in \catf{A}\),
+\begin{align*}
+  F^{\vee}(\Id_{X},I)
+  &= \Tr{FI}_{FX,FX}(\Id_{FX \otimes FI}) \\
+  &= \Tr{FI}_{FX,FX}(\Id_{FX \otimes I}) \\
+  &= \Id_{FX}.
+\end{align*}
+For \(\F\catf{A}\)-morphisms \((f,U) \colon X \to Y\) and \((g,V)
+\colon Y \to Z\), we denote \((m_{Y,U}^{F})^{-1} \circ Ff \circ
+m_{X,U}\) by \(f'\) and \((m_{Z,V}^{F})^{-1} \circ Fg \circ m_{Y,V}\)
+by \(g'\). Then
+\begin{align*}
+  F^{\vee}(g,V) \circ F^{\vee}(f,U)
+  &= \Tr{FV}_{FY,FZ}(g') \circ \Tr{FU}_{FX,FY}(f') \\
+  &= \Tr{FU \otimes FV}_{FX,FZ}(FY \otimes \symm{FV}{FU}) \circ
+  (g' \otimes FU) \circ (FY \otimes \symm{FU}{FV}) \circ (f' \otimes FV)) \\
+  &= \Tr{FU \otimes FV}_{FX,FZ}(((m_{Z,V}^{F})^{-1} \otimes FU) \circ
+  (m_{Z \otimes V,U}^{F})^{-1} \circ
+  Fh \circ m_{X \otimes U,V}^{F} \circ (m_{X,U}^{F} \otimes FV)) \\
+  &= \Tr{F(U \otimes V)}_{FX,FZ}((m_{Z,U \otimes V}^{F})^{-1} \circ
+  Fh \circ m_{X, U \otimes V}^{F}) \\
+  &= F^{\vee}((g,V) \circ (f,U))
+\end{align*}
+where \(h \colon X \otimes U \otimes V \to Z \otimes U \otimes V\) is given by
+\begin{equation*}
+  (Z \otimes \symm{V}{U}) \circ (g \otimes U) \circ (Y \otimes \symm{U}{V})
+  \circ (f \otimes V).
+\end{equation*}
+We next check naturality of \(m^{F^{\vee}}_{X,Y}\). For
+\(\F\catf{A}\)-morphisms \((f,U) \colon X \to Z\) and \((g,V) \colon Y
+\to W\), we denote \((m_{Z,U}^{F})^{-1} \circ Ff \circ m_{X,U}\) by
+\(f'\) and \((m_{W,V}^{F})^{-1} \circ Fg \circ m_{Y,V}\) by \(g'\). Then
+\begin{align*}
+  &m_{Z,W} \circ (F^{\vee}(f,U) \otimes F^{\vee}(g,V)) \\
+  &= \Tr{FU \otimes FV}_{FX \otimes FY,F(Z \otimes W)}
+  ((m_{Z,W} \otimes FU \otimes FV) \circ
+  (FZ \otimes \symm{FU}{FW} \otimes FV) \circ
+  (Ff' \otimes Fg') \circ
+  (FX \otimes \symm{FU}{FY} \otimes FV)) \\
+  &= \Tr{F(U \otimes V)}_{FX \otimes FY,F(Z \otimes W)}
+  ((m_{Z \otimes W, U \otimes V}^{F})^{-1} \circ
+  Fh \circ
+  m_{X \otimes Y, U \otimes V}^{F} \circ
+  (m_{X,Y}^{F} \otimes F(U \otimes V))) \\
+  &= F^{\vee}((f,U) \otimes (g,V)) \circ m^{F}_{X,Y}
+\end{align*}
+where \(h \colon X \otimes Y \otimes U \otimes V \to Z \otimes W \otimes U \otimes V\)
+is given by
+\begin{equation*}
+  h = ((Z \otimes \symm{U}{W} \otimes V) \circ (f \otimes g) \circ
+  (X \otimes \symm{Y}{U} \otimes V)).
+\end{equation*}
+Preservation of trace operators by \(F^{\vee}\) follows from
+Vanishing II. Lastly, we check that \(\alpha^{\vee}\) is a monoidal
+natural isomorphism. Since coherence conditions for \(\alpha^{\vee}\)
+follow from those for \(\alpha\), we only check naturality of \(\alpha^{\vee}\).
+For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
+\begin{align*}
+  \alpha_{Y} \circ F^{\vee}(f,U)
+  &= \Tr{FU}_{FX,FY}((\alpha_{Y} \otimes FU) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}) \\
+  &= \Tr{FU}_{FX,FY}((\alpha_{Y} \otimes \alpha_{U}) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}
+  \circ (FX \otimes \alpha^{-1}_{U})) \\
+  &= \Tr{FU}_{FX,FY}((m^{G}_{Y,U})^{-1} \circ Gf \circ m^{G}_{X,U}
+  \circ (\alpha_{X} \otimes GU)) \\
+  &= G^{\vee} (f,U) \circ \alpha_{X}.
+\end{align*}
+
+
+
+\begin{proposition}
+  \((-)^{\vee}\) is the inverse of \(\U(-) \circ \embed{A}\).
+\end{proposition}
+\begin{proof}
+  For \(F \colon \catf{A} \to \U\catf{B}\),
+  \begin{align*}
+    (\U (F^{\vee}) \circ \embed{A})(f \colon X \to Y)
+    &= \Tr{FI}_{FX,FY} ((m^{F}_{Y,I})^{-1} \circ F(f \otimes I) \circ m^{F}_{X,I}) \\
+    &= Ff.
+  \end{align*}
+  For \(G \colon \F\catf{A} \to \catf{B}\),
+  \begin{align*}
+    ((\U G) \circ \embed{A})^{\vee}((f,U) \colon X \to Y)
+    &= \Tr{GU}_{GX,GY}((m^{G}_{Y,U})^{-1} \circ G(f \otimes I,I) \circ m^{G}_{X,U}) \\
+    &= G(\hide{U \otimes I}(f \otimes I)) \\
+    &= G(f,U).
+  \end{align*}
+  It is straightforward to check
+  \(\U (\alpha^{\vee}) \circ \embed{A} = \alpha\)
+  for any \(\alpha \colon F \Rightarrow G \colon \catf{A} \to \U\catf{B}\)
+  and \(((\U \beta) \circ \embed{A})^{\vee} = \beta\) 
+  for any \(\beta \colon F \Rightarrow G \colon \F\catf{A} \to \catf{B}\).
+\end{proof}
+
