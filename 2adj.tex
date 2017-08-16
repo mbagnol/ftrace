@@ -3,40 +3,40 @@
 \section{\(2\)-adjunction}
 \label{2-adjunction}
 
-Let \(\SMC\) be the \(2\)-category of symmetric monoidal categories,
+Let \(\SMCiso\) be the \(2\)-category of symmetric monoidal categories,
 strong symmetric monoidal functors and monoidal natural
-isomorphisms; and let \(\TSMC\) be the \(2\)-category of traced
+isomorphisms; and let \(\TSMCiso\) be the \(2\)-category of traced
 symmetric monoidal categories, traced symmetric monoidal functors and
 monoidal natural isomorphisms. We prove that
-\(\U\) is a right \(2\)-adjoint. To see this, we construct
-an inverse \((-)^{\vee}\) of
+\(\U\) is a right \(2\)-adjoint. To see this, we show that
 \begin{equation*}
-  \TSMC(\F\catf{A},\catf{B}) \xrightarrow{\U}
-  \TSMC(\U\F\catf{A},\U\catf{B}) \xrightarrow{(-) \circ \embed{A}}
-  \SMC(\catf{A},\U(\catf{\catf{B}})).
+  \TSMCiso(\F\catf{A},\catf{B}) \xrightarrow{\U}
+  \TSMCiso(\U\F\catf{A},\U\catf{B}) \xrightarrow{(-) \circ \embed{A}}
+  \SMCiso(\catf{A},\U(\catf{\catf{B}})).
 \end{equation*}
-For a symmetric monoidal functor \((F,n^{F} \colon I \to FI,
-m^{F}_{X,Y} \colon FX \otimes FY \to F(X \otimes Y)) \colon \catf{A} \to \U(\catf{B})\),
+is an isomorphism.
+
+For a symmetric monoidal functor \(F \colon \catf{A} \to \U(\catf{B})\),
 we define a traced symmetric monoidal functor \(F^{\vee} \colon \F\catf{A} \to \catf{B}\)
 as follows:
 \begin{align*}
-  F^{\vee}X &= F, \\
+  F^{\vee}(X) &= F, \\
   F^{\vee}((f,U) \colon X \to Y)
   &= \Tr{FU}_{FX,FY}((m_{Y,U}^{F})^{-1} \circ Ff \circ m_{X,U}), \\
-  n^{F^{\vee}} &= n, \\
-  m^{F^{\vee}}_{X,Y} &= m_{X,Y}.
+  n^{F^{\vee}} &= n^{F} \colon I \to F, \\
+  m^{F^{\vee}}_{X,Y} &= m^{F}_{X,Y} \colon FX \otimes FY \to F(X \otimes Y).
 \end{align*}
-For a monoidal natural isomorphism \(\alpha \colon (F,n^{F},m^{F}) \to
-(G,n^{G},m^{G})\), we define a monoidal natural isomorphism
-\(\alpha^{\vee} \colon (F,n^{F},m^{F}) \to
-(G,n^{G},m^{G})\) to be \(\alpha\).
+For a monoidal natural isomorphism \(\alpha \colon F \to G\), we
+define a monoidal natural isomorphism \(\alpha^{\vee} \colon F \to G\)
+to be \(\alpha\).
 
-Below, we check that \((-)^{\vee}\) is a functor.
+Below, we check that \((-)^{\vee}\) is a functor and \(\alpha^{\vee}\)
+is a monoidal natural isomorphism.
 We first check that \(F^{\vee}\) is a functor. For \(X \in \catf{A}\),
 \begin{align*}
-  F^{\vee}(\Id_{X},I)
+  F^{\vee}(\Id_{X \otimes I},I)
   &= \Tr{FI}_{FX,FX}(\Id_{FX \otimes FI}) \\
-  &= \Tr{FI}_{FX,FX}(\Id_{FX \otimes I}) \\
+  &= \Tr{I}_{FX,FX}(\Id_{FX \otimes I}) \\
   &= \Id_{FX}.
 \end{align*}
 For \(\F\catf{A}\)-morphisms \((f,U) \colon X \to Y\) and \((g,V)
@@ -62,12 +62,12 @@ where \(h \colon X \otimes U \otimes V \to Z \otimes U \otimes V\) is given by
 \end{equation*}
 We next check naturality of \(m^{F^{\vee}}_{X,Y}\). For
 \(\F\catf{A}\)-morphisms \((f,U) \colon X \to Z\) and \((g,V) \colon Y
-\to W\), we denote \((m_{Z,U}^{F})^{-1} \circ Ff \circ m_{X,U}\) by
-\(f'\) and \((m_{W,V}^{F})^{-1} \circ Fg \circ m_{Y,V}\) by \(g'\). Then
+\to W\), we denote \((m^{F}_{Z,U})^{-1} \circ Ff \circ m^{F}_{X,U}\) by
+\(f'\) and \((m_{W,V}^{F})^{-1} \circ Fg \circ m^{F}_{Y,V}\) by \(g'\). Then
 \begin{align*}
-  &m_{Z,W} \circ (F^{\vee}(f,U) \otimes F^{\vee}(g,V)) \\
+  &m^{F}_{Z,W} \circ (F^{\vee}(f,U) \otimes F^{\vee}(g,V)) \\
   &= \Tr{FU \otimes FV}_{FX \otimes FY,F(Z \otimes W)}
-  ((m_{Z,W} \otimes FU \otimes FV) \circ
+  ((m^{F}_{Z,W} \otimes FU \otimes FV) \circ
   (FZ \otimes \symm{FU}{FW} \otimes FV) \circ
   (Ff' \otimes Fg') \circ
   (FX \otimes \symm{FU}{FY} \otimes FV)) \\
@@ -81,8 +81,8 @@ We next check naturality of \(m^{F^{\vee}}_{X,Y}\). For
 where \(h \colon X \otimes Y \otimes U \otimes V \to Z \otimes W \otimes U \otimes V\)
 is given by
 \begin{equation*}
-  h = ((Z \otimes \symm{U}{W} \otimes V) \circ (f \otimes g) \circ
-  (X \otimes \symm{Y}{U} \otimes V)).
+  h = (Z \otimes \symm{U}{W} \otimes V) \circ (f \otimes g) \circ
+  (X \otimes \symm{Y}{U} \otimes V).
 \end{equation*}
 Preservation of trace operators by \(F^{\vee}\) follows from
 Vanishing II. Lastly, we check that \(\alpha^{\vee}\) is a monoidal
@@ -91,15 +91,13 @@ follow from those for \(\alpha\), we only check naturality of \(\alpha^{\vee}\).
 For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
 \begin{align*}
   \alpha_{Y} \circ F^{\vee}(f,U)
-  &= \Tr{FU}_{FX,FY}((\alpha_{Y} \otimes FU) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}) \\
-  &= \Tr{FU}_{FX,FY}((\alpha_{Y} \otimes \alpha_{U}) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}
+  &= \Tr{FU}_{FX,GY}((\alpha_{Y} \otimes FU) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}) \\
+  &= \Tr{GU}_{FX,GY}((\alpha_{Y} \otimes \alpha_{U}) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}
   \circ (FX \otimes \alpha^{-1}_{U})) \\
-  &= \Tr{FU}_{FX,FY}((m^{G}_{Y,U})^{-1} \circ Gf \circ m^{G}_{X,U}
+  &= \Tr{GU}_{FX,GY}((m^{G}_{Y,U})^{-1} \circ Gf \circ m^{G}_{X,U}
   \circ (\alpha_{X} \otimes GU)) \\
   &= G^{\vee} (f,U) \circ \alpha_{X}.
 \end{align*}
-
-
 
 \begin{proposition}
   \((-)^{\vee}\) is the inverse of \(\U(-) \circ \embed{A}\).
@@ -125,3 +123,13 @@ For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
   for any \(\beta \colon F \Rightarrow G \colon \F\catf{A} \to \catf{B}\).
 \end{proof}
 
+\begin{remark}[yet to be checked]
+  Let \(\TSMC\) be the \(2\)-category of traced symmetric monoidal
+  categories, traced symmetric monoidal functors and \emph{monoidal
+    natural transformations}, and let \(\SMC\) be the \(2\)-category
+  \(\SMC\) of symmetric monoidal categories, strong symmetric monoidal
+  functors and \emph{monoidal natural transformations}.
+  When we regard \(\U\) as a \(2\)-functor from \(\TSMC\) to \(\SMC\),
+  \(\U\) is no longer a right \(2\)-adjoint. (\(\mathbf{Pinj}\) would
+  provide a counter example...?)
+\end{remark}
