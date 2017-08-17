@@ -84,11 +84,13 @@ is given by
   h = (Z \otimes \symm{U}{W} \otimes V) \circ (f \otimes g) \circ
   (X \otimes \symm{Y}{U} \otimes V).
 \end{equation*}
-Preservation of trace operators by \(F^{\vee}\) follows from
-Vanishing II. Lastly, we check that \(\alpha^{\vee}\) is a monoidal
+Preservation of trace operators by \(F^{\vee}\) follows from Vanishing
+II. Coherence conditions for \(m^{F^{\vee}}\) follows from those for
+\(m^{F}\). Lastly, we check that \(\alpha^{\vee}\) is a monoidal
 natural isomorphism. Since coherence conditions for \(\alpha^{\vee}\)
-follow from those for \(\alpha\), we only check naturality of \(\alpha^{\vee}\).
-For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
+follow from those for \(\alpha\), we only check naturality of
+\(\alpha^{\vee}\). For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to
+Y\),
 \begin{align*}
   \alpha_{Y} \circ F^{\vee}(f,U)
   &= \Tr{FU}_{FX,GY}((\alpha_{Y} \otimes FU) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}) \\
@@ -113,7 +115,7 @@ For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
   \begin{align*}
     ((\U G) \circ \embed{A})^{\vee}((f,U) \colon X \to Y)
     &= \Tr{GU}_{GX,GY}((m^{G}_{Y,U})^{-1} \circ G(f \otimes I,I) \circ m^{G}_{X,U}) \\
-    &= G(\hide{U \otimes I}(f \otimes I)) \\
+    &= G(\hide{U}(f \otimes I,I)) \\
     &= G(f,U).
   \end{align*}
   It is straightforward to check
@@ -123,13 +125,48 @@ For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to Y\),
   for any \(\beta \colon F \Rightarrow G \colon \F\catf{A} \to \catf{B}\).
 \end{proof}
 
-\begin{remark}[yet to be checked]
-  Let \(\TSMC\) be the \(2\)-category of traced symmetric monoidal
-  categories, traced symmetric monoidal functors and \emph{monoidal
-    natural transformations}, and let \(\SMC\) be the \(2\)-category
-  \(\SMC\) of symmetric monoidal categories, strong symmetric monoidal
-  functors and \emph{monoidal natural transformations}.
-  When we regard \(\U\) as a \(2\)-functor from \(\TSMC\) to \(\SMC\),
-  \(\U\) is no longer a right \(2\)-adjoint. (\(\mathbf{Pinj}\) would
-  provide a counter example...?)
-\end{remark}
+\paragraph{Failure of a Generalization}
+
+The forgetful \(2\)-functor \(\U' \colon \TSMC \to \SMC\) is no longer
+a right \(2\)-adjunction where \(\TSMC\) is the \(2\)-category of traced
+symmetric monoidal categories, traced symmetric monoidal functors and
+\emph{monoidal natural transformations}, and \(\SMC\) is the
+\(2\)-category of symmetric monoidal categories, strong symmetric
+monoidal functors and \emph{monoidal natural transformations}.
+
+We suppose that \(\U'\) has a left \(2\)-adjunction \(\F'\) and derive
+a contradiction. If \(\F'\) is left \(2\)-adjoint to \(\U'\), then
+\(\F'\catf{A}\) is isomorphic to \(\F\catf{A}\) for any traced
+symmetric monoidal categories \(\catf{A}\). Therefore,
+\begin{equation*}
+  \TSMC(\F\Pfn,\F\Pfn) \xrightarrow{\U}
+  \TSMC(\U'\F\Pfn,\U'\F\Pfn) \xrightarrow{(-) \circ \embed{\Pfn}}
+  \SMC(\Pfn,\U'\F\Pfn)
+\end{equation*}
+is an isomorphism where \(\Pfn\) is the category of sets and partial
+functions regarded as a symmetric monoidal category by taking the
+disjoint sum of sets as its monoidal product. Let \(N \colon \Pfn \to
+\F(\Pfn)\) be a strong symmetric monoidal functor given by \(N(X) =
+\emptyset\). For a set \(X\), we define \(z_{X} \colon X \to
+\emptyset\) to be the empty partial function. Because \(z_{X}\) is a
+monoidal natural transformation from \(\embed{\Pfn}\) to \(N\) and
+\(\U(-) \circ \embed{\Pfn}\) is an isomorphism, \(z_{X}\) is also a
+monoidal natural transformation from \(\Id_{\F\Pfn}\) to \(N^{\vee}\).
+By the definition of \((-)^{\vee}\), we see that \(N^{\vee}(f \colon X
+\to Y)\) is equal to the empty partial function from \(X\) to \(Y\)
+for any partial function \(f \colon X \to Y\). By naturality of
+\(z_{X}\), the following diagram commutes:
+\begin{equation*}
+  \xymatrix{
+    1 \ar[r]^{\Tr{\NN}_{1,1}(f)} \ar[d]_{z_{1}} &
+    1 \ar[d]^{z_{1}} \\
+    \emptyset \ar@{=}[r] &
+    \emptyset
+  }
+\end{equation*}
+where \(f \colon \{\ast\} + \NN \to \{\ast\} + \NN\) is given by
+\begin{align*}
+  f(\ast) &= 0, \\
+  f(n) &= n+1.
+\end{align*}
+However, we have \(z_{1} \circ \Tr{\NN}_{1,1}(f) \neq z_{1}\) as we observed in (...).
