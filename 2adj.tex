@@ -4,79 +4,85 @@
 \label{2-adjunction}
 
 Let \(\SMCiso\) be the \(2\)-category of symmetric monoidal categories,
-strong symmetric monoidal functors and monoidal natural
-isomorphisms; and let \(\TSMCiso\) be the \(2\)-category of traced
-symmetric monoidal categories, traced symmetric monoidal functors and
-monoidal natural isomorphisms. We prove that
-\(\U\) is a right \(2\)-adjoint. To see this, we show that
+strong symmetric monoidal functors and monoidal natural isomorphisms;
+and let \(\TSMCiso\) be the \(2\)-category of traced symmetric
+monoidal categories, traced symmetric monoidal functors and monoidal
+natural isomorphisms. We prove that \(\U\) is a right \(2\)-adjunction.
+To see this, we show that
 \begin{equation*}
   \TSMCiso(\F\catf{A},\catf{B}) \xrightarrow{\U}
   \TSMCiso(\U\F\catf{A},\U\catf{B}) \xrightarrow{(-) \circ \embed{A}}
   \SMCiso(\catf{A},\U(\catf{\catf{B}})).
 \end{equation*}
-is an isomorphism.
+is an isomorphism between them.
 
-For a symmetric monoidal functor \(F \colon \catf{A} \to \U(\catf{B})\),
-we define a traced symmetric monoidal functor \(F^{\vee} \colon \F\catf{A} \to \catf{B}\)
-as follows:
+For a symmetric monoidal functor \(\funcf{F} \colon \catf{A} \to
+\U(\catf{B})\), we define a traced symmetric monoidal functor
+\(\funcf{F}^{\vee} \colon \F\catf{A} \to \catf{B}\) as follows:
 \begin{align*}
-  F^{\vee}(X) &= F, \\
-  F^{\vee}((f,U) \colon X \to Y)
-  &= \Tr{FU}_{FX,FY}((m_{Y,U}^{F})^{-1} \circ Ff \circ m_{X,U}), \\
-  n^{F^{\vee}} &= n^{F} \colon I \to F, \\
-  m^{F^{\vee}}_{X,Y} &= m^{F}_{X,Y} \colon FX \otimes FY \to F(X \otimes Y).
+  \funcf{F}^{\vee}(X) &= \funcf{F}, \\
+  \funcf{F}^{\vee}((f,U) \colon X \to Y)
+  &= \Tr{\funcf{F}U}_{\funcf{F}X,\funcf{F}Y}((m_{Y,U}^{\funcf{F}})^{-1} \circ \funcf{F}f
+  \circ m^{\funcf{F}}_{X,U}), \\
+  m^{\funcf{F}^{\vee}}_{\unitobj} &= m^{\funcf{F}}_{\unitobj} \colon \unitobj \to \funcf{F}, \\
+  m^{\funcf{F}^{\vee}}_{X,Y} &= m^{\funcf{F}}_{X,Y} \colon \funcf{F}X \otimes \funcf{F}Y
+  \to \funcf{F}(X \otimes Y).
 \end{align*}
 For a monoidal natural isomorphism \(\alpha \colon F \to G\), we
 define a monoidal natural isomorphism \(\alpha^{\vee} \colon F \to G\)
-to be \(\alpha\).
-
-Below, we check that \((-)^{\vee}\) is a functor and \(\alpha^{\vee}\)
-is a monoidal natural isomorphism.
-We first check that \(F^{\vee}\) is a functor. For \(X \in \catf{A}\),
+to be \(\alpha\). Below, we check that \(\funcf{F}^{\vee}\) is a
+traced symmetric monoidal functor and that \(\alpha^{\vee}\) is a
+monoidal natural isomorphism. We first check that \(\funcf{F}^{\vee}\)
+is a functor. \funcf{F}or \(X \in \catf{A}\),
 \begin{align*}
-  F^{\vee}(\Id_{X \otimes I},I)
-  &= \Tr{FI}_{FX,FX}(\Id_{FX \otimes FI}) \\
-  &= \Tr{I}_{FX,FX}(\Id_{FX \otimes I}) \\
-  &= \Id_{FX}.
+  \funcf{F}^{\vee}(\Id_{X \otimes \unitobj},\unitobj)
+  &= \Tr{\funcf{F}\unitobj}_{\funcf{F}X,\funcf{F}X}(\Id_{\funcf{F}X \otimes \funcf{F}\unitobj}) \\
+  &= \Tr{\unitobj}_{\funcf{F}X,\funcf{F}X}(\Id_{\funcf{F}X \otimes \unitobj}) \\
+  &= \Id_{\funcf{F}X}.
 \end{align*}
 For \(\F\catf{A}\)-morphisms \((f,U) \colon X \to Y\) and \((g,V)
-\colon Y \to Z\), we denote \((m_{Y,U}^{F})^{-1} \circ Ff \circ
-m_{X,U}\) by \(f'\) and \((m_{Z,V}^{F})^{-1} \circ Fg \circ m_{Y,V}\)
-by \(g'\). Then
+\colon Y \to Z\), we denote \((m_{Y,U}^{\funcf{F}})^{-1} \circ
+\funcf{F}f \circ m^{\funcf{F}}_{X,U}\) by \(f'\) and
+\((m_{Z,V}^{\funcf{F}})^{-1} \circ \funcf{F}g \circ
+m^{\funcf{F}}_{Y,V}\) by \(g'\). Then
 \begin{align*}
-  F^{\vee}(g,V) \circ F^{\vee}(f,U)
-  &= \Tr{FV}_{FY,FZ}(g') \circ \Tr{FU}_{FX,FY}(f') \\
-  &= \Tr{FU \otimes FV}_{FX,FZ}(FY \otimes \symm{FV}{FU}) \circ
-  (g' \otimes FU) \circ (FY \otimes \symm{FU}{FV}) \circ (f' \otimes FV)) \\
-  &= \Tr{FU \otimes FV}_{FX,FZ}(((m_{Z,V}^{F})^{-1} \otimes FU) \circ
-  (m_{Z \otimes V,U}^{F})^{-1} \circ
-  Fh \circ m_{X \otimes U,V}^{F} \circ (m_{X,U}^{F} \otimes FV)) \\
-  &= \Tr{F(U \otimes V)}_{FX,FZ}((m_{Z,U \otimes V}^{F})^{-1} \circ
-  Fh \circ m_{X, U \otimes V}^{F}) \\
-  &= F^{\vee}((g,V) \circ (f,U))
+  \funcf{F}^{\vee}(g,V) \circ \funcf{F}^{\vee}(f,U)
+  &= \Tr{\funcf{F}V}_{\funcf{F}Y,\funcf{F}Z}(g') \circ
+  \Tr{\funcf{F}U}_{\funcf{F}X,\funcf{F}Y}(f') \\
+  &= \Tr{\funcf{F}U \otimes \funcf{F}V}_{\funcf{F}X,\funcf{F}Z}
+  (\funcf{F}Y \otimes \symm{\funcf{F}V}{\funcf{F}U}) \circ
+  (g' \otimes \funcf{F}U) \circ (\funcf{F}Y \otimes \symm{\funcf{F}U}{\funcf{F}V}) \circ
+  (f' \otimes \funcf{F}V)) \\
+  &= \Tr{\funcf{F}U \otimes \funcf{F}V}_{\funcf{F}X,\funcf{F}Z}(((m_{Z,V}^{\funcf{F}})^{-1}
+  \otimes \funcf{F}U) \circ
+  (m_{Z \otimes V,U}^{\funcf{F}})^{-1} \circ
+  \funcf{F}h \circ m_{X \otimes U,V}^{\funcf{F}} \circ (m_{X,U}^{\funcf{F}} \otimes \funcf{F}V)) \\
+  &= \Tr{\funcf{F}(U \otimes V)}_{\funcf{F}X,\funcf{F}Z}((m_{Z,U \otimes V}^{\funcf{F}})^{-1} \circ
+  \funcf{F}h \circ m_{X, U \otimes V}^{\funcf{F}}) \\
+  &= \funcf{F}^{\vee}((g,V) \circ (f,U))
 \end{align*}
 where \(h \colon X \otimes U \otimes V \to Z \otimes U \otimes V\) is given by
 \begin{equation*}
   (Z \otimes \symm{V}{U}) \circ (g \otimes U) \circ (Y \otimes \symm{U}{V})
   \circ (f \otimes V).
 \end{equation*}
-We next check naturality of \(m^{F^{\vee}}_{X,Y}\). For
+We next check naturality of \(m^{\funcf{F}^{\vee}}_{X,Y}\). For
 \(\F\catf{A}\)-morphisms \((f,U) \colon X \to Z\) and \((g,V) \colon Y
-\to W\), we denote \((m^{F}_{Z,U})^{-1} \circ Ff \circ m^{F}_{X,U}\) by
-\(f'\) and \((m_{W,V}^{F})^{-1} \circ Fg \circ m^{F}_{Y,V}\) by \(g'\). Then
+\to W\), we denote \((m^{\funcf{F}}_{Z,U})^{-1} \circ \funcf{F}f \circ m^{\funcf{F}}_{X,U}\) by
+\(f'\) and \((m_{W,V}^{\funcf{F}})^{-1} \circ \funcf{F}g \circ m^{\funcf{F}}_{Y,V}\) by \(g'\). Then
 \begin{align*}
-  &m^{F}_{Z,W} \circ (F^{\vee}(f,U) \otimes F^{\vee}(g,V)) \\
-  &= \Tr{FU \otimes FV}_{FX \otimes FY,F(Z \otimes W)}
-  ((m^{F}_{Z,W} \otimes FU \otimes FV) \circ
-  (FZ \otimes \symm{FU}{FW} \otimes FV) \circ
-  (Ff' \otimes Fg') \circ
-  (FX \otimes \symm{FU}{FY} \otimes FV)) \\
-  &= \Tr{F(U \otimes V)}_{FX \otimes FY,F(Z \otimes W)}
-  ((m_{Z \otimes W, U \otimes V}^{F})^{-1} \circ
-  Fh \circ
-  m_{X \otimes Y, U \otimes V}^{F} \circ
-  (m_{X,Y}^{F} \otimes F(U \otimes V))) \\
-  &= F^{\vee}((f,U) \otimes (g,V)) \circ m^{F}_{X,Y}
+  & m^{\funcf{F}}_{Z,W} \circ (\funcf{F}^{\vee}(f,U) \otimes \funcf{F}^{\vee}(g,V)) \\
+  &= \Tr{\funcf{F}U \otimes \funcf{F}V}_{\funcf{F}X \otimes \funcf{F}Y,\funcf{F}(Z \otimes W)}
+  ((m^{\funcf{F}}_{Z,W} \otimes \funcf{F}U \otimes \funcf{F}V) \circ
+  (\funcf{F}Z \otimes \symm{\funcf{F}U}{\funcf{F}W} \otimes \funcf{F}V) \circ
+  (\funcf{F}f' \otimes \funcf{F}g') \circ
+  (\funcf{F}X \otimes \symm{\funcf{F}U}{\funcf{F}Y} \otimes \funcf{F}V)) \\
+  &= \Tr{\funcf{F}(U \otimes V)}_{\funcf{F}X \otimes \funcf{F}Y,\funcf{F}(Z \otimes W)}
+  ((m_{Z \otimes W, U \otimes V}^{\funcf{F}})^{-1} \circ
+  \funcf{F}h \circ
+  m_{X \otimes Y, U \otimes V}^{\funcf{F}} \circ
+  (m_{X,Y}^{\funcf{F}} \otimes \funcf{F}(U \otimes V))) \\
+  &= \funcf{F}^{\vee}((f,U) \otimes (g,V)) \circ m^{\funcf{F}}_{X,Y}
 \end{align*}
 where \(h \colon X \otimes Y \otimes U \otimes V \to Z \otimes W \otimes U \otimes V\)
 is given by
@@ -84,45 +90,52 @@ is given by
   h = (Z \otimes \symm{U}{W} \otimes V) \circ (f \otimes g) \circ
   (X \otimes \symm{Y}{U} \otimes V).
 \end{equation*}
-Preservation of trace operators by \(F^{\vee}\) follows from Vanishing
-II. Coherence conditions for \(m^{F^{\vee}}\) follows from those for
-\(m^{F}\). Lastly, we check that \(\alpha^{\vee}\) is a monoidal
-natural isomorphism. Since coherence conditions for \(\alpha^{\vee}\)
-follow from those for \(\alpha\), we only check naturality of
-\(\alpha^{\vee}\). For a \(\F\catf{A}\)-morphism \((f,U) \colon X \to
-Y\),
+Preservation of trace operators by \(\funcf{F}^{\vee}\) follows from
+the associativity axiom. Coherence conditions for
+\(m^{\funcf{F}^{\vee}}\) follows from that \(\funcf{F}\) is a symmetric
+monoidal functor. Lastly, we check that \(\alpha^{\vee}\) is a
+monoidal natural isomorphism. Since coherence conditions for
+\(\alpha^{\vee}\) follow from those for \(\alpha\), we only check
+naturality of \(\alpha^{\vee}\). For a \(\F\catf{A}\)-morphism \((f,U)
+\colon X \to Y\),
 \begin{align*}
-  \alpha_{Y} \circ F^{\vee}(f,U)
-  &= \Tr{FU}_{FX,GY}((\alpha_{Y} \otimes FU) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}) \\
-  &= \Tr{GU}_{FX,GY}((\alpha_{Y} \otimes \alpha_{U}) \circ (m^{F}_{Y,U})^{-1} \circ Ff \circ m^{F}_{X,U}
-  \circ (FX \otimes \alpha^{-1}_{U})) \\
-  &= \Tr{GU}_{FX,GY}((m^{G}_{Y,U})^{-1} \circ Gf \circ m^{G}_{X,U}
-  \circ (\alpha_{X} \otimes GU)) \\
-  &= G^{\vee} (f,U) \circ \alpha_{X}.
+  \alpha_{Y} \circ \funcf{F}^{\vee}(f,U)
+  &= \Tr{\funcf{F}U}_{\funcf{F}X,\funcf{G}Y}
+  ((\alpha_{Y} \otimes \funcf{F}U) \circ
+  (m^{\funcf{F}}_{Y,U})^{-1} \circ \funcf{F}f \circ m^{\funcf{F}}_{X,U}) \\
+  &= \Tr{\funcf{G}U}_{\funcf{F}X,\funcf{G}Y}((\alpha_{Y} \otimes \alpha_{U}) \circ
+  (m^{\funcf{F}}_{Y,U})^{-1} \circ \funcf{F}f \circ m^{\funcf{F}}_{X,U}
+  \circ (\funcf{F}X \otimes \alpha^{-1}_{U})) \\
+  &= \Tr{\funcf{G}U}_{\funcf{F}X,\funcf{G}Y}((m^{\funcf{G}}_{Y,U})^{-1} \circ
+  \funcf{G}f \circ m^{\funcf{G}}_{X,U}
+  \circ (\alpha_{X} \otimes \funcf{G}U)) \\
+  &= \funcf{G}^{\vee} (f,U) \circ \alpha_{X}.
 \end{align*}
 
 \begin{proposition}
   \((-)^{\vee}\) is the inverse of \(\U(-) \circ \embed{A}\).
 \end{proposition}
 \begin{proof}
-  For \(F \colon \catf{A} \to \U\catf{B}\),
+  For \(\funcf{F} \colon \catf{A} \to \U\catf{B}\),
   \begin{align*}
-    (\U (F^{\vee}) \circ \embed{A})(f \colon X \to Y)
-    &= \Tr{FI}_{FX,FY} ((m^{F}_{Y,I})^{-1} \circ F(f \otimes I) \circ m^{F}_{X,I}) \\
-    &= Ff.
+    (\U (\funcf{F}^{\vee}) \circ \embed{A})(f \colon X \to Y)
+    &= \Tr{\funcf{F}\unitobj}_{\funcf{F}X,\funcf{F}Y} ((m^{\funcf{F}}_{Y,\unitobj})^{-1} \circ
+    \funcf{F}(f \otimes \unitobj) \circ m^{\funcf{F}}_{X,\unitobj}) \\
+    &= \funcf{F}f.
   \end{align*}
-  For \(G \colon \F\catf{A} \to \catf{B}\),
+  For \(\funcf{G} \colon \F\catf{A} \to \catf{B}\),
   \begin{align*}
-    ((\U G) \circ \embed{A})^{\vee}((f,U) \colon X \to Y)
-    &= \Tr{GU}_{GX,GY}((m^{G}_{Y,U})^{-1} \circ G(f \otimes I,I) \circ m^{G}_{X,U}) \\
-    &= G(\hide{U}(f \otimes I,I)) \\
-    &= G(f,U).
+    ((\U \funcf{G}) \circ \embed{A})^{\vee}((f,U) \colon X \to Y)
+    &= \Tr{\funcf{G}U}_{\funcf{G}X,\funcf{G}Y}((m^{\funcf{G}}_{Y,U})^{-1}
+    \circ \funcf{G}(f \otimes \unitobj,\unitobj) \circ m^{\funcf{G}}_{X,U}) \\
+    &= \funcf{G}(\hide{U}(f \otimes \unitobj,\unitobj)) \\
+    &= \funcf{G}(f,U).
   \end{align*}
   It is straightforward to check
-  \(\U (\alpha^{\vee}) \circ \embed{A} = \alpha\)
-  for any \(\alpha \colon F \Rightarrow G \colon \catf{A} \to \U\catf{B}\)
-  and \(((\U \beta) \circ \embed{A})^{\vee} = \beta\) 
-  for any \(\beta \colon F \Rightarrow G \colon \F\catf{A} \to \catf{B}\).
+  \(\U (\alpha^{\vee}) \circ \embed{A} = \alpha\) for any \(\alpha
+  \colon \funcf{F} \Rightarrow \funcf{G} \colon \catf{A} \to
+  \U\catf{B}\) and \(((\U \beta) \circ \embed{A})^{\vee} = \beta\) for
+  any \(\beta \colon \funcf{F} \Rightarrow \funcf{G} \colon \F\catf{A} \to \catf{B}\).
 \end{proof}
 
 \paragraph{Failure of a Generalization}
@@ -134,32 +147,35 @@ symmetric monoidal categories, traced symmetric monoidal functors and
 \(2\)-category of symmetric monoidal categories, strong symmetric
 monoidal functors and \emph{monoidal natural transformations}.
 
-We suppose that \(\U'\) has a left \(2\)-adjunction \(\F'\) and derive
-a contradiction. If \(\F'\) is left \(2\)-adjoint to \(\U'\), then
-\(\F'\catf{A}\) is isomorphic to \(\F\catf{A}\) for any traced
-symmetric monoidal categories \(\catf{A}\). Therefore,
+We suppose that \(\U'\) has a left \(2\)-adjunction \(\F' \colon \SMC
+\to \TSMC\) and derive a contradiction. If \(\F'\) is left
+\(2\)-adjoint to \(\U'\), then there is a family of isomorphisms
+\(\funcf{J}_{\catf{A}} \colon \F\catf{A} \to \F'\catf{A}\) such that
+\(\funcf{J}_{\catf{A}} \circ \embed{A}\) is equal to the unit
+of \(\F' \dashv \U'\) for any symmetric monoidal category
+\(\catf{A}\). In particular,
 \begin{equation*}
-  \TSMC(\F\Pfn,\F\Pfn) \xrightarrow{\U}
+  \TSMC(\F\Pfn,\F\Pfn) \xrightarrow{\U'}
   \TSMC(\U'\F\Pfn,\U'\F\Pfn) \xrightarrow{(-) \circ \embed{\Pfn}}
   \SMC(\Pfn,\U'\F\Pfn)
 \end{equation*}
-is an isomorphism where \(\Pfn\) is the category of sets and partial
-functions regarded as a symmetric monoidal category by taking the
-disjoint sum of sets as its monoidal product. Let \(N \colon \Pfn \to
-\F(\Pfn)\) be a strong symmetric monoidal functor given by \(N(X) =
+is an isomorphism where \(\Pfn\) is the symmetric monoidal category of
+sets and partial functions and the disjoint sum of sets. Let \(N
+\colon \Pfn \to \U'\F(\Pfn)\) be a strong symmetric monoidal functor
+given by \(\funcf{N}(X) = \emptyset\). We note that \(\funcf{N}^{\vee} \colon \F\Pfn
+\to \F\Pfn\) is also a constant functor given by \(\funcf{N}^{\vee}(X) =
 \emptyset\). For a set \(X\), we define \(z_{X} \colon X \to
-\emptyset\) to be the empty partial function. Because \(z_{X}\) is a
-monoidal natural transformation from \(\embed{\Pfn}\) to \(N\) and
-\(\U(-) \circ \embed{\Pfn}\) is an isomorphism, \(z_{X}\) is also a
-monoidal natural transformation from \(\Id_{\F\Pfn}\) to \(N^{\vee}\).
-By the definition of \((-)^{\vee}\), we see that \(N^{\vee}(f \colon X
-\to Y)\) is equal to the empty partial function from \(X\) to \(Y\)
-for any partial function \(f \colon X \to Y\). By naturality of
-\(z_{X}\), the following diagram commutes:
+\emptyset\) to be the empty partial function. Then \((z_{X} +
+\emptyset,\emptyset) \colon X \to \emptyset\) is a monoidal natural
+transformation from \(\embed{\Pfn}\) to \(\funcf{N}\). Because \(\U(-) \circ
+\embed{\Pfn}\) is an isomorphism, \((z_{X} + \emptyset,\emptyset)
+\colon X \to \emptyset\) is also a monoidal natural transformation
+from \(\Id_{\F\Pfn}\) to \(\funcf{N}^{\vee}\). Hence, the following diagram
+commutes:
 \begin{equation*}
-  \xymatrix{
-    1 \ar[r]^{\Tr{\NN}_{1,1}(f)} \ar[d]_{z_{1}} &
-    1 \ar[d]^{z_{1}} \\
+  \xymatrix@C=15mm{
+    \{\ast\} \ar[r]^{\Tr{\NN}_{\{\ast\},\{\ast\}}(f,\NN)} \ar[d]_{z_{\{\ast\}}} &
+    \{\ast\} \ar[d]^{z_{\{\ast\}}} \\
     \emptyset \ar@{=}[r] &
     \emptyset
   }
@@ -169,4 +185,5 @@ where \(f \colon \{\ast\} + \NN \to \{\ast\} + \NN\) is given by
   f(\ast) &= 0, \\
   f(n) &= n+1.
 \end{align*}
-However, we have \(z_{1} \circ \Tr{\NN}_{1,1}(f) \neq z_{1}\) as we observed in (...).
+However, we have \(z_{\{\ast\}} \circ \Tr{\NN}_{\{\ast\},\{\ast\}}(f) \neq z_{\{\ast\}}\)
+as we observed in (...).
