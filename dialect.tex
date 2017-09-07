@@ -16,10 +16,10 @@ We detail and formalize this in the following definition.
 	over $\catf C$ as:
 	\begin{itemize}
 		\item The objects of $\state C$ are those of $\catf C$.
-		\item A morphism from $A$ to $B$ in $\state C$ is a pair $(U,f)$,
+		\item A morphism from $A$ to $B$ in $\state C$ is a pair $(f,U)$,
 		where $U$ is an object of $\catf C$ and $\morph f{A\monp U}{B\monp U}$ is a morphism of 
 		$\catf C$.
-		\item The identity on $A$ is defined as the pair $(\unitobj,\Id_A,)$.
+		\item The identity on $A$ is defined as the pair $(\Id_A, \unitobj)$.
 		\item Composition of morphisms $\morph{(f,U)}{A}{B}$ and $\morph{(g,V)}{B}{C}$ is defined by
 		$$(f,U)\sq(g,V)=\big(\:
 		( f\monp V)\sq(B\monp \symm UV)\sq(g\monp U)\sq(C\monp\symm VU)
@@ -31,11 +31,11 @@ We detail and formalize this in the following definition.
 
 Unless $\catf C$ is strict, $\state C$ will not be a proper category in general: if we have objects
 such that $U\monp (V\monp W)\neq (U\monp V)\monp W$ then morphisms
-$(U,f) \sq \big((V,g) \sq (W,h)\big)$ and $\big((U,f) \sq (V,g)\big) \sq (W,h)$ cannot be equal.
+$(f,U) \sq \big((g,V) \sq (h,W)\big)$ and $\big((f,U) \sq (g,V)\big) \sq (h,W)$ cannot be equal.
 However, everything becomes  perfectly fine if we look at state-equiped morphisms 
 \emph{up to sliding isomorphisms}, one of the trace equations. This leads to the definition of the
 \emph{dialect category}, the name dialect paying tribute to a similarly named construction introduced
-by J.-Y. Girard in his work on geometry of interaction \cite{girard95}.
+by J.-Y. Girard in his work on geometry of interaction~\cite{girard95}.
 
 \begin{definition}[dialect category]
 	The \emph{dialect category} $\dial C$ over $\catf C$ is defined by quotienting morphisms of
@@ -53,15 +53,15 @@ by J.-Y. Girard in his work on geometry of interaction \cite{girard95}.
 \end{definition}
 
 Once this definition is set up, it is an easy exercise to check that the composition operation
-becomes associative in $\dial C$ and that the $(\unitobj,\Id_A)$ are neutral.
+becomes associative in $\dial C$ and that the $(\Id_A, \unitobj)$ are neutral.
 
 \begin{proposition}
 	After quotienting, $\dial C$ is indeed a category.
 \end{proposition}
 
 \begin{proposition}
-	There is an functorial embedding $\embd C$ of $\catf C$ into $\dial C$ defined as the identity on
-	objects and $\embd C (f)=(\unitobj, f\monp \Id_{\unitobj})$ on morphisms.
+	There is a functorial embedding $\embd C$ of $\catf C$ into $\dial C$ defined as the identity on
+	objects and $\embd C (f)=(f\monp \Id_{\unitobj}, \unitobj)$ on morphisms.
 \end{proposition}
 
 \begin{proof}
@@ -86,15 +86,15 @@ Moreover the monoidal structure of $\catf C$ can be lifted to $\dial C$.
 		$$
 		(with $\morph f{A\monp V}{B\monp V}$ and $\morph g{C\monp V}{D\monp V}$)
 		\item All the structure isomorphisms are obtained \via the embedding $\embd C$, \eg the
-		symmetries are defined as $(\unitobj,\symm AB)$.
+		symmetries are defined as $(\symm AB, \unitobj)$.
 	\end{itemize}
 \end{proposition}
 
 \begin{proof}
 	We first have to make sure that the new $\monp$ is well-defined, \ie that it is compatible with
-	$\eq$, explicitely: whenever $(U,f)\eq(V,g)$ then for any $(W,h)$ we have 
-	$\big((W,h)\monp(U,f)\big)\eq\big((W,h)\monp(V,g)\big)$ and 
-	$\big((U,f)\monp(W,h)\big)\eq\big((V,g)\monp(W,h)\big)$ which follows immediately after carefully
+	$\eq$, explicitely: whenever $(f,U)\eq(g,V)$ then for any $(h,W)$ we have 
+	$\big((h,W)\monp(f,U)\big)\eq\big((h,W)\monp(g,V)\big)$ and 
+	$\big((f,U)\monp(h,W)\big)\eq\big((g,V)\monp(h,W)\big)$ which follows immediately after carefully
 	unfolding the definitions.
 
 	Because we defined the structure isomorphisms using a functorial embedding, all the needed
@@ -107,14 +107,14 @@ Moreover the monoidal structure of $\catf C$ can be lifted to $\dial C$.
 \end{proof}
 
 Now that we have this general context to work in, we can already remark something interesting:
-if we have a morphism $\morph{(V,f)}{A\monp U}{B\monp U}$ in $\dial C$ (that is, a morphism
+if we have a morphism $\morph{(f,V)}{A\monp U}{B\monp U}$ in $\dial C$ (that is, a morphism
 $\morph f {A\monp U\monp V}{A\monp U\monp V}$ in $\catf C$) there is a natural operation that can be
 performed which resembles taking a trace, at least at the level of interfaces: one can push $U$
 to the private part of $f$, making it a morphism from $A$ to $B$ in $\dial C$.
 
 \begin{definition}[Hiding]
-	Given a morphism $\morph{(V,f)}{A\monp U}{B\monp U}$ of $\dial C$, define 
-	$$\hide U[V,f]=(U\monp V,f)$$
+	Given a morphism $\morph{(f,V)}{A\monp U}{B\monp U}$ of $\dial C$, define 
+	$$\hide U[V,f]=(f,U\monp V)$$
 	We call this operation \emph{hiding $U$}.
 \end{definition}
 
