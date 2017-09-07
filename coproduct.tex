@@ -1,0 +1,479 @@
+\section{Building the Free Trace of Monoidal Categories with Coproducts}
+
+\subsection{Preservation of Coproducts}
+
+Generally, it is not easy to see how $\tra{A}$ looks like. Below, we
+specify our target to symmetric monoidal categories with coproducts.
+
+\begin{lemma}\label{lem:zero-object}
+  If $\catf{A}$ has an initial object $0$ such that the canonical morphism
+  $0 \to X \otimes 0$ is an isomorphism for any $X \in \catf{A}$,
+  then $0$ is an initial object of $\tra{A}$.
+\end{lemma}
+\begin{proof}
+  For any $\tra{A}$-morphism $(f,U) \colon 0 \to X$, we have
+  \begin{equation*}
+    (f,U) = (0 \otimes U \xrightarrow{\cong}  0 \xrightarrow{\cong} X \otimes U,U)
+    = (0 \otimes 0 \xrightarrow{\cong}  0 \xrightarrow{\cong} X \otimes 0,0).
+  \end{equation*}
+  Hence, $0$ is an initial object of $\tra{A}$.
+\end{proof}
+
+\begin{proposition}\label{prop:biproduct}
+  If $\catf{A}$ has a zero object $0$ and binary coproducts
+  \begin{equation*}
+    X \xrightarrow{\iota_{X,Y}} X \oplus Y \xleftarrow{\iota'_{X,Y}} Y
+  \end{equation*}
+  such that the canonoical morphisms
+  \begin{equation*}
+    (X \otimes Y) \oplus (X \otimes Z) \xrightarrow{\mathrm{dst}_{X,Y,Z}} X \otimes (Y \oplus Z)
+  \end{equation*}
+  are isomorphism for all $X,Y,Z \in \catf{A}$, then
+  $\tra{A}$ has finite coproducts.
+\end{proposition}
+\begin{proof}
+  We have already checked existence of an initial object. Existence of
+  binary coproducts follows from that $\Phi_{X,Y,Z} \colon \tra{A}(X \oplus Y,Z) \to
+  \tra{A}(X,Z) \times \tra{A}(Y,Z)$ given by
+  \begin{equation*}
+    \Phi_{X,Y,Z}(f,U) =
+    \langle (f,U) \circ (\iota_{X,Y},I),\; (f,U) \circ (\iota'_{X,Y},I) \rangle
+  \end{equation*}
+  has an inverse $\Psi_{X,Y,Z}$ given by $\Psi_{X,Y,Z}((f,U),(g,V)) = (h,U \oplus V)$
+  for $(f,U) \colon X \to Y$ and $(g,V) \colon Y \to Z$ where
+  $h \colon (X \oplus Y) \otimes (U \oplus V) \to Z \otimes (U \oplus V)$
+  is a unique morphism such that
+  \begin{align*}
+    h \circ (\iota_{X,Y} \otimes \iota_{U,V})
+    &= (Z \otimes \iota_{U,V}) \circ f, \\
+    h \circ (\iota_{X,Y} \otimes \iota'_{U,V})
+    &= X \otimes V \longrightarrow 0 \longrightarrow Z \otimes (U \otimes V), \\
+    h \circ (\iota'_{X,Y} \otimes \iota_{U,V})
+    &= Y \otimes U \longrightarrow 0 \longrightarrow Z \otimes (U \otimes V), \\
+    h \circ (\iota'_{X,Y} \otimes \iota'_{U,V})
+    &= (Z \otimes \iota'_{U,V}) \circ g.
+  \end{align*}
+  Checking well-definedness of $\Psi_{X,Y,Z}$ and that $\Psi_{X,Y,Z}$ is 
+  an inverse of $\Phi_{X,Y,Z}$ is tedious, but not difficult. For a proof,
+  see Appendix....
+\end{proof}
+
+\begin{corollary}\label{cor:biproduct}
+  Under the assumption in Proposition~\ref{prop:biproduct}.
+  \begin{itemize}
+  \item The canonical functor $\embed{A} \colon \catf{A} \to \tra{A}$ preserves
+    finite coproducts.
+  \item $\tra{A}$ has finite biproducts, namely, each hom-set has the structure
+    of a commutative monoid, and composition is bilinear.
+  \end{itemize}
+\end{corollary}
+\begin{proof}
+  It is straightfoward to see preservation of coproducts from the definition
+  of coproducts in $\tra{A}$. For finite biproducts, we only describe the
+  structure of a commutative monoid on $\tra{A}(X,Y)$. The unit is the zero
+  morphism $X \longrightarrow 0 \longrightarrow Y$. Addition of $(f,U),(g,V)
+  \colon X \to Y$ is given by $(h,U \oplus V)$ where $h \colon X \otimes (U
+  \oplus V) \to Y \otimes (U \oplus V)$ is a unique morphism such that
+  \begin{align*}
+    h \circ (X \otimes \iota_{U,V}) &= (Y \otimes \iota_{U,V}) \circ f, \\
+    h \circ (X \otimes \iota'_{U,V}) &= (Y \otimes \iota_{U,V}) \circ g.
+  \end{align*}
+  It is lengthy, but not difficult to check the statement.
+  We note that this is a consequence of ....
+\end{proof}
+
+\section{Concrete descriptions}
+
+\subsection{Partial Functions}
+
+Let $(\fPfn,1,\times)$ be the symmetric monoidal category of finite
+sets and partial functions. This category has finite coproducts given
+by disjoint sum and is distributive. Since every object
+$X \in \fPfn$ is isomorphic to a finite coproduct of the monoidal
+unit $1 \in \fPfn$, we obtain
+\begin{equation*}
+  \mathfrak{T}(\fPfn)(X,Y) \cong
+  \mathfrak{T}(\fPfn)(1,1)^{X \times Y}
+  \cong \left\{\overbrace{[1,\Id_{1}] + \cdots + [1,\Id_{1}]}^{n}
+    \mid n \in \mathbb{N}\right\}^{X \times Y}.
+\end{equation*}
+By universality of $\mathfrak{T}(\fPfn)$, we obtain
+the following commutative diagram:
+\begin{equation*}
+  \xymatrix{
+    \mathfrak{T}(\fPfn) \ar[r]^{F} &
+    \mathbf{Mat}(\mathbb{N}) \ar[r]^{G} &
+    \mathfrak{T}(\fPfn) \\
+    & \fPfn \ar[ru]_{H} \ar[u]_{J} \ar[lu]^{H} &
+  }
+\end{equation*}
+where $\mathbf{Mat}(\mathbb{N})$ is the category of finite numbers
+and matrices over the semiring $\mathbb{N}$, and
+$G \colon \mathbf{Mat}(\mathbb{N}) \to \mathfrak{T}(\fPfn)$
+is a symmetric monoidal functor given by
+\begin{equation*}
+  G((a_{i,j}) \colon n \to m)
+  = ([1,a_{i,j}]) \colon n \to m.
+\end{equation*}
+Because $GF = \Id$, $F$ is faithful, and
+because $J$ and $H$ are bijective on objects,
+$F$ is bijective on objects.
+It is easy to see that any $\mathbf{Mat}(\mathbb{N})$-morphism
+is obtained by finite sum of images of $\fPfn$-morphisms.
+Since $F$ is traced, $F$ is epi. Hence, $F$ is an isomorphism.
+
+
+\subsection{Compact Closed Categories}
+
+Because any symmetric monoidal functor from a compact closed category
+to a traced symmetric monoidal category is traced, any compact closed
+category $\mathcal{C}$ is isomorphic to
+$\mathfrak{T}(\mathcal{C})$. For a few concrete compact closed
+categories, we can check this using Theorem~\ref{thm:biproduct}. Let
+$(\fRel,1,\times)$ be the symmetric monoidal category of finite sets
+and relations. This category is traced and has finite biproducts.
+Since $H \colon \fRel \to \mathfrak{T}(\fRel)$ preserves finite
+biproducts, we obtain the following commutative diagram:
+\begin{equation*}
+  \xymatrix{
+    \mathfrak{T}(\fRel) \ar[r]^{F} &
+    \fRel \ar[r]^{G} &
+    \mathfrak{T}(\fRel) \\
+    & \fRel \ar[ru] \ar[u]_{\Id} \ar[lu] &
+  }
+\end{equation*}
+Since $HF = \Id$, we see that $F$ is full and faithful and
+bijective on objects. Hence, $F$ is an isomorphism. In the same way,
+we can show that the category $\mathbf{fdVect}$ of finite
+demensional vector spaces and linear functions is isomorphic to
+$\mathfrak{T}(\mathbf{fdVect})$.
+
+\subsection{Substochastic Matrix}
+
+An $n$-by-$m$ matrix $F=(F_{i,j})$ over $\mathbb{R}_{\geq 0}$ is
+\emph{substochastic} when $\sum_{i=1}^{n}F_{i,j} \leq 1$. We define
+a category $\Stc$ by: objects are non-negative integers, and
+morphisms from $n$ to $m$ are substochastic matrices.
+This category inherits symmetric monoidal structure
+and coproducts from the category of non-negative integers
+and matrices over $\mathbb{R}$. Since $0$ is a zero object
+of $\Stc$, by applying Theorem~\ref{thm:biproduct}, we get
+\begin{equation*}
+  \mathfrak{T}(\Stc)(X,Y) \cong
+  \mathfrak{T}(\Stc)(1,1)^{X \times Y}
+  \cong \left\{\overbrace{[1,x_{1}] + \cdots + [1,x_{n}]}^{n}
+    \mid 0 \leq x_{i} \leq 1 \right\}^{X \times Y}.
+\end{equation*}
+For $x,y \in [0,1]$ such that $x+y \leq 1$, we have
+\begin{align*}
+  [1,x + y]
+  &= \left[1,
+    \begin{pmatrix}
+      1 & 1 \\
+    \end{pmatrix}\right]
+  \fatsemi
+  \left[1,
+  \begin{pmatrix}
+    x \\
+    y \\
+  \end{pmatrix}
+  \right] \\
+  &= \left[1,
+    \begin{pmatrix}
+      1 & 1 \\
+    \end{pmatrix}\right]
+  \fatsemi
+  \left(
+  \left[1,
+  \begin{pmatrix}
+    x \\
+    0 \\
+  \end{pmatrix}
+  \right] +
+  \left[1,
+  \begin{pmatrix}
+    0 \\
+    y \\
+  \end{pmatrix}
+  \right]\right)\\
+  &= [1,x] + [1,y].
+\end{align*}
+% Hence, for any $x_{1},\ldots,x_{n} \in [0,1]$,
+% there is a non-negative integer $m$ and $y \in [0,1]$
+% such that
+% \begin{equation*}
+%   [1,x_{1}] + \cdots + [1,x_{n}]
+%   = \overbrace{[1,1] + \cdots + [1,1]}^{m} + [1,y].
+% \end{equation*}
+Hence, for any $x_{1},\ldots,x_{n} \in [0,1]$
+and for any $y_{1},\ldots,y_{m} \in [0,1]$,
+if $\sum_{i = 1}^{n}x_{i} = \sum_{i = 1}^{m}y_{i}$,
+then
+\begin{equation*}
+  \sum_{i = 1}^{n}[1,x_{i}] = \sum_{i = 1}^{m}[1,y_{i}].
+\end{equation*}
+As a consequence, we obtain the following
+commutative diagram
+\begin{equation*}
+  \xymatrix{
+    \mathfrak{T}(\Stc) \ar[r]^{F} &
+    \mathbf{Mat}(\mathbb{R}_{\geq 0}) \ar[r]^{G} & \mathfrak{T}(\Stc) \\
+    & \Stc \ar[lu]^{H} \ar[u]_{J} \ar[ru]_{H} &
+  }
+\end{equation*}
+where $G \colon \mathbf{Mat}(\mathbb{R}_{\geq 0}) \to \mathfrak{T}(\Stc)$
+is a symmetric monoidal functor given by
+\begin{equation*}
+  G((a_{i,j})_{i \in n, j \in m} \colon n \to m) =
+  ([1,a_{i,j}])_{i \in n, j \in m}.
+\end{equation*}
+Because $H$ and $J$ are bijective on objects,
+$F$ is bijective on objects. Faithfullness of $F$
+follows from $GF=\Id$. Furthremore,
+since any $\mathbf{Mat}(\mathbb{R}_{\geq 0})$-morphism
+is obtained by finite sum of images of $\Stc$-morphisms,
+$F$ is full. Hence, $F$ is an isomorphism.
+
+
+
+% We show the other direction:
+% $\sum_{i = 1}^{n}[1,x_{i}] = \sum_{i = 1}^{m}[1,y_{i}]$
+% implies $\sum_{i = 1}^{n}x_{i} = \sum_{i = 1}^{m}y_{i}$.
+% Let $G \colon \mathfrak{T}(\Stc) \to \mathfrak{T}(\Stc)$ be a unique
+% traced symmetric monoidal functor
+% that makes the following diagram commute:
+% \begin{equation*}
+%   \xymatrix{
+%     \mathfrak{T}(\Stc) \ar[r]^{G} & \mathbf{Mat}(\mathbb{R}_{\geq 0}) \\
+%     \Stc \ar[u] \ar[ru] &
+%   }
+% \end{equation*}
+% Since $G$ preserves traces, if
+% \begin{math}
+%   \sum_{i = 1}^{n}[1,x_{i}] = \sum_{i = 1}^{m}[1,y_{i}]
+% \end{math}
+% in $\mathfrak{T}(\Stc)$, then
+% \begin{math}
+%   \sum_{i = 1}^{n} x_{i} = \sum_{i = 1}^{m} y_{i}
+% \end{math}
+% in $\mathbf{Mat}(\mathbb{R}_{\geq 0})$.
+% Now, it is easy to see that $\mathfrak{T}(\Stc)$
+% is isomorphic to $\mathbf{Mat}(\mathbb{R}_{\geq 0})$.
+
+\subsection{What about...}
+
+\paragraph{Posets}
+
+Let $\mathbf{pPos}_{\mathrm{fin}}$ be the category of finite
+pointed posets and bottom-preserving monotone functions.
+To find concrete description of $\mathfrak{T}(\mathbf{pPos}_{\mathrm{fin}})$ is more
+difficult than above examples because we can not always
+decompose a poset by finite sum of the unit.
+
+\paragraph{Sets}
+
+Let $\mathbf{Set}_{\mathrm{fin}}$ be the category of finite sets and
+functions. Since $\fSet$ does not have a zero object, we can not
+apply Theorem~\ref{thm:biproduct}. Still, we can show that
+$\mathfrak{T}(\fSet)$ is a $\mathbf{CMon}$-enriched symmetric
+monoidal category. (See Theorem~\ref{thm:set-like}.) Is it possible to
+clarify $\mathfrak{T}(\fSet)$ via $\mathfrak{T}(\fPfn)$ and the
+embedding $J \colon \mathbf{Set}_{\mathrm{fin}} \to \fPfn$? At
+least, it is not straightforward to do this because
+$\mathfrak{T}(J) \colon \mathfrak{T}(\mathbf{Set}_{\mathrm{fin}}) \to
+\mathfrak{T}(\fPfn)$ is not faithful. In fact, if a function
+$f \colon X \to X$ does not have any fixed point, then
+\begin{align*}
+  \mathfrak{T}(J)([X,f] \colon 1 \to 1)
+  &= \mathfrak{T}(J)(\Tr{X}_{1,1} ([1,f])) \\
+  &= \Tr{X}_{1,1} (\mathfrak{T}(J)([1,f])) \\
+  &= \Tr{X}_{1,1} ([1,f]) \\
+  &= [\emptyset,o_{1,1}].
+\end{align*}
+When $X$ is not empty, $[X,f] \neq [0,o_{X,X}]$ in $\mathfrak{T}(\mathbf{Set}_{\mathrm{fin}})$.
+
+
+\section{Another Condition for $\mathbf{CMon}$-enrichment}
+
+
+\begin{theorem}\label{thm:set-like}
+  If a distributive symmetric monoidal category
+  $(\mathcal{C},I,\otimes)$ satisfies
+  \begin{equation}\label{assumption}\tag{\#}
+    \forall X \in \mathcal{C}.\; (X \not\cong 0 \implies
+    \exists x \colon I \to X.\;
+    \exists x' \colon X \to I.\; x' \circ x  = \Id_{I}),
+  \end{equation}
+  then $\mathfrak{T}(\mathcal{C})$ is a $\mathbf{CMon}$-enriched
+  symmetric monoidal category.
+\end{theorem}
+\begin{proof}
+  We only need to check well-definedness of additin of
+  $\mathfrak{T}(\mathcal{C})$-morphisms. We consider
+  the following three cases.
+  \begin{itemize}
+  \item $f = (X \otimes h) \fatsemi p$ and
+    $f' = p \fatsemi (Y \otimes h)$ for some $h \colon U \to U'$ and
+    $p \colon X \otimes U' \to Y \otimes U$.
+  \item $U = W \otimes 0$ and
+    $f = (p \otimes 0) \fatsemi (Z \otimes
+    \mathrm{sym}_{0,0}) \fatsemi (q \otimes 0)$ and
+    $f' = p \fatsemi q$ for some
+    $p \colon X \otimes W \to Z \otimes 0$ and
+    $q \colon Z \otimes 0 \to Y \otimes W$.
+  \item $U = U_{0} \otimes U_{1}$ and
+    $f = (p \otimes U_{1}) \fatsemi (Z \otimes
+    \mathrm{sym}_{U_{1},U_{1}}) \fatsemi (q \otimes U_{1})$ and
+    $f' = p \fatsemi q$ for some $U_{1} \not\cong 0$ and
+    $p \colon X \otimes U_{0} \to Z \otimes U_{1}$ and
+    $q \colon Z \otimes U_{1} \to Y \otimes U_{0}$.
+  \end{itemize}
+  The first case can be proved in the same way. The second case
+  reduces to the first case because we can derive $f \sim f'$ using
+  naturality like the proof of Proposition~\ref{prop:zero}. It remains
+  to check the third case. By \eqref{assumption}, there are
+  $x \colon I \to U_{1}$ and $x' \colon U_{1} \to I$ such that
+  $x \fatsemi x' = \Id_{I}$. Then
+  \begin{align*}
+    &X \otimes \hide{((U_{0} \otimes U_{1}) \oplus V)}
+      \xrightarrow{f \oplus g} Y \otimes \hide{(U_{0} \otimes U_{1} + V)} \\
+    &\sim
+      X \otimes \hide{((U_{0} \otimes U_{1}) \oplus (V \otimes U_{1}))}
+      \xrightarrow{f \oplus (g \otimes (x' \fatsemi x))}
+      Y \otimes \hide{((U_{0} \otimes U_{1}) \oplus (V \otimes U_{1}))} \\
+    &\sim
+      X \otimes \hide{(U_{0} \oplus V) \otimes U_{1}}
+      \xrightarrow{X \otimes \mathrm{dst}^{-1}}
+      X \otimes ((U_{0} \otimes U_{1}) \oplus (V \otimes U_{1}))
+      \xrightarrow{f \oplus (g \otimes (x' \fatsemi x))} \\
+    &\hspace{13em}
+      Y \otimes ((U_{0} \otimes U_{1}) \oplus (V \otimes U_{1}))
+      \xrightarrow{Y \otimes \mathrm{dst}}
+      Y \otimes \hide{(U_{0} \oplus V) \otimes U_{1}} \\
+    &= X \otimes \hide{(U_{0} \oplus V) \otimes U_{1}}
+      \xrightarrow{r \otimes U_{1}}
+      (Z \oplus (Y \otimes V)) \otimes U_{1} \otimes U_{1}
+      \xrightarrow{(Z \oplus (Y \otimes V)) \otimes \mathrm{sym}} \\
+    &\hspace{15em}
+      (Z \oplus (Y \otimes V)) \otimes U_{1} \otimes U_{1}
+      \xrightarrow{s \otimes U_{1}}
+      Y \otimes \hide{(U_{0} \oplus V) \otimes U_{1}}
+  \end{align*}
+  where
+  \begin{align*}
+    r &= X \otimes (U_{0} \oplus V)
+        \xrightarrow{\mathrm{dst}^{-1}}
+        (X \otimes U_{0}) \oplus (X \otimes V)
+        \xrightarrow{p \oplus (g \otimes x)} \\
+      & \hspace{14em}
+        (Z \otimes U_{1}) \oplus (Y \otimes V \otimes U_{1})
+        \xrightarrow{\mathrm{dst}}
+        (Z \oplus (Y \otimes V)) \otimes U_{1}, \\
+    s &= (Z \oplus (Y \otimes V)) \otimes U_{1}
+        \xrightarrow{\mathrm{dst}^{-1}}
+        (Z \otimes U_{1}) \oplus (Y \otimes V \otimes U_{1})
+        \xrightarrow{q \oplus (Y \otimes V \otimes x')} \\
+      &\hspace{20em}
+        (Y \otimes U_{0}) \oplus (Y \otimes V)
+        \xrightarrow{\mathrm{dst}}
+        Y \otimes (U_{0} \oplus V).
+  \end{align*}
+  Because $r \fatsemi s = f' \oplus g \colon X \otimes (U_{0} \oplus V)
+  \to Y \otimes (U_{0} \oplus V)$, we obtain
+  \begin{equation*}
+    X \otimes \hide{((U_{0} \otimes U_{1}) \oplus V)}
+    \xrightarrow{f \oplus g}
+    Y \otimes \hide{((U_{0} \otimes U_{1}) \oplus V)}
+    \sim
+    X \otimes \hide{(U_{0} \oplus V)}
+    \xrightarrow{f' \oplus g}
+    Y \otimes \hide{(U_{0} \oplus V)}.
+  \end{equation*}
+  We can similarly check that $[U,f] + (-)$ is compatible with
+  $\sim$.
+\end{proof}
+
+In general, \eqref{assumption} does not imply existence of
+coproducts in $\mathfrak{T}(\mathcal{C})$. For example,
+there is no cotupling of $\mathfrak{T}(\fSet)$-morphisms
+$\Id_{1} \colon 1 \to 1$ and $[0,o_{1,1}] \colon 1 \to 1$.
+In fact, if $[U,f] \colon 2 \to 1$ satisfies
+$[1,\iota'] \fatsemi [U,f] = [0,o_{1,1}]$, then
+$U$ must be the emptyset. Hence,
+$[1,\iota] \fatsemi [U,f] = [0,o_{1,1}]$ is not
+equal to $\Id_{1}$.
+
+\newpage
+\appendix
+
+\section{On Conway Operator}
+
+
+\begin{proposition}\label{prop:emb0}
+  Let $(\mathcal{C},I,\otimes)$ be a symmetric monoidal category
+  with an initial object $0$ such that $X \otimes 0 \cong 0$ for
+  any $X \in \mathcal{C}$, and let $(\mathcal{D},J,\boxtimes,\Tr)$
+  be a traced symmetric monoidal category. If there is a faithful
+  symmetric monoidal functor $H \colon \mathcal{C} \to \mathcal{D}$
+  and $\mathcal{D}(J,J) = \{\Id_{J}\}$, then $\mathcal{C}$ is a
+  preordered category.
+\end{proposition}
+\begin{proof}
+  As usual, we omit canonical isomorphisms.
+  For any $\mathcal{C}$-morphism $f \colon X \to Y$, we have
+  \begin{equation*}
+    Hf = Hf \boxtimes J
+       = Hf \boxtimes \Tr{H0}_{J,J} (\Id_{J \boxtimes H0})
+       = \Tr{H0}_{HX,HY}(Hf \boxtimes H0).
+  \end{equation*}
+  Because
+  \begin{equation*}
+    Hf \boxtimes H0 = H(f \otimes 0)
+    = H(X \otimes 0 \xrightarrow{\cong} Y \otimes 0),
+  \end{equation*}
+  $Hf$ is equal to
+  $\Tr{H0}_{HX,HY}(H \otimes 0 \xrightarrow{\cong} Y \otimes 0)$.
+  Hence, $Hf = Hg$ for all $f,g \colon X \to Y$. By faithfullness of $H$,
+  we obtain $f = g$.
+\end{proof}
+As a consequence, we see that we can not faithfully extend
+$\mathbf{Set}$ to a traced cartesian category in the category of
+cartesian categories and cartesian functors.
+
+A symmetric monoidal category $(\mathcal{C},I,\otimes)$
+is \emph{well-pointed} when
+$\mathcal{C}(I,-) \colon \mathcal{C} \to \mathbf{Set}$ is faithful.
+We can replace distributivity $X \otimes 0 \cong 0$ in
+Proposition~\ref{prop:emb0} with well-pointedness.
+\begin{proposition}\label{prop:emb1}
+  Let $(\mathcal{C},I,\otimes)$ be a well-pointed symmetric monoidal
+  category with an initial object $0$, and let
+  $(\mathcal{D},J,\boxtimes,\Tr)$ be a traced symmetric monoidal
+  category. If there is a faithful symmetric monoidal functor
+  $H \colon \mathcal{C} \to \mathcal{D}$ with
+  $\mathcal{D}(J,J) = \{\Id_{J}\}$, then $\mathcal{C}$ is a
+  preordered category.
+\end{proposition}
+\begin{proof}
+  We define a $\mathcal{D}$-morphism $z \colon J \to H0$ to be
+  \begin{equation*}
+    \Tr{H0}_{J,H0} (J \boxtimes H0 \xrightarrow{\cong}
+    H(I \otimes 0) \xrightarrow{\cong} H(0 \otimes 0)
+    \xrightarrow{\cong} H0 \boxtimes H0).
+  \end{equation*}
+  Because $J \xrightarrow{z} H0 \xrightarrow{H\bot_{I}} HI \xrightarrow{\cong} J$
+  is equal to the identity,
+  $H\bot_{I} \colon 0 \to HI$ is epi. For all
+  $f,g \colon X \to Y$ and $x \colon I \to X$,
+  we have
+  \begin{equation*}
+    H\bot_{I} \fatsemi H(x \fatsemi f)
+    = H\bot_{Y} = H\bot_{I} \fatsemi H(x \fatsemi g).
+  \end{equation*}
+  Since $H\bot_{I}$ is epi, $H(x \fatsemi f)$
+  is equal to $H(x \fatsemi g)$ for any $x \colon I \to X$. By
+  well-pointedness of $\mathcal{C}$ and faithfullness of $H$, we
+  obtain $f = g$.
+\end{proof}
+
+
