@@ -1,49 +1,77 @@
 \section{Existence of Finite Coproducts}
 
-\subsection{Well-definedness of $\Psi$}
+\subsection{Definition of Cotupling}
 
-For $X,Y,Z \in \catf{A}$, we define $\mathrm{dst}_{X,Y,Z} \colon (X \otimes Y)
-\oplus (X \otimes Z) \to X \otimes (Y \oplus Z)$ and $\mathrm{dst}'_{X,Y,Z}
-\colon (X \otimes Z) \oplus (Y \otimes Z) \to (X \oplus Y) \otimes Z$ to be
-canonical isomorphisms.  For $X,Y \in \catf{A}$, we denote the zero morphism $X
-\longrightarrow 0 \longrightarrow Y$ in $\catf{A}$ by $O_{X,Y}$, and for
-$X,Y,Z,W \in \catf{A}$, we define $\xi_{X,Y,Z,W} \colon (X \oplus Y) \otimes (Z
-\oplus W) \to (X \otimes Z) \oplus (Y \otimes W)$ and $\xi'_{X,Y,Z,W} \colon (X
-\otimes Z) \oplus (Y \otimes W) \to (X \oplus Y) \otimes (Z \oplus W)$ to be
-unique morphisms in $\catf{A}$ such that
+For $X,Y,Z \in \catf{A}$, we define
+\begin{align*}
+  \mathrm{dstl}_{X,Y,Z} &\colon (X \otimes Y) \oplus (X \otimes Z) \to X
+                          \otimes (Y \oplus Z), \\
+  \mathrm{dstr}_{X,Y,Z} &\colon (X \otimes Z) \oplus (Y \otimes Z) \to
+  (X \oplus Y) \otimes Z  
+\end{align*}
+to be canonical isomorphisms of $\catf{A}$.
+% For $X,Y \in \catf{A}$, we denote the zero morphism $X
+% \longrightarrow 0 \longrightarrow Y$ in $\catf{A}$ by $O_{X,Y}$.
+For $X,Y,Z,W \in \catf{A}$, we define
+\begin{align*}
+  \xi_{X,Y,Z,W} &\colon (X \oplus Y) \otimes (Z \oplus W) \to (X \otimes
+                  Z) \oplus (Y \otimes W), \\
+  \xi'_{X,Y,Z,W} &\colon (X \otimes Z) \oplus (Y \otimes W) \to (X
+                   \oplus Y) \otimes (Z \oplus W) 
+\end{align*}
+to be unique morphisms in $\catf{A}$ such that
 \begin{align*}
   \xi_{X,Y,Z} \circ (\iota_{X,Y} \otimes \iota_{Z,W}) &= \iota_{X \otimes Z,Y \otimes W}, \\
   \xi_{X,Y,Z} \circ (\iota_{X,Y} \otimes \iota'_{Z,W}) &=
-  O_{X \otimes W,(X \otimes Z) \oplus (Y \otimes W)}, \\
+  X \otimes W \longrightarrow 0 \longrightarrow (X \otimes Z) \oplus (Y \otimes W) \\
+  %% O_{X \otimes W,(X \otimes Z) \oplus (Y \otimes W)}, \\
   \xi_{X,Y,Z} \circ (\iota'_{X,Y} \otimes \iota_{Z,W}) &=
-  O_{Y \otimes Z,(X \otimes Z) \oplus (Y \otimes W)}, \\
+  Y \otimes W \longrightarrow 0 \longrightarrow (X \otimes Z) \oplus (Y \otimes W) \\
+  %% O_{Y \otimes Z,(X \otimes Z) \oplus (Y \otimes W)}, \\
   \xi_{X,Y,Z} \circ (\iota'_{X,Y} \otimes \iota'_{Z,W}) &=
   \iota'_{X \otimes Z,Y \otimes W}, \\
   \xi'_{X,Y,Z,W} \circ \iota_{X \otimes Z,Y \otimes W} &= \iota_{X,Y} \otimes \iota_{Z,W}, \\
   \xi'_{X,Y,Z,W} \circ \iota'_{X \otimes Z,Y \otimes W} &= \iota'_{X,Y} \otimes \iota'_{Z,W}.
 \end{align*}
-We note that we have $\xi_{X,Y,Z,W} \circ \xi'_{X,Y,Z,W} = \Id_{(X \otimes Z)
-\oplus (Y \otimes W)}$ and $\Psi_{X,Y,Z}((f,U),(g,V)) =
-(\mathrm{dst}'_{Z,U,V} \circ (f \oplus g) \circ \xi_{X,Y,U,V},U \oplus V)$
-for $(f,U) \colon X \to Z$ nad $(g,V) \colon Y \to Z$.
-
-For $(f,U) \sim (f',U') \colon X \to Z$ and $(g,V) \colon Y \to Z$,
-we show
+For morphisms $f \colon X \otimes U \to Z \otimes U$ and $g \colon Y \otimes V \to
+Z \otimes V$ in $\catf{A}$, we define a morphism
 \begin{equation*}
-  \Psi_{X,Y,Z}((f,U),(g,V)) \sim \Psi_{X,Y,Z}((f',U'),(g,V))
+ \psi_{X,Y,Z,U,V}(f,g) \colon (X \oplus Y) \otimes (U \oplus V)
+ \to Z \otimes (U \oplus V) 
 \end{equation*}
-by induction on the definition of $\sim$. 
-When $f = h \circ (X \otimes u)$ and $f' = (Z \otimes u) \circ h$
-for some $u \colon U \to U'$ and $h \colon X \otimes U' \to Z \otimes U$,
-we have
+in $\catf{A}$ by
+\begin{equation*}
+  \psi_{X,Y,Z,U,V}(f,g) =
+  \mathrm{dstl}_{Z,U,V} \circ (f \oplus g) \circ \xi_{X,Y,U,V}.
+\end{equation*}
+
+\subsection{Compatibility of Cotupling with respect to $\sim$}
+
+We shall show that for all morphisms $f \colon X \otimes U \to Z \otimes U$,
+$f' \colon X \otimes U' \to Z \otimes U'$,
+$g \colon Y \otimes V \to Z \otimes V$ and
+$g' \colon Y \otimes V' \to Z \otimes V'$ in $\catf{A}$, if
+$(f,U) \sim (f',U')$ and $(g,V) \sim (g',V')$, then
+\begin{equation*}
+  (\psi_{X,Y,Z,U,V}(f,g),U \oplus V)
+  \sim
+  (\psi_{X,Y,Z,U',V'}(f',g'),U' \oplus V')
+\end{equation*}
+by induction on the definition of the equivalence relation $\sim$.
+For simplicity, we suppose that $g$ is equal to $g'$.
+
+\begin{itemize}
+\item When $f = h \circ (X \otimes u)$ and
+  $f' = (Z \otimes u) \circ h$ for some $u \colon U \to U'$ and
+  $h \colon X \otimes U' \to Z \otimes U$, we have
 \begin{align*}
-  \Psi_{X,Y,Z}((f,U),(g,V)) &= (\mathrm{dst}'_{Z,U,V} \circ
-  (h \oplus g) \circ \xi_{X,Y,U',V} \circ ((X \oplus Y) \otimes (u \oplus V)),U \oplus V), \\
-  \Psi_{X,Y,Z}((f',U'),(g,V)) &= ((Z \otimes (u \oplus V)) \circ \mathrm{dst}'_{Z,U,V} \circ
-  (h \oplus g) \circ \xi_{X,Y,U',V},U' \oplus V).
+  \psi_{X,Y,Z,U,V}(f,g) &= \mathrm{dstr}_{Z,U,V} \circ
+  (h \oplus g) \circ \xi_{X,Y,U',V} \circ ((X \oplus Y) \otimes (u \oplus V)), \\
+  \psi_{X,Y,Z,U',V}(f',g) &= (Z \otimes (u \oplus V)) \circ \mathrm{dstr}_{Z,U,V} \circ
+  (h \oplus g) \circ \xi_{X,Y,U',V}.
 \end{align*}
-Hence, $\Psi_{X,Y,Z}((f,U),(g,V)) = \Psi_{X,Y,Z}((f',U'),(g,V))$.
-When $U' = U \otimes T$ and 
+Hence, $(\psi_{X,Y,Z,U,V}(f,g),U \oplus V) \sim (\psi_{X,Y,Z,U,V}(f',g),U' \oplus V)$.
+\item When $U' = U \otimes T$ and 
 \begin{equation*}
   f = f_{1} \circ f_{2}, \qquad
   f' = (f_{1} \otimes T) \circ (W \otimes \sigma_{T,T}) \circ (f_{2} \otimes T)
@@ -51,11 +79,11 @@ When $U' = U \otimes T$ and
 for some $f_{1} \colon W \otimes T \to Z \otimes U$
 and $f_{2} \colon X \otimes U \to W \otimes T$, we have
 \begin{equation*}
-  \Psi_{X,Y,Z}((f',U'),(g,V))
-  = ((Z \otimes \xi'_{U,V,T,I}) \circ h \circ ((X \oplus Y) \otimes \xi_{U,V,T,I}),
+  (\psi_{X,Y,Z,U',V}(f',g),U' \oplus V)
+  \sim ((Z \otimes \xi'_{U,V,T,I}) \circ h \circ ((X \oplus Y) \otimes \xi_{U,V,T,I}),
   (U \oplus V) \otimes (T \oplus I))
 \end{equation*}
-where $g = \mathrm{dst}'_{Z,U',V} \circ (f' \oplus g) \circ \xi_{X,Y,U',V}$.
+where $h = \mathrm{dstl}_{Z,U',V} \circ (f' \oplus g) \circ \xi_{X,Y,U',V}$.
 Using distributivity of coproducts, we can check
 \begin{multline*}
   (Z \otimes \xi'_{U,V,T,I}) \circ h \circ ((X \oplus Y) \otimes \xi_{U,V,T,I}) = \\
@@ -67,19 +95,18 @@ where $k_{1} \colon (W \oplus (Y \otimes V)) \otimes (T \oplus I) \to Z \otimes 
 and $k_{2} \colon (X \oplus Y) \otimes (U \oplus V) \to (W \oplus (Y \otimes V))
 \otimes (T \oplus I)$ in $\catf{A}$ are given by
 \begin{align*}
-  k_{1} &= \mathrm{dst}'_{Z,U,V} \circ (f_{1} \oplus g) \circ \xi_{W,Y \otimes V,T,I} \\
-  k_{2} &= \xi'_{W,Y \otimes V,T,I} \circ (f_{2} \oplus (Y \otimes V)) \circ \xi_{X,Y,U,V} 
+  k_{1} &= \mathrm{dstr}_{Z,U,V} \circ (f_{1} \oplus g) \circ \xi_{W,Y \otimes V,T,I} \\
+  k_{2} &= \xi'_{W,Y \otimes V,T,I} \circ (f_{2} \oplus (Y \otimes V)) \circ \xi_{X,Y,U,V}.
 \end{align*} 
-Hence, $\Psi_{X,Y,Z}((f',U'),(g,V)) = (k_{1} \circ k_{2},U \oplus V) =
-\Psi_{X,Y,Z}((f,U),(g,V))$.
+Hence, $\psi_{X,Y,Z,U',V}(f',g) = (k_{1} \circ k_{2},U \oplus V) = \psi_{X,Y,Z,U,V}(f,g)$.
+\end{itemize}
 
-\subsection{Injectivity of $\Phi$}
+\subsection{Surjectivity of Cotupling}
 
-We show that $\Psi_{X,Y,Z}(\Phi_{X,Y,Z}(f,U))$ is equal to $(f,U)$ for
-any $(f,U) \colon X \oplus Y \to Z$ in $\tra{A}$. We have
+For $f \colon (X \oplus Y) \otimes U \to Z \otimes U$ in $\catf{A}$,
+we check
 \begin{equation*}
-  \Psi_{X,Y,Z}(\Phi_{X,Y,Z}(f,U)) =
-  (\mathrm{dst}'_{Z,U,U} \circ (f_{1} \oplus f_{2}) \circ h_{X,Y,U,U}, U \oplus U)
+  (\psi_{X,Y,Z,U,U}(f_{1}, f_{2}), U \oplus U) \sim (f,U)
 \end{equation*}
 where
 \begin{equation*}
@@ -89,23 +116,22 @@ where
 Let $g_{1} \colon (X \oplus Y) \otimes (U \oplus U) \to (X \oplus Y) \otimes U$
 and $g_{2} \colon (X \oplus Y) \otimes U \to Z \otimes (U \oplus U)$ be
 \begin{align*}
-  g_{1} &= \mathrm{dst}_{X,Y,U} \circ h_{X,Y,U,U}, \\
-  g_{2} &= \mathrm{dst}'_{Z,U,U} \circ (f_{1} \oplus f_{2}) \circ \mathrm{dst}_{X,Y,U}^{-1}
+  g_{1} &= \mathrm{dstr}_{X,Y,U} \circ h_{X,Y,U,U}, \\
+  g_{2} &= \mathrm{dstl}_{Z,U,U} \circ (f_{1} \oplus f_{2}) \circ \mathrm{dstr}_{X,Y,U}^{-1}
 \end{align*}
-Then
+Because $g_{2} \circ g_{1} = \psi_{X,Y,Z,U,V}(f_{1},f_{2})$, we obtain
 \begin{equation*}
-  \Psi_{X,Y,Z}(\Phi_{X,Y,Z}(f,U))
-  = ((g_{2} \otimes U) \circ (Z \otimes \sigma_{U,U}) \circ (g_{1} \otimes U),
+  (\psi_{X,Y,Z,U,U}(f_{1}, f_{2}), U \oplus U)
+  \sim ((g_{2} \otimes U) \circ (Z \otimes \sigma_{U,U}) \circ (g_{1} \otimes U),
   (U \oplus U) \otimes U).
 \end{equation*}
-Let $h_{1} \colon (X \oplus Y) \otimes U \to (X \oplus Y) \otimes (U \oplus U)$
-and $h_{2} \colon (X \oplus Y) \otimes (U \oplus U) \to Z \otimes U$ be
-morphisms in $\catf{A}$ given by
+We define morphisms $h_{1} \colon (X \oplus Y) \otimes U \to (X \oplus Y) \otimes (U \oplus U)$
+and $h_{2} \colon (X \oplus Y) \otimes (U \oplus U) \to Z \otimes U$ in $\catf{A}$ by
 \begin{align*}
-  h_{1} &= \xi'_{X,Y,U,U} \circ \mathrm{dst}_{X,Y,U}^{-1} \\
-  h_{2} &= f \circ \mathrm{dst}_{X,Y,U} \circ \xi_{X,Y,U,U}.
+  h_{1} &= \xi'_{X,Y,U,U} \circ \mathrm{dstr}_{X,Y,U}^{-1} \\
+  h_{2} &= f \circ \mathrm{dstr}_{X,Y,U} \circ \xi_{X,Y,U,U}.
 \end{align*}
-Because $h_{2} \circ h_{1} = f$ and
+Because
 \begin{multline*}
   (Z \otimes \sigma_{U \oplus U,U}) \circ
   (g_{2} \otimes U) \circ (Z \otimes \sigma_{U,U}) \circ (g_{1} \otimes U)
@@ -114,31 +140,33 @@ Because $h_{2} \circ h_{1} = f$ and
   (h_{2} \otimes (U \oplus U)) \circ ((Z \oplus Z) \otimes \sigma_{U \oplus U,U \oplus U})
   \circ (h_{1} \otimes (U \oplus U)),
 \end{multline*}
-we obtain $(f,U) = \Psi_{X,Y,Z} (\Phi_{X,Y,Z}(f,U))$.
+we get $(f,U) \sim (h_{2} \circ h_{1},U) \sim (\psi_{X,Y,Z,U,U}(f_{1},f_{2}),U \oplus U)$.
 
-\subsection{Surjectivity of $\Phi$}
+\subsection{Injectivity of Cotupling}
 
-We show that $\Phi_{X,Y,Z} (\Psi_{X,Y,Z}((f,U),(g,V)))$ is equal to
-$((f,U),(g,V))$ for any pair $(f,U) \colon X \to Z$ and $(g,V) \colon
-Y \to Z$. Let $h \colon (X \oplus Y) \otimes (U \oplus V) \to
-Z \otimes (U \oplus V)$ be
+For any pair of morphisms $f \colon X \otimes U \to Z \otimes U$ and
+$g \colon Y \otimes V \to Z \otimes V$ in $\catf{A}$, we check
 \begin{equation*}
-  \mathrm{dst}'_{Z,U,V} \circ (f \oplus g) \circ h_{X,Y,U,V}.
-\end{equation*}
-Then $\Phi_{X,Y,Z} (\Psi_{X,Y,Z}( (f,U), (g,V) )$ is equal to a pair
-\begin{equation*}
-  ((h \circ (\iota_{X,Y} \otimes (U \oplus V)),U \oplus V),
-  (h \circ (\iota'_{X,Y} \otimes (U \oplus V)),U \oplus V)).
+  (f,U) \sim (\phi_{X,Y,Z,U,V}(f,g) \circ (\iota_{X,Y} \otimes (U \oplus
+  V)), U \oplus V).
 \end{equation*}
 Let $p \colon U \oplus V \to U$ be a unique morphism in $\catf{A}$
-such that $p \circ \iota_{U,V} = \Id_{U}$ and $p \circ \iota'_{U,V} =
-O_{V,U}$. Then we have
+such that
 \begin{equation*}
-  (h \circ (\iota_{X,Y} \otimes (U \oplus V)),U \oplus V)
-  = ((Z \otimes \iota_{U,V}) \circ f \circ (X \otimes p), U \oplus V) \\
-  = (f,U).
+  p \circ \iota_{U,V} = \Id_{U} \qquad
+  p \circ \iota'_{U,V} = V \longrightarrow 0 \longrightarrow U.
 \end{equation*}
-We can similarly show that $(h \circ (\iota'_{X,Y} \otimes (U \oplus V)),U
-\oplus V)$ is equal to $(g,V)$.
+Because $\phi_{X,Y,Z,U,V}(f,g) \circ \iota_{X,Y} \otimes (U \oplus V)$
+is equal to $(Z \otimes \iota_{U,V}) \circ f \circ (X \otimes p)$, we obtain
+\begin{equation*}
+  (\phi_{X,Y,Z,U,V}(f,g) \circ \iota_{X,Y} \otimes (U \oplus V))
+  \sim ((Z \otimes \iota_{U,V}) \circ f \circ (X \otimes p), U \oplus V)
+  \sim (f,U).
+\end{equation*}
+We can similarly check $(\phi_{X,Y,Z,U,V}(f,g) \circ (\iota'_{X,Y} \otimes (U \oplus V)),U
+\oplus V) \sim (g,V)$.
 
-
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "MAIN"
+%%% End:
