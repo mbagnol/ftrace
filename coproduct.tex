@@ -11,7 +11,7 @@ specify our target to symmetric monoidal categories with coproducts.
   then $0$ is an initial object of $\tra{A}$.
 \end{lemma}
 \begin{proof}
-  For any $\tra{A}$-morphism $(f,U) \colon 0 \to X$, we have
+  For any morphism $(f,U) \colon 0 \to X$ in $\tra{A}$, we have
   \begin{equation*}
     (f,U) = (0 \otimes U \xrightarrow{\cong}  0 \xrightarrow{\cong} X \otimes U,U)
     = (0 \otimes 0 \xrightarrow{\cong}  0 \xrightarrow{\cong} X \otimes 0,0).
@@ -26,7 +26,7 @@ specify our target to symmetric monoidal categories with coproducts.
   \end{equation*}
   such that the canonoical morphisms
   \begin{equation*}
-    (X \otimes Y) \oplus (X \otimes Z) \xrightarrow{\mathrm{dst}_{X,Y,Z}} X \otimes (Y \oplus Z)
+    (X \otimes Y) \oplus (X \otimes Z) \longrightarrow X \otimes (Y \oplus Z)
   \end{equation*}
   are isomorphism for all $X,Y,Z \in \catf{A}$, then
   $\tra{A}$ has finite coproducts.
@@ -37,11 +37,13 @@ specify our target to symmetric monoidal categories with coproducts.
   \tra{A}(X,Z) \times \tra{A}(Y,Z)$ given by
   \begin{equation*}
     \Phi_{X,Y,Z}(f,U) =
-    \langle (f,U) \circ (\iota_{X,Y},I),\; (f,U) \circ (\iota'_{X,Y},I) \rangle
+    \langle (f,U) \circ \embed{A}(\iota_{X,Y}),\; (f,U) \circ \embed{A}(\iota'_{X,Y}) \rangle
   \end{equation*}
-  has an inverse $\Psi_{X,Y,Z}$ given by $\Psi_{X,Y,Z}((f,U),(g,V)) = (h,U \oplus V)$
-  for $(f,U) \colon X \to Y$ and $(g,V) \colon Y \to Z$ where
-  $h \colon (X \oplus Y) \otimes (U \oplus V) \to Z \otimes (U \oplus V)$
+  is bijective. The inverse of $\Phi_{X,Y,Z}$ is given by
+  \begin{equation*}
+    ((f,U) \colon X \to Y ,(g,V) \colon Y \to Z) \longmapsto (h,U \oplus V)
+  \end{equation*}
+  where $h \colon (X \oplus Y) \otimes (U \oplus V) \to Z \otimes (U \oplus V)$
   is a unique morphism such that
   \begin{align*}
     h \circ (\iota_{X,Y} \otimes \iota_{U,V})
@@ -53,8 +55,7 @@ specify our target to symmetric monoidal categories with coproducts.
     h \circ (\iota'_{X,Y} \otimes \iota'_{U,V})
     &= (Z \otimes \iota'_{U,V}) \circ g.
   \end{align*}
-  Checking well-definedness of $\Psi_{X,Y,Z}$ and that $\Psi_{X,Y,Z}$ is 
-  an inverse of $\Phi_{X,Y,Z}$ is tedious, but not difficult. For a proof,
+  Checking bijecetivity of $\Phi_{X,Y,Z}$ is tedious, but not difficult. For a proof,
   see Appendix....
 \end{proof}
 
@@ -63,7 +64,7 @@ specify our target to symmetric monoidal categories with coproducts.
   \begin{itemize}
   \item The canonical functor $\embed{A} \colon \catf{A} \to \tra{A}$ preserves
     finite coproducts.
-  \item $\tra{A}$ has finite biproducts, namely, each hom-set has the structure
+  \item $\tra{A}$ has finite \emph{biproducts}, namely, each hom-set has the structure
     of a commutative monoid, and composition is bilinear.
   \end{itemize}
 \end{corollary}
@@ -72,14 +73,15 @@ specify our target to symmetric monoidal categories with coproducts.
   of coproducts in $\tra{A}$. For finite biproducts, we only describe the
   structure of a commutative monoid on $\tra{A}(X,Y)$. The unit is the zero
   morphism $X \longrightarrow 0 \longrightarrow Y$. Addition of $(f,U),(g,V)
-  \colon X \to Y$ is given by $(h,U \oplus V)$ where $h \colon X \otimes (U
-  \oplus V) \to Y \otimes (U \oplus V)$ is a unique morphism such that
-  \begin{align*}
-    h \circ (X \otimes \iota_{U,V}) &= (Y \otimes \iota_{U,V}) \circ f, \\
-    h \circ (X \otimes \iota'_{U,V}) &= (Y \otimes \iota_{U,V}) \circ g.
-  \end{align*}
-  It is lengthy, but not difficult to check the statement.
-  We note that this is a consequence of ....
+  \colon X \to Y$ is given by
+  \begin{equation*}
+    (X \otimes (U \oplus V) \xrightarrow{\cong}
+    (X \otimes U) \oplus (X \otimes V) \xrightarrow{f \oplus g}
+    (Y \otimes U) \oplus (Y \otimes V) \xrightarrow{\cong}
+    Y \otimes (U \oplus V), U \oplus V 
+    )
+  \end{equation*}
+  For a proof, see...
 \end{proof}
 
 \section{Concrete descriptions}
@@ -477,3 +479,8 @@ Proposition~\ref{prop:emb0} with well-pointedness.
 \end{proof}
 
 
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "MAIN"
+%%% End:
