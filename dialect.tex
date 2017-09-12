@@ -106,6 +106,12 @@ Moreover the monoidal structure of $\catf C$ can be lifted to $\dial C$.
 	\FIGURE{graphical computation}
 \end{proof}
 
+\begin{remark}
+	Once this structure is set up, it is immediate to see that $\embd C$ is in fact a \emph{monoidal}
+	embedding of $\catf C$ into $\dial C$.
+\end{remark}
+
+
 Now that we have this general context to work in, we can already remark something interesting:
 if we have a morphism $\morph{(V,f)}{A\monp U}{B\monp U}$ in $\dial C$ (that is, a morphism
 $\morph f {A\monp U\monp V}{A\monp U\monp V}$ in $\catf C$) there is a natural operation that can be
@@ -122,7 +128,7 @@ This operation not only shares the action on interfaces of a trace, it also has 
 properties of traces. Most notably since we defined $\dial C$ \via making sliding equations into equalities,
 it satisfies sliding. Even more than that, the pseudo-trace structure obtained is the free one.
 
-\begin{theorem}[free pseudo trace]
+\begin{theorem}[free pseudo trace]\label{th_univhiding}
 	The hiding operation $\hide{}[\cdot]$ defines a pseudo-trace (\ie a trace minus yanking)
 	in $\dial C$.
 	Moreover, $\dial C$ satisfies the following universal property: for any pseudo-traced
@@ -152,9 +158,9 @@ it satisfies sliding. Even more than that, the pseudo-trace structure obtained i
 %	An easy computation gives the unicity property.
 \end{proof}
 
-%\begin{remark}
-%	This universal property implies that $\dial \cdot$ is a functor.
-%\end{remark}
+\begin{remark}
+	This universal property implies that $\dial \cdot$ is a functor.
+\end{remark}
 
 
 
